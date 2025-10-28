@@ -65,7 +65,7 @@ for l_idx, link in enumerate(links):
     vals = [val for val in top_inf['Topic'].values.tolist() if val != -1]
     vals.sort()
     for i in vals:
-        label = top_inf[top_inf['Topic'] == i]['Name'].values[0]
+        label = top_inf[top_inf['Topic'] == i]['Name'].values[0] 
         out_str += f'\n--- Topic {i}: {label} ---\n'
         txt = topic_sections[i]
         out_str += f'\n--- Text {i}: {txt} ---\n'
