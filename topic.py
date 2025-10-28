@@ -38,23 +38,40 @@ class TopicAnalyzer:
             if topic not in topic_sections:
                 topic_sections[topic] = []
             topic_sections[topic].append(sentence)
+        if len(topic_sections.keys()) != len(set(topics)):
+            print('differet labels')
         return topic_sections, topics, probabilities
 
 
 links = [r'https://www.youtube.com/watch?v=wiuRDSQLjV0',
 r'https://www.youtube.com/watch?v=8enXRDlWguU',
 r'https://www.youtube.com/watch?v=K5NP2wf0LLk',
-r'https://www.youtube.com/watch?v=fpbA0BSR5gM',
+r'https://www.youtube.com/watch?v=Lh8AzAn87WA',
 r'https://www.youtube.com/watch?v=JMObz0Dgq7M']
 
 ta = TopicAnalyzer()
+out_file = r'C:\Users\lahir\data\topics\examples.txt'
+for l_idx, link in enumerate(links):
+    print(f'Processing link {l_idx+1}')
 
-for link in links:
     yt_id = link.split('v=')[1]
+    out_str = f'=== (YT link: {link}) ===\n'
+    
     topic_sections, topics, probabilities = ta.get_topics(yt_id)
-ta.topic_model.get_topic(3)
-topic_sections[2]
-ta.topic_model.get_topic_info()
+    top_inf = ta.topic_model.get_topic_info()
+
+    len(topic_sections.keys()) != len(set(topics))
+
+    vals = [val for val in top_inf['Topic'].values.tolist() if val != -1]
+    vals.sort()
+    for i in vals:
+        label = top_inf[top_inf['Topic'] == i]['Name'].values[0]
+        out_str += f'\n--- Topic {i}: {label} ---\n'
+        txt = topic_sections[i]
+        out_str += f'\n--- Text {i}: {txt} ---\n'
+
+        with open(out_file, 'a', encoding='utf-8') as f:
+            f.write(out_str)
 pass
 
 
