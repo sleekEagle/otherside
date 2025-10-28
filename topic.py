@@ -11,15 +11,46 @@ from bertopic.vectorizers import ClassTfidfTransformer
 from bertopic.representation import OpenAI, MaximalMarginalRelevance
 from bertopic.representation import TextGeneration
 from bertopic.representation import KeyBERTInspired
+from pytube import YouTube
+from typing import List, Tuple
+from sklearn.feature_extraction.text import CountVectorizer
 
 
-from sklearn.datasets import fetch_20newsgroups
-docs = fetch_20newsgroups(subset='all',  remove=('headers', 'footers', 'quotes'))['data']
+# from sklearn.datasets import fetch_20newsgroups
+# docs = fetch_20newsgroups(subset='all',  remove=('headers', 'footers', 'quotes'))['data']
+
+# topic_model = BERTopic(language="english", calculate_probabilities=True, verbose=True)
+# topics, probs = topic_model.fit_transform(docs)
+# freq = topic_model.get_topic_info()
+# topic_model.get_topic(0)
+# topic_model.topics_[:10]
+# topic_model.visualize_topics()
+# topic_model.visualize_distribution(probs[200], min_probability=0.015)
 
 
 tr = transcribe.get_trancript_ytTapi("-9LFj6YOK2U")
 full_text = ' '.join([snippet.text for snippet in tr.snippets])
 sentences = re.split(r'[.!?]+', full_text)
+
+topic_model = BERTopic(
+    embedding_model="all-MiniLM-L6-v2",
+    vectorizer_model=CountVectorizer(stop_words="english", ngram_range=(1, 2)),
+    calculate_probabilities=True,
+    verbose=True
+)
+topics, probabilities = topic_model.fit_transform(sentences)
+topic_info = topic_model.get_topic_info()
+
+topic_sections = {}
+for sentence, topic in zip(sentences, topics):
+    if topic not in topic_sections:
+        topic_sections[topic] = []
+    topic_sections[topic].append(sentence)
+
+topic_sections[6]
+topic_model.get_topic(6)
+
+
 
 # 2. SOTA Embedding Model
 embedder = SentenceTransformer("intfloat/e5-small-v2")
