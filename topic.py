@@ -41,8 +41,19 @@ class TopicAnalyzer:
         return topic_sections, topics, probabilities
 
 
+links = [r'https://www.youtube.com/watch?v=wiuRDSQLjV0',
+r'https://www.youtube.com/watch?v=8enXRDlWguU',
+r'https://www.youtube.com/watch?v=K5NP2wf0LLk',
+r'https://www.youtube.com/watch?v=fpbA0BSR5gM',
+r'https://www.youtube.com/watch?v=JMObz0Dgq7M']
+
 ta = TopicAnalyzer()
-topic_sections, topics, probabilities = ta.get_topics("-9LFj6YOK2U")
+
+for link in links:
+    yt_id = link.split('v=')[1]
+    topic_sections, topics, probabilities = ta.get_topics(yt_id)
+ta.topic_model.get_topic(3)
+topic_sections[2]
 ta.topic_model.get_topic_info()
 pass
 
