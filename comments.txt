@@ -1,0 +1,321 @@
+{
+  "search_metadata": {
+    "id": "search_MG6OPWeEVjF1wLdA04jR8w7N",
+    "status": "Success",
+    "created_at": "2025-11-10T16:09:53Z",
+    "request_time_taken": 1.98,
+    "parsing_time_taken": 0.08,
+    "total_time_taken": 2.06,
+    "request_url": "https://www.youtube.com/watch?v=jvqFAi7vkBc",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_MG6OPWeEVjF1wLdA04jR8w7N.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_MG6OPWeEVjF1wLdA04jR8w7N"
+  },
+  "search_parameters": {
+    "engine": "youtube_comments",
+    "video_id": "jvqFAi7vkBc",
+    "gl": "US",
+    "hl": "en"
+  },
+  "search_information": {
+    "total_results": 7847
+  },
+  "comments": [
+    {
+      "id": "UgxyqfPGujI6Y5C0aRd4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgxyqfPGujI6Y5C0aRd4AaABAg",
+      "channel": {
+        "id": "UCSHZKyawb77ixDdsGog4iWA",
+        "handle": "@lexfridman",
+        "link": "https://www.youtube.com/@lexfridman",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_ljfMy9kUR1PH9VRf-XsTsPqFMgORC_zodOQVEAm4hx36lC=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "Here are the timestamps. Please check out our sponsors to support this podcast.\r\nTranscript: https://lexfridman.com/sam-altman-2-transcript\r\n0:00 - Introduction & sponsor mentions:\r\n- Cloaked: https://cloaked.com/lex and use code LexPod to get 25% off\r\n- Shopify: https://shopify.com/lex to get $1 per month trial\r\n- BetterHelp: https://betterhelp.com/lex to get 10% off\r\n- ExpressVPN: https://expressvpn.com/lexpod to get 3 months free\r\n1:05 - OpenAI board saga\r\n18:31 - Ilya Sutskever\r\n24:40 - Elon Musk lawsuit\r\n34:32 - Sora\r\n44:23 - GPT-4\r\n55:32 - Memory & privacy\r\n1:02:36 - Q*\r\n1:06:12 - GPT-5\r\n1:09:27 - $7 trillion of compute\r\n1:17:35 - Google and Gemini\r\n1:28:40 - Leap to GPT-5\r\n1:32:24 - AGI\r\n1:50:57 - Aliens",
+      "likes": 491,
+      "replies": 67,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd4eXFmUEd1akk2WTVDMGFSZDRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3h5cWZQR3VqSTZZNUMwYVJkNEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "UgweOKI1uoZ18cyeCsp4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgweOKI1uoZ18cyeCsp4AaABAg",
+      "channel": {
+        "id": "UCL1MrtFkRjMgZZhB4w7yDGA",
+        "handle": "@Zippd-C7",
+        "link": "https://www.youtube.com/@Zippd-C7",
+        "thumbnail": "https://yt3.ggpht.com/3zfov1Wgzto7TJC3Ufnk7n_cTFHfW2WBbrPAbjWev3CasYqkxRL9tE4vWQ8qGCHBUBZ0xc6JLA=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "I think I speak for everybody when I say, get Nvidia's CEO Jensen Huang on the podcast!",
+      "likes": 2600,
+      "replies": 25,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd3ZU9LSTF1b1oxOGN5ZUNzcDRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3dlT0tJMXVvWjE4Y3llQ3NwNEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "UgxYpArCTeXcM4mI0794AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgxYpArCTeXcM4mI0794AaABAg",
+      "channel": {
+        "id": "UCNPJ2IJTkcfKBq5OiFKwazg",
+        "handle": "@eyannoronha831",
+        "link": "https://www.youtube.com/@eyannoronha831",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_mG-VuQFatlnBhCIcQFcQeCfB_CZzKMJ9aUdwBeT24wGgM=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "“Take me through the OpenAI board saga”. My boy Lex got straight to the point XD",
+      "likes": 2500,
+      "replies": 50,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd4WXBBckNUZVhjTTRtSTA3OTRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3hZcEFyQ1RlWGNNNG1JMDc5NEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "UgypVwawRqyjmC3obh14AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgypVwawRqyjmC3obh14AaABAg",
+      "channel": {
+        "id": "UC2JZuYVZF4ejbDWS_R-FoPg",
+        "handle": "@Shaunmcdonogh-shaunsurfing",
+        "link": "https://www.youtube.com/@Shaunmcdonogh-shaunsurfing",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nZs4Cgfan-X2vq9Xf15-_yJkIN9uT80w6XCZTS2Sr01jU=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "Would be great to see an up and coming interview with Ilya",
+      "likes": 838,
+      "replies": 9,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd5cFZ3YXdScXlqbUMzb2JoMTRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3lwVndhd1JxeWptQzNvYmgxNEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "Ugx5epLLBzA0BMTMxuh4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=Ugx5epLLBzA0BMTMxuh4AaABAg",
+      "channel": {
+        "id": "UCKleRlUvVx6wjeojNyEsJrw",
+        "handle": "@HouseMusicVirus",
+        "link": "https://www.youtube.com/@HouseMusicVirus",
+        "thumbnail": "https://yt3.ggpht.com/kVwk9ZwZWaM8xwpaAYnomVUFwyLJpytKDGS8-Ee7eCDBBQEQB5YVesdywRKbdu0upijQW3jXnd8=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "I never thought I would say this but Lex looks more alive than his guest.",
+      "likes": 668,
+      "replies": 3,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd4NWVwTExCekEwQk1UTXh1aDRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3g1ZXBMTEJ6QTBCTVRNeHVoNEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "Ugw8BiUcQPr5C0NsS6F4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=Ugw8BiUcQPr5C0NsS6F4AaABAg",
+      "channel": {
+        "id": "UCXSfcKFuFDa2Lcwxe9z5ntQ",
+        "handle": "@DavidHeimir",
+        "link": "https://www.youtube.com/@DavidHeimir",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nsaI0wY3fP_pOwMuvQiyiu_1fDqHFiDP24Gf1XWJ9fIkY=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "Lex is the only channel I check the length of the video thinking: \"only\" 2 hours? ❤",
+      "likes": 1800,
+      "replies": 20,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd3OEJpVWNRUHI1QzBOc1M2RjRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3c4QmlVY1FQcjVDME5zUzZGNEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "UgwPVd021TBROd4m3cl4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgwPVd021TBROd4m3cl4AaABAg",
+      "channel": {
+        "id": "UCTUo29s5l8c2FeHoQ5xSTuA",
+        "handle": "@anyu8109",
+        "link": "https://www.youtube.com/@anyu8109",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nO6Q0hZ9M1AAX2uBlOhgj_5MgwJQAh2MNDjjhjkro=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "Lex asked all the right questions, but I remember nothing from Altman's answers after the interview completes.",
+      "likes": 494,
+      "replies": 10,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd3UFZkMDIxVEJST2Q0bTNjbDRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3dQVmQwMjFUQlJPZDRtM2NsNEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "UgxAgGlJJl3Ka3VG99R4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgxAgGlJJl3Ka3VG99R4AaABAg",
+      "channel": {
+        "id": "UCkCIRemHjNWtRrSoDbhEQvA",
+        "handle": "@risesrivastava",
+        "link": "https://www.youtube.com/@risesrivastava",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nMn6vd0H_x-che1NmboZlxa_4zi-kZjnx6M_wVT0I2L2gC=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago (edited)",
+      "text": "Never thought Sora would create a  Lex's Podcast",
+      "likes": 837,
+      "replies": 14,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd4QWdHbEpKbDNLYTNWRzk5UjRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3hBZ0dsSkpsM0thM1ZHOTlSNEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "UgwymGxy2EQ8lrDiBDx4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgwymGxy2EQ8lrDiBDx4AaABAg",
+      "channel": {
+        "id": "UCmAJs04tj2BohXLwCZOZ9bA",
+        "handle": "@karafogertey1764",
+        "link": "https://www.youtube.com/@karafogertey1764",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_n2-wJqp-x2HrXJdtuAo9x-CQuAHwaM9o9Hy2Q8TsPNYQcz=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "Lex you have so transcended any interview of Altmann and any interview about AI. You patiently, empatheticly asked and then let him search internally for his answers, his thinking - good or bad. Thank you sir.",
+      "likes": 15
+    },
+    {
+      "id": "UgxIGnoT9yWetBObL6R4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgxIGnoT9yWetBObL6R4AaABAg",
+      "channel": {
+        "id": "UC95m2ydgDlrJz5KV6DdD4UA",
+        "handle": "@jacobrogers2214",
+        "link": "https://www.youtube.com/@jacobrogers2214",
+        "thumbnail": "https://yt3.ggpht.com/i7TLIc7ZY2ikYCbJ-Mtp6mFSit0PEIzoyh5HZs6EA-7aczAtWswjXL3Dp9nyprZQN6kRqs4pmg=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "Lex has gotten more assertive and I'm all here for it. Especially because he's well-informed so it's not just like typical media grandstanding.",
+      "likes": 202,
+      "replies": 8,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd4SUdub1Q5eVdldEJPYkw2UjRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3hJR25vVDl5V2V0Qk9iTDZSNEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "UgzqY64bJwB8e29C8b94AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgzqY64bJwB8e29C8b94AaABAg",
+      "channel": {
+        "id": "UCDBX7_spbtIBKDjmdUan2Pg",
+        "handle": "@fateriddle14",
+        "link": "https://www.youtube.com/@fateriddle14",
+        "thumbnail": "https://yt3.ggpht.com/Lr53CuQpm-Eq5xqHX56XH1tLND8-g6HXqat0jkbcZTiN0pAh6hiRZWpIEW7TjTk7CkgvUj570g=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "I love Lex poked from every angle trying to get Sam to talk about about the openAI drama, and all responded with deplomatic answers or redirections. But then he asked how Sam felt, his personal feeling through this whole drama, finally it cracked.",
+      "likes": 147,
+      "replies": 3,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd6cVk2NGJKd0I4ZTI5QzhiOTRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3pxWTY0Ykp3QjhlMjlDOGI5NEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "UgxHhA7kzg5mwjvna6F4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgxHhA7kzg5mwjvna6F4AaABAg",
+      "channel": {
+        "id": "UCb5huXZ_TIs-MQAH9CC4BfQ",
+        "handle": "@alexdowlen9347",
+        "link": "https://www.youtube.com/@alexdowlen9347",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_kMs8ImCk_Um-X4j9EFH1uYRRNQm21URxA_1pytDA2rotIF=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "Lex is spicy in this interview! I love the new pressure he’s putting on Sam to answer his questions. Hoping to more of this in future episodes.",
+      "likes": 252,
+      "replies": 6,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd4SGhBN2t6ZzVtd2p2bmE2RjRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3hIaEE3a3pnNW13anZuYTZGNEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "Ugz21oGJq56CN856RCh4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=Ugz21oGJq56CN856RCh4AaABAg",
+      "channel": {
+        "id": "UCgRofXLTI1uyga8gzNRZrKA",
+        "handle": "@vb8682",
+        "link": "https://www.youtube.com/@vb8682",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_l54MhKLOB-2OZOWJhxfL7-CX4qxi_bjSZPddlKk27xnD0=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "Sam Altman would make a great politician! He talks a lot without actually saying anything.",
+      "likes": 275,
+      "replies": 10,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd6MjFvR0pxNTZDTjg1NlJDaDRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3oyMW9HSnE1NkNOODU2UkNoNEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "Ugz4x2KJL9BKGC8zOrB4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=Ugz4x2KJL9BKGC8zOrB4AaABAg",
+      "channel": {
+        "id": "UC1YfoQJuclfyWSShfoMY7qA",
+        "handle": "@Nightclub20xx",
+        "link": "https://www.youtube.com/@Nightclub20xx",
+        "thumbnail": "https://yt3.ggpht.com/bBquePqEl87THR86UqKO1nnqSAhk2pLAPUNdIJ0MRI85py4NgP5sJebYtxETmwZOnU8O-xc6og=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "Lex been having a good variety of interviews this year love it",
+      "likes": 185,
+      "replies": 1,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd6NHgyS0pMOUJLR0M4ek9yQjRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3o0eDJLSkw5QktHQzh6T3JCNEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "UgxvYdH060Gl8pCDElF4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgxvYdH060Gl8pCDElF4AaABAg",
+      "channel": {
+        "id": "UC--uOYRS-ScwKxV0Yly-r4Q",
+        "handle": "@drewtabke3294",
+        "link": "https://www.youtube.com/@drewtabke3294",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lBDjGzMyuZDHzOY7uaedjt8s4VpgzZb6lrWyjVa15I8JE=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "Feels like he’s portraying a humble, sensitive persona when he may actually be an egomaniac with unbelievable power at his disposal. Didn’t learn much from this interview, but still engaging and important stuff watching Altman’s communication strategies.",
+      "likes": 488,
+      "replies": 16,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd4dllkSDA2MEdsOHBDREVsRjRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3h2WWRIMDYwR2w4cENERWxGNEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "Ugyz-wYdHEU9l33N-Kt4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=Ugyz-wYdHEU9l33N-Kt4AaABAg",
+      "channel": {
+        "id": "UCBlOiZCTzs-FD_lvnHy13jA",
+        "handle": "@yousif4785",
+        "link": "https://www.youtube.com/@yousif4785",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_kTBZSGKEAheYsTKn4afVEwgqvCdN3xf1wRiQqkT8iMIBWaKzUggCo0tbCy2a1UTpRsTg=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "This guy gives “The character who is on everyone’s good side, but actually turns out to be the villain” vibes",
+      "likes": 610,
+      "replies": 24,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd5ei13WWRIRVU5bDMzTi1LdDRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3l6LXdZZEhFVTlsMzNOLUt0NEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "UgxAwS7b-cKhwIK_RTF4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgxAwS7b-cKhwIK_RTF4AaABAg",
+      "channel": {
+        "id": "UCmAJs04tj2BohXLwCZOZ9bA",
+        "handle": "@karafogertey1764",
+        "link": "https://www.youtube.com/@karafogertey1764",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_n2-wJqp-x2HrXJdtuAo9x-CQuAHwaM9o9Hy2Q8TsPNYQcz=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "My AI Agent. So his endgame becomes clear. I understand social phobias and fear of deep connection but he just revealed that he wants or is motivated by wanting a personal AI agent that will know literally everything about him and accept and help him - a feeling he wants from people in his life but has not had. This is a frightening motive for creating a “system” that could hold so much harm to human society and life. I didn’t expect to be so alarmed when starting this podcast. Lex has been amazing in this interview.",
+      "likes": 15
+    },
+    {
+      "id": "UgznMF_l1a5uZtGyomx4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgznMF_l1a5uZtGyomx4AaABAg",
+      "channel": {
+        "id": "UC4e6Qf6G1iQGExTP_LKqmNw",
+        "handle": "@bfr5621",
+        "link": "https://www.youtube.com/@bfr5621",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_muMRMQDyQlL1YODQgW_jU-089SvtopJgAKdh97xlsVQ9Fj=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "Two hours of information withholding.",
+      "likes": 813,
+      "replies": 11,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd6bk1GX2wxYTV1WnRHeW9teDRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3puTUZfbDFhNXVadEd5b214NEFhQUJBZw%3D%3D"
+    },
+    {
+      "id": "Ugzs4EGWlY7upn03iO14AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=Ugzs4EGWlY7upn03iO14AaABAg",
+      "channel": {
+        "id": "UCsJuRVSTnMHs_8iU5GENHmg",
+        "handle": "@ModerateObserver",
+        "link": "https://www.youtube.com/@ModerateObserver",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nmg00QXyXwvANFy7xl78n4PRrPWcskaCeoteV9-VckFXU=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "text": "1:06:12 gotta love Lex's casual delivery 🤣",
+      "likes": 19
+    },
+    {
+      "id": "UgwbmsKtjw1HLw4s_al4AaABAg",
+      "link": "https://www.youtube.com/watch?v=jvqFAi7vkBc&lc=UgwbmsKtjw1HLw4s_al4AaABAg",
+      "channel": {
+        "id": "UC0DuEUGNxwyzlZYp1Y_ZESA",
+        "handle": "@JamesOKeefe-US",
+        "link": "https://www.youtube.com/@JamesOKeefe-US",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_kTsghdb1cAMVHvBe90lIjOVJjoYDCD_KsC8pTtdzKmFhCi=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago (edited)",
+      "text": "Lex is a force of nature. Not only does he get the most influential guests but it also seems like the guests seek him out and it is just as important for them to be on with Lex. Amazing journey, congratulations Lex, you are awesome!",
+      "likes": 171,
+      "replies": 4,
+      "replies_next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYygwEaUBIaVWd3Ym1zS3RqdzFITHc0c19hbDRBYUFCQWciAggAKhhVQ1NIWkt5YXdiNzdpeERkc0dvZzRpV0EyC2p2cUZBaTd2a0JjQAFICoIBAggBQi9jb21tZW50LXJlcGxpZXMtaXRlbS1VZ3dibXNLdGp3MUhMdzRzX2FsNEFhQUJBZw%3D%3D"
+    }
+  ],
+  "pagination": {
+    "next_page_token": "Eg0SC2p2cUZBaTd2a0JjGAYy4AIKtgJnZXRfcmFua2VkX3N0cmVhbXMtLUNxWUJDSUFFRlJlMzBUZ2Ftd0VLbGdFSTJGOFFnQVFZQnlLTEFYdVNTNk5GaENRSzdOeVZFdV9JbXA3VDNnUENUNVpILXhWWllwS1lXTHRhUVJvOWVyY0NRWWhGLU9mbUNaeVJNdG1LWXNOVGJBelVNYkY1QXpGRDV0QUdNbFpsajdJVmNzNFMyc1E5c1FlWUNqd254MWpVYWI0V29FMEVSNjZjMVl6YmlkaEU0bVZvcXE0WG5JVmxXRHc3WmJEYTQ3Tkdfb0l0YjRqampmQi10WmtJODdhZjBnX0tXd0FRRkJJSENJUWdFQk1ZQVJJRkNLZ2dHQUFTQlFpSUlCZ0FFZ1VJaVNBWUFCSUhDSVVnRUFRWUFSSUhDSWNnRUFFWUFBIhEiC2p2cUZBaTd2a0JjMAB4ASgUQhBjb21tZW50cy1zZWN0aW9u"
+  }
+}

@@ -1,24 +1,40 @@
-from sklearn.datasets import fetch_20newsgroups
-from transformers import T5Tokenizer, T5ForConditionalGeneration
 import torch
+from transformers import pipeline
+from pathlib import Path
+import sys
 
-# Load the model and tokenizer
-model_name = "google/flan-t5-base"  # or "google/flan-t5-large", "google/flan-t5-xl"
-tokenizer = T5Tokenizer.from_pretrained(model_name)
-model = T5ForConditionalGeneration.from_pretrained(model_name, torch_dtype=torch.float32)
+#read transcript
+path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(r"C:\Users\lahir\code\otherside\transcript.txt")
+if not path.exists():
+    raise FileNotFoundError(f"Transcript file not found: {path}")
+with path.open("r", encoding="utf-8") as f:
+    transcript = f.read()
 
-text = 'And you can buy a car like that in China for three or $4,000 So, not not uh so there \'s the I think you can buy a Chevy Spark, which is actually not an electric car. Like like the most American car you can buy, I think right now >> it \'s either a Nissan or a Toyota outside of Tesla'
-prompt = f"Summerize: \n{text}"
-inputs = tokenizer(prompt, return_tensors="pt", max_length=512, truncation=True)
-max_length=20
-with torch.no_grad():
-    outputs = model.generate(
-        **inputs,
-        max_length=max_length,
-        min_length=30,
-        length_penalty=20.0,
-        num_beams=4,
-        early_stopping=True
-    )
-summary = tokenizer.decode(outputs[0], skip_special_tokens=True)
+# Load summarizer (smallest, efficient)
+summarizer = pipeline("summarization", model="google/flan-t5-small", device=-1)
 
+def chunk_text(text, max_tokens=800):
+    words = text.split()
+    for i in range(0, len(words), max_tokens):
+        yield " ".join(words[i:i+max_tokens])
+
+def summarize_transcript(transcript):
+    chunk_summaries = []
+    tokens = len(transcript.split())
+    n = 0
+    for chunk in chunk_text(transcript):
+        print(f"Summarizing chunk {n+1} / {(tokens // 800) + 1}",end='\r')
+        n += 1
+        # if n==10:
+        #     break
+        summary = summarizer("summarize: " + chunk, max_length=100, min_length=20, do_sample=False)[0]['summary_text']
+        chunk_summaries.append(summary)
+    # combined = " ".join(chunk_summaries)
+    # final_summary = summarizer("summarize: " + combined, max_length=150, min_length=50, do_sample=False)[0]['summary_text']
+    return chunk_summaries
+
+summary = summarize_transcript(transcript)
+
+words = transcript.split()
+" ".join(words[0:800])
+pass

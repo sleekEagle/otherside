@@ -1,0 +1,1263 @@
+{
+  "search_metadata": {
+    "id": "search_o87gAV43YWhgRwanyk1PwrlO",
+    "status": "Success",
+    "created_at": "2025-11-10T16:06:01Z",
+    "request_time_taken": 1.17,
+    "parsing_time_taken": 0.08,
+    "total_time_taken": 1.25,
+    "request_url": "https://www.youtube.com/results?search_query=Fortnite&gl=US&hl=en",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_o87gAV43YWhgRwanyk1PwrlO.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_o87gAV43YWhgRwanyk1PwrlO"
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "q": "Fortnite",
+    "hl": "en",
+    "gl": "US"
+  },
+  "search_information": {
+    "total_results": 6922854
+  },
+  "suggestions": [
+    "fortnite tips",
+    "fortnite typical gamer",
+    "fortnite godzilla",
+    "fortnite battle royale",
+    "fortnite skins",
+    "fortnite winterfest 2024"
+  ],
+  "channels": [
+    {
+      "position": 8,
+      "id": "UClG8odDC8TS6Zpqk9CGVQiQ",
+      "title": "Fortnite",
+      "link": "https://www.youtube.com/@fortnite",
+      "description": "A free multiplayer game where you compete in Battle Royale, collaborate to create your private island in Creative, or quest in ...",
+      "is_verified": true,
+      "subscribers": 13300000.0,
+      "thumbnail": {
+        "static": "https://yt3.ggpht.com/o7fw_fBVeZHtWUVR_W9or2Cd1f6ThyLHghRon9X75q-eqjLr7bIOR7AubXN0XSvUqmGwZPQybA=s88-c-k-c0x00ffffff-no-rj-mo",
+        "rich": "https://yt3.ggpht.com/o7fw_fBVeZHtWUVR_W9or2Cd1f6ThyLHghRon9X75q-eqjLr7bIOR7AubXN0XSvUqmGwZPQybA=s176-c-k-c0x00ffffff-no-rj-mo"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "position": 1,
+      "id": "GaYY9ghy8EQ",
+      "title": "Sugar High - Fortnite | The Simpsons",
+      "link": "https://www.youtube.com/watch?v=GaYY9ghy8EQ",
+      "description": "It's a food-pocolapse! Watch out as donuts fall from the sky, destroying buildings and increasing waistlines. #TheSimpsons ...",
+      "views": 82782,
+      "channel": {
+        "id": "UClG8odDC8TS6Zpqk9CGVQiQ",
+        "title": "Fortnite",
+        "link": "https://www.youtube.com/@fortnite",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/o7fw_fBVeZHtWUVR_W9or2Cd1f6ThyLHghRon9X75q-eqjLr7bIOR7AubXN0XSvUqmGwZPQybA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "3:05",
+      "published_time": "2 hours ago",
+      "badges": [
+        "New"
+      ],
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/GaYY9ghy8EQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBLNR_9ypeIwl4SMkBW13rU3WxrgQ",
+        "rich": "https://i.ytimg.com/vi/GaYY9ghy8EQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBGvKRCQib0sM4Bo4HWnFNKkhAeDA"
+      }
+    },
+    {
+      "position": 2,
+      "id": "5ezJyX7KNmc",
+      "title": "New Fortnite Update Countdown!",
+      "link": "https://www.youtube.com/watch?v=5ezJyX7KNmc",
+      "description": "New Fortnite Simpsons Season with Sidekicks/Companions! (Chapter 6 Season MS2) • Support-A-Creator code: NickEh30 ...",
+      "views": 2824,
+      "is_live": true,
+      "channel": {
+        "id": "UCt9nYeSz90lnOnaVFjxFJzw",
+        "title": "Nick Eh 30",
+        "link": "https://www.youtube.com/@NickEh30",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/R57uW-BLxSSFLQTmh7ELdORWPMJkEPkAzKxCWb1z6ctjU4lH4O9s6_Q9LdVmfq8JmfsC2XzKbA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "badges": [
+        "LIVE",
+        "New"
+      ],
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/5ezJyX7KNmc/hq720.jpg?v=6911f7b3&sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB1g1JWSo4TR-2XAn9MDGeI19X8PQ",
+        "rich": "https://i.ytimg.com/vi/5ezJyX7KNmc/hq720.jpg?v=6911f7b3&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDMDKxsRPB8CIUXmc-V4l7FMqFZvQ"
+      }
+    },
+    {
+      "position": 4,
+      "id": "GdN1MRIQhWU",
+      "title": "The *RANDOM* SIDEKICK Challenge in Fortnite!",
+      "link": "https://www.youtube.com/watch?v=GdN1MRIQhWU",
+      "description": "Fortnite Simpsons Season gameplay with Typical Gamer! ❤️ SUBSCRIBE & CLICK THE BELL! Play MY GAMES in ...",
+      "views": 139902,
+      "channel": {
+        "id": "UCqVCSWnuOSPm26orvNDTuWQ",
+        "title": "TG Plays",
+        "link": "https://www.youtube.com/@TGplays",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lIK1oE6-R_tYnD7w8CEA8_gvqm0JannOdqj2Zr4AGpa_I=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "20:07",
+      "published_time": "12 hours ago",
+      "badges": [
+        "New"
+      ],
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/GdN1MRIQhWU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVn14O2L_YkfC6DJzApXkU_ZEOTw",
+        "rich": "https://i.ytimg.com/vi/GdN1MRIQhWU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0Ql2rFho_MY8NCX0Vi8dqfIkVkA"
+      }
+    },
+    {
+      "position": 5,
+      "id": "Vn4R8p-CE70",
+      "title": "I Mastered Fortnite Fighting in 7 Days...",
+      "link": "https://www.youtube.com/watch?v=Vn4R8p-CE70",
+      "description": "Somewhere out there is a Fortnite Fighter who can 1v2 Anyone, Anywhere, Someone who strikes fear into the hearts of every ...",
+      "views": 121177,
+      "channel": {
+        "id": "UCUWb0CJj_rFOUeHga7sVDiA",
+        "title": "Mournz7",
+        "link": "https://www.youtube.com/@mournz7",
+        "thumbnail": "https://yt3.ggpht.com/_HpRkn-ohXR1IWq7vWfO_yXA0C0Ogt3rHiNg98njUmaOBE5VLsq8r0MIkWWOnUYue-NZJ_rh0Q=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "25:39",
+      "published_time": "2 weeks ago",
+      "badges": [
+        "4K"
+      ],
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/Vn4R8p-CE70/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDO5z1p2Ny-WqQieSf-iDkhj1vk_w",
+        "rich": "https://i.ytimg.com/vi/Vn4R8p-CE70/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrUSrK2pcW9trsAWGtQTZCFolcjA"
+      }
+    },
+    {
+      "position": 6,
+      "id": "3fjvM1qXuMk",
+      "title": "Fortnite Simpsons SOLO Ranked Speedrun To Unreal...",
+      "link": "https://www.youtube.com/watch?v=3fjvM1qXuMk",
+      "description": "Fortnite Simpsons SOLO Ranked Speedrun To Unreal... Subscribe to my other YouTube channels DylanFORTNITE2 ...",
+      "views": 135296,
+      "channel": {
+        "id": "UC0BP-IX_TViUEK8jaey3vew",
+        "title": "SoaR Dylan",
+        "link": "https://www.youtube.com/@SoaRDylan",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_l4wJLZuLsyaxVEEsKUbwfsP6atUdRXljyLD20YTPXqVEY=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "20:29",
+      "published_time": "6 days ago",
+      "badges": [
+        "New"
+      ],
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/3fjvM1qXuMk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC5VVdLAsxlJxAG0bkeQHuZUJyKLA",
+        "rich": "https://i.ytimg.com/vi/3fjvM1qXuMk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCsxlye_1zYtFIs4rnYsrTKbzZi4g"
+      }
+    },
+    {
+      "position": 10,
+      "id": "Ct41JK5tqgs",
+      "title": "TOP 10 FORTNITE SKINS YOU MUST AVOID!",
+      "link": "https://www.youtube.com/watch?v=Ct41JK5tqgs",
+      "description": "Learn from Clix & Other PROS with Masterclass Courses & Exclusive Content for $9.99/Month. Click to get started!",
+      "views": 12827805,
+      "channel": {
+        "id": "UCloMPNyglIUyLRCp5JAxJvw",
+        "title": "ProGuides Fortnite Tips, Tricks and Guides",
+        "link": "https://www.youtube.com/@proguidesfortnite",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/eff7uev-GTLfHEzqrB82WYscMy7z7gwRok_dsfNmytodBsiPUDtnh0T0LBwDejZWrYXl1uqbSA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "0:58",
+      "published_time": "2 years ago",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/Ct41JK5tqgs/hq720_2.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBzgWAAoAKigIMCAAQARh_IEMoFjAP&rs=AOn4CLD4GA0Kh67MlQVef91iFMWNvJbsUQ",
+        "rich": "https://i.ytimg.com/vi/Ct41JK5tqgs/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBzgWAAoAKigIMCAAQARh_IEMoFjAP&rs=AOn4CLCAYQ7_PIb1lK2vg-QYM8imzPocDA"
+      }
+    },
+    {
+      "position": 12,
+      "id": "1DfhNVQpVGo",
+      "title": "I Added The 67 KID in Fortnite 😂",
+      "link": "https://www.youtube.com/watch?v=1DfhNVQpVGo",
+      "description": "MAP CODE: 4274-1432-8830 #fortnite.",
+      "views": 3117723,
+      "channel": {
+        "id": "UCLxE_WWiZ2zbrVYWKNtkAAQ",
+        "title": "Brainrot Maps",
+        "link": "https://www.youtube.com/@BrainrotMaps",
+        "thumbnail": "https://yt3.ggpht.com/xqENjOP8xMINzNEYPIlDrKZw2NeIjQNx0jrlo00aw9DJ66GeJjEuaFYWRQ-QIRR7CKWklWKD=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "0:16",
+      "published_time": "1 month ago",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/1DfhNVQpVGo/hq720_2.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhcIFwoXDAP&rs=AOn4CLBox927h3wA_OPEL5Baa2-DkqVaag",
+        "rich": "https://i.ytimg.com/vi/1DfhNVQpVGo/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhcIFwoXDAP&rs=AOn4CLAnQNaZZzaQNfQpX5fPsTsElgY0pA"
+      }
+    },
+    {
+      "position": 13,
+      "id": "gzu0VXLNyjw",
+      "title": "Fortnite Is Teasing The Simpsons!",
+      "link": "https://www.youtube.com/watch?v=gzu0VXLNyjw",
+      "description": "Fortnite Is Teasing The Simpsons! Subscribe to never miss a Top 5 here: https://goo.gl/eWUCx5 Follow us on Instagram & Twitter ...",
+      "views": 2430749,
+      "channel": {
+        "id": "UCYn6CZe5UGIyPe9WJb0pTrg",
+        "title": "Top5Gaming",
+        "link": "https://www.youtube.com/@T5G",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lGBVhE-M4Df_efWwy-yrGc3HkF4CWi1z06aEYrtXW6mpU=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "0:39",
+      "published_time": "4 months ago",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/gzu0VXLNyjw/hq720_2.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARh_IDEoRjAP&rs=AOn4CLBsCn9bLAt57VL_5aZO5AcJtd4UXA",
+        "rich": "https://i.ytimg.com/vi/gzu0VXLNyjw/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARh_IDEoRjAP&rs=AOn4CLBQAq53a-XemIK4DN6kPWPkzWnbZA"
+      }
+    },
+    {
+      "position": 15,
+      "id": "OVzgy8Kvods",
+      "title": "Please STOP This! 😭",
+      "link": "https://www.youtube.com/watch?v=OVzgy8Kvods",
+      "description": "fortnite.",
+      "views": 12287958,
+      "channel": {
+        "id": "UCrojdLHZiRQPWCv6uVyJU6g",
+        "title": "EvanFinity",
+        "link": "https://www.youtube.com/@OfficialEvanFinity",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/bqUI_54sXp21vdgk4Ou_W0fSkkMHvM1c-3yWrToyFUs0sqafmOknnvdyzcmtb4NzwKSv0jak=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "0:27",
+      "published_time": "3 weeks ago",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/OVzgy8Kvods/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARg9IEEofzAP&rs=AOn4CLDGK2bUYdarARPqMbDl-LHTGq8c2Q",
+        "rich": "https://i.ytimg.com/vi/OVzgy8Kvods/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARg9IEEofzAP&rs=AOn4CLCuQOIe8wMtf-rIkqbe-h17BbLURA"
+      }
+    },
+    {
+      "position": 16,
+      "id": "F3WUsXx8_Nw",
+      "title": "New Update Is Too Realistic! 💀",
+      "link": "https://www.youtube.com/watch?v=F3WUsXx8_Nw",
+      "description": "fortnite.",
+      "views": 2469556,
+      "channel": {
+        "id": "UCrojdLHZiRQPWCv6uVyJU6g",
+        "title": "EvanFinity",
+        "link": "https://www.youtube.com/@OfficialEvanFinity",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/bqUI_54sXp21vdgk4Ou_W0fSkkMHvM1c-3yWrToyFUs0sqafmOknnvdyzcmtb4NzwKSv0jak=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "0:22",
+      "published_time": "2 weeks ago",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/F3WUsXx8_Nw/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARh_IEYoHDAP&rs=AOn4CLAyUA1OKHPy2szMICExBG0V71DJKA",
+        "rich": "https://i.ytimg.com/vi/F3WUsXx8_Nw/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARh_IEYoHDAP&rs=AOn4CLDbw-NoUQidZethuI73XJCwr6-_WA"
+      }
+    },
+    {
+      "position": 17,
+      "id": "bchdvoJPiWg",
+      "title": "Solo Controller Ranked Speedrun (Fortnite Simpsons) ",
+      "link": "https://www.youtube.com/watch?v=bchdvoJPiWg",
+      "description": "In this video i speedran from Gold all the way to Unreal only playing solos and the fastest solo time ever! make sure to stick to the ...",
+      "views": 40417,
+      "channel": {
+        "id": "UC-iwRgNeASi-bljU37af6gg",
+        "title": "Lyts",
+        "link": "https://www.youtube.com/@lytsfv",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ByMrZRXeKJF7DqBF1_0EHYnBNhcIBb9kUlLYUyg46raz5rwoJsNbFO9ZkXAlroWJfKsyKSlC8zA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "52:46",
+      "published_time": "5 days ago",
+      "badges": [
+        "New"
+      ],
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/bchdvoJPiWg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCs4LNXmrHBGxY9wKmWUGtYaFc21g",
+        "rich": "https://i.ytimg.com/vi/bchdvoJPiWg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwCRizJyv-ouoUAsMtNhYpbj8t8g"
+      }
+    },
+    {
+      "position": 19,
+      "id": "Igeop8MiMjk",
+      "title": "I Hired a Fortnite Pro to Secretly Troll Streamers!",
+      "link": "https://www.youtube.com/watch?v=Igeop8MiMjk",
+      "description": "Today I hired a Fortnite Pro to Troll my friends @NickEh30 @CouRageJD and even 1v1 @Clix ! But this time, you guys will have ...",
+      "views": 3531002,
+      "channel": {
+        "id": "UC_q5WZtFp36adwqhKpZzxwQ",
+        "title": "SypherPK",
+        "link": "https://www.youtube.com/@SypherPK",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/obTtPNyUpQf3BrbkchYmndABRVJR4FqVslO6ahW_T8tD3prxnswFFvmS6onB1MS62clf1hutz6o=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "24:44",
+      "published_time": "4 months ago",
+      "badges": [
+        "CC"
+      ],
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/Igeop8MiMjk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAoxRZLvzTrszSMXm2CisaPeDh4SA",
+        "rich": "https://i.ytimg.com/vi/Igeop8MiMjk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0KPqYz9U0qNDNPiXks8DUUPHtpg"
+      }
+    },
+    {
+      "position": 20,
+      "id": "EPrjG7HXbSY",
+      "title": "NickEh30’s FIRST WIN in the Simpsons Fortnite Update!",
+      "link": "https://www.youtube.com/watch?v=EPrjG7HXbSY",
+      "description": "The Simpsons Season in Fortnite! (Chapter 6 Season MS2) 0:00 First Reaction 2:23 First Win 5:52 Krusty's Exotic Revolver Win ...",
+      "views": 337020,
+      "channel": {
+        "id": "UCt9nYeSz90lnOnaVFjxFJzw",
+        "title": "Nick Eh 30",
+        "link": "https://www.youtube.com/@NickEh30",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/R57uW-BLxSSFLQTmh7ELdORWPMJkEPkAzKxCWb1z6ctjU4lH4O9s6_Q9LdVmfq8JmfsC2XzKbA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "35:01",
+      "published_time": "5 days ago",
+      "badges": [
+        "New"
+      ],
+      "thumbnail": {
+        "static": "https://i9.ytimg.com/vi/EPrjG7HXbSY/hq720_custom_2.jpg?sqp=CKyayMgG-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHpHFO0DfmQI9fj4DTxK0HvStuGw",
+        "rich": "https://i9.ytimg.com/vi/EPrjG7HXbSY/hq720_custom_2.jpg?sqp=CKyayMgG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2aBYtxaOMdQ4Nf_fKtTGAfrsEng"
+      },
+      "key_moments": [
+        {
+          "title": "First Reaction",
+          "start_seconds": 0,
+          "thumbnail": "https://i.ytimg.com/vi_webp/EPrjG7HXbSY/hqdefault.webp"
+        },
+        {
+          "title": "First Win",
+          "start_seconds": 143,
+          "thumbnail": "https://i.ytimg.com/vi_webp/EPrjG7HXbSY/hqdefault.webp"
+        },
+        {
+          "title": "Krusty's Exotic Revolver Win",
+          "start_seconds": 352,
+          "thumbnail": "https://i.ytimg.com/vi_webp/EPrjG7HXbSY/hqdefault.webp"
+        },
+        {
+          "title": "Pro Tip with Krusty's Exotic Revolver",
+          "start_seconds": 594,
+          "thumbnail": "https://i.ytimg.com/vi_webp/EPrjG7HXbSY/hqdefault.webp"
+        },
+        {
+          "title": "Secret Item: Deodorant Applicator",
+          "start_seconds": 986,
+          "thumbnail": "https://i.ytimg.com/vi_webp/EPrjG7HXbSY/hqdefault.webp"
+        },
+        {
+          "title": "Secret Item: Cobalt Slingshot",
+          "start_seconds": 1059,
+          "thumbnail": "https://i.ytimg.com/vi_webp/EPrjG7HXbSY/hqdefault.webp"
+        },
+        {
+          "title": "Top 10 Gameplay Easter Eggs",
+          "start_seconds": 1086,
+          "thumbnail": "https://i.ytimg.com/vi_webp/EPrjG7HXbSY/hqdefault.webp"
+        },
+        {
+          "title": "Top 10 Map Easter Eggs",
+          "start_seconds": 1239,
+          "thumbnail": "https://i.ytimg.com/vi_webp/EPrjG7HXbSY/hqdefault.webp"
+        },
+        {
+          "title": "Best Victory Royale in Simpsons Season",
+          "start_seconds": 1317,
+          "thumbnail": "https://i.ytimg.com/vi_webp/EPrjG7HXbSY/hqdefault.webp"
+        },
+        {
+          "title": "Code NickEh30 in the Item Shop",
+          "start_seconds": 2075,
+          "thumbnail": "https://i.ytimg.com/vi_webp/EPrjG7HXbSY/hqdefault.webp"
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "id": "yTEMERmV2Xk",
+      "title": "WHAT’S 6 + 7 😂 (fortnite) @WyfulShorts",
+      "link": "https://www.youtube.com/watch?v=yTEMERmV2Xk",
+      "description": "WOW.. I can't believe this happened. This is so sad. Watch until the end! #shorts.",
+      "views": 1338178,
+      "channel": {
+        "id": "UC4D6gx9HcbY_mjWyKGzb__A",
+        "title": "Wyful",
+        "link": "https://www.youtube.com/@Wyful",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/yTopUtdXffY0QJ3MIkoGhR0l9gi-__4-ZVE1fhWYRFq1HiN6kWtmAlLFS895MO1ANu5hg7EELw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "0:10",
+      "published_time": "12 days ago",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/yTEMERmV2Xk/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIDwofzAP&rs=AOn4CLA8rL_jmrDTt4JMc965JXJhagvqnA",
+        "rich": "https://i.ytimg.com/vi/yTEMERmV2Xk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhlIDwofzAP&rs=AOn4CLAyg497b0bnjIxeTPMS7NAqG7wrEw"
+      }
+    },
+    {
+      "position": 22,
+      "id": "OhhM-_fn7eg",
+      "title": "New best landing spot in Fortnite!",
+      "link": "https://www.youtube.com/watch?v=OhhM-_fn7eg",
+      "description": "New best drop spot is by Evergreen Terrace in the Simpsons Fortnite Season! (Chapter 6 Season MS2) • Support-A-Creator code: ...",
+      "views": 346798,
+      "channel": {
+        "id": "UCt9nYeSz90lnOnaVFjxFJzw",
+        "title": "Nick Eh 30",
+        "link": "https://www.youtube.com/@NickEh30",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/R57uW-BLxSSFLQTmh7ELdORWPMJkEPkAzKxCWb1z6ctjU4lH4O9s6_Q9LdVmfq8JmfsC2XzKbA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "14:17",
+      "published_time": "4 days ago",
+      "badges": [
+        "New"
+      ],
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/OhhM-_fn7eg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBtSeLHN97ZDchaAGopN4dVqrjGNw",
+        "rich": "https://i.ytimg.com/vi/OhhM-_fn7eg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCK5VZT7VOvZ1sR1-VAMh-hWQ_bRA"
+      }
+    },
+    {
+      "position": 23,
+      "id": "JTBBkPafLI0",
+      "title": "Gold to Unreal SPEEDRUN.. (Fortnite Simpsons)",
+      "link": "https://www.youtube.com/watch?v=JTBBkPafLI0",
+      "description": "Gold to Unreal SPEEDRUN.. (Fortnite Simpsons) SUBSCRIBE IF YOU'RE NEW! -JCM :) -- HERE'S ALL OF MY SOCIALS!",
+      "views": 203171,
+      "channel": {
+        "id": "UCSYRCVQs4ARY3NVg3HEy7sQ",
+        "title": "JCM",
+        "link": "https://www.youtube.com/@JCMYT",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/SQmrgBPrbC7QtroTj8NM9mrCOCyGWGjoJP9jmg13_i8CrLdRs0F-y781hNAJGXx27lc9ary_=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "45:51",
+      "published_time": "6 days ago",
+      "badges": [
+        "New"
+      ],
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/JTBBkPafLI0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsDJ9ThsGikrhQZRwaHRX60D9TWw",
+        "rich": "https://i.ytimg.com/vi/JTBBkPafLI0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKQxStYEUne_JQg9PmrQkEdlU8xg"
+      }
+    },
+    {
+      "position": 24,
+      "id": "nBmN9hQiBq4",
+      "title": "The *RANDOM* HALLOWEEN BOSS Challenge in Fortnite!",
+      "link": "https://www.youtube.com/watch?v=nBmN9hQiBq4",
+      "description": "Fortnite Random Halloween Skins Chapter 6, Season 4 gameplay with Typical Gamer! ❤️ SUBSCRIBE & CLICK THE BELL!",
+      "views": 916555,
+      "channel": {
+        "id": "UCqVCSWnuOSPm26orvNDTuWQ",
+        "title": "TG Plays",
+        "link": "https://www.youtube.com/@TGplays",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lIK1oE6-R_tYnD7w8CEA8_gvqm0JannOdqj2Zr4AGpa_I=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "20:01",
+      "published_time": "2 weeks ago",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/nBmN9hQiBq4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA8tHtvnuG1bzrHI38SmVyRoDIHMg",
+        "rich": "https://i.ytimg.com/vi/nBmN9hQiBq4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6dLI-Nc9ebo3rj1k6ZckWUp8JSw"
+      }
+    },
+    {
+      "position": 25,
+      "id": "CFuKDiOcHmw",
+      "title": "30 Myths BUSTED In Fortnite SIMPSONS!",
+      "link": "https://www.youtube.com/watch?v=CFuKDiOcHmw",
+      "description": "30 Myths BUSTED In Fortnite SIMPSONS! Item Shop Code: T5G #UseCodeT5G #fortnite #epicpartner #fortnite Follow us on ...",
+      "views": 603602,
+      "channel": {
+        "id": "UCYn6CZe5UGIyPe9WJb0pTrg",
+        "title": "Top5Gaming",
+        "link": "https://www.youtube.com/@T5G",
+        "is_verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lGBVhE-M4Df_efWwy-yrGc3HkF4CWi1z06aEYrtXW6mpU=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "length": "10:17",
+      "published_time": "6 days ago",
+      "badges": [
+        "New"
+      ],
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/CFuKDiOcHmw/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC_F2vFiHMT6xvCWHPbh8ATbhSGWw",
+        "rich": "https://i.ytimg.com/vi/CFuKDiOcHmw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTfY10VwI_lMLtCV-P_S1BVlA0Fw"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "section_title": "Fortnite Reload",
+      "position": 9,
+      "items": [
+        {
+          "position": 1,
+          "id": "Ypa6N5PYC7I",
+          "title": "Bronze to Unreal Solo Console Ranked Speedrun",
+          "link": "https://www.youtube.com/watch?v=Ypa6N5PYC7I",
+          "views": 994971,
+          "channel": {
+            "id": "UCk5Mv69-zZGwITBxPn3Ozdg",
+            "title": "Real Fax",
+            "link": "https://www.youtube.com/@RealFaxFortnite",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/TWbb2dy7KwQAKjHEKOVLMOFozoNmseFelTcZhhPZDJFZgzan9CSAnU-8e18zql-NZyjqB1l2=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "49:52",
+          "published_time": "2 months ago",
+          "badges": [
+            "4K"
+          ],
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/Ypa6N5PYC7I/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD2iYG2nFF3xyGwXwfHPkziJYqoAQ",
+            "rich": "https://i.ytimg.com/vi/Ypa6N5PYC7I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3Bb4sVlkKfWjpPBgZzJnh7MhOqg"
+          }
+        },
+        {
+          "position": 2,
+          "id": "AUp62CNVM3g",
+          "title": "I have 24 HOURS to get UNREAL In Fortnite Reload!",
+          "link": "https://www.youtube.com/watch?v=AUp62CNVM3g",
+          "views": 404743,
+          "channel": {
+            "id": "UCqVCSWnuOSPm26orvNDTuWQ",
+            "title": "TG Plays",
+            "link": "https://www.youtube.com/@TGplays",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lIK1oE6-R_tYnD7w8CEA8_gvqm0JannOdqj2Zr4AGpa_I=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "1:17:55",
+          "published_time": "2 months ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/AUp62CNVM3g/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCiYhxGg1nKDpNp_fK0F6zRLrYn9g",
+            "rich": "https://i.ytimg.com/vi/AUp62CNVM3g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDt37E936bdJOLCp2uGmYxRcbhXIw"
+          }
+        },
+        {
+          "position": 3,
+          "id": "jrDzzP2McaQ",
+          "title": "I Tried Hitting UNREAL Rank In 24 HOURS! (Fortnite Reload)",
+          "link": "https://www.youtube.com/watch?v=jrDzzP2McaQ",
+          "views": 113535,
+          "channel": {
+            "id": "UCZA8Q6vPCX3EfQSdHC26CnA",
+            "title": "HaloBT",
+            "link": "https://www.youtube.com/@HaloBT",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/wB1Ei5V1_7OPLjPlTGZ7Vdwa8uQqf-c8hnoCr2jKy6Sz8HxSANpZ60Wx_l_D59bB-hD4ZMgVJw=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "33:42",
+          "published_time": "2 weeks ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/jrDzzP2McaQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAiTS7INVgnIzeKS-004KidCYT-Gw",
+            "rich": "https://i.ytimg.com/vi/jrDzzP2McaQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3k7T9hSUSSBkq1vk6P43q2MkNHA"
+          }
+        },
+        {
+          "position": 4,
+          "id": "S_neEMpNOf4",
+          "title": "Gold to Unreal Solo SPEEDRUN.. (Fortnite Reload)",
+          "link": "https://www.youtube.com/watch?v=S_neEMpNOf4",
+          "views": 83833,
+          "channel": {
+            "id": "UCSYRCVQs4ARY3NVg3HEy7sQ",
+            "title": "JCM",
+            "link": "https://www.youtube.com/@JCMYT",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/SQmrgBPrbC7QtroTj8NM9mrCOCyGWGjoJP9jmg13_i8CrLdRs0F-y781hNAJGXx27lc9ary_=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "47:38",
+          "published_time": "1 month ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/S_neEMpNOf4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAoa6vKjKG-ZkgE5ee9XgkO5wL9mg",
+            "rich": "https://i.ytimg.com/vi/S_neEMpNOf4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBIcS8VXj7WvWwbMbG9730ngXAi_Q"
+          }
+        },
+        {
+          "position": 5,
+          "id": "Sp96Pb0qBmc",
+          "title": "78 Elimination Solo Vs Squad \"Ranked RELOAD” Gameplay Wins (NEW! Fortnite Chapter 6 PS4 Controller)",
+          "link": "https://www.youtube.com/watch?v=Sp96Pb0qBmc",
+          "views": 136403,
+          "channel": {
+            "id": "UC2Loq2qB-wOLikZfrZ2zKbg",
+            "title": "SENSEI",
+            "link": "https://www.youtube.com/@SENSEI1",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/AXf8gwVaZYEepIpb9rbeEmp1O3r24gkNCS4t-Si9PE95EmV0f1E5kudqw3U0sQj2o-MSjzQj2A=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "42:16",
+          "published_time": "4 weeks ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/Sp96Pb0qBmc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJHr0AGIxFry3wt3ovyKfwho8hCg",
+            "rich": "https://i.ytimg.com/vi/Sp96Pb0qBmc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBdGd73KccxibCGUF3zhz1_C31kQ"
+          }
+        },
+        {
+          "position": 6,
+          "id": "BATI2n-m_Os",
+          "title": "Unranked to Unreal Reload Controller SPEEDRUN! (Nightmare Island)",
+          "link": "https://www.youtube.com/watch?v=BATI2n-m_Os",
+          "views": 42094,
+          "channel": {
+            "id": "UCQyyGFzjlShopz1oRi917vQ",
+            "title": "Carter2k",
+            "link": "https://www.youtube.com/@Carter2k",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lsZglGYWEX8kuhtzwx-On0iAkk6QK2Cff1qsW3IM_Zzbc=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "42:49",
+          "published_time": "3 weeks ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/BATI2n-m_Os/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBb3Ypw3xlYb5TCWc9yCSLMzB5yqg",
+            "rich": "https://i.ytimg.com/vi/BATI2n-m_Os/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBnW1x-yqcZZLuZW6VDiRyWVEtGOA"
+          }
+        },
+        {
+          "position": 7,
+          "id": "6CAz5Y36YKs",
+          "title": "Destroying TOP RANKED Players On The NEW Reload Map!",
+          "link": "https://www.youtube.com/watch?v=6CAz5Y36YKs",
+          "views": 85838,
+          "channel": {
+            "id": "UC0BP-IX_TViUEK8jaey3vew",
+            "title": "SoaR Dylan",
+            "link": "https://www.youtube.com/@SoaRDylan",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_l4wJLZuLsyaxVEEsKUbwfsP6atUdRXljyLD20YTPXqVEY=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "11:12",
+          "published_time": "4 weeks ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/6CAz5Y36YKs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBMobVbRoq4eDiW4RXOwZvf2NuqgQ",
+            "rich": "https://i.ytimg.com/vi/6CAz5Y36YKs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAX0fnSdi-MAUEgan56L86EVRuUpA"
+          }
+        },
+        {
+          "position": 8,
+          "id": "y_YjQFotT2k",
+          "title": "Gold to Unreal Reload SPEEDRUN.. (Nitemare Island)",
+          "link": "https://www.youtube.com/watch?v=y_YjQFotT2k",
+          "views": 183269,
+          "channel": {
+            "id": "UCSYRCVQs4ARY3NVg3HEy7sQ",
+            "title": "JCM",
+            "link": "https://www.youtube.com/@JCMYT",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/SQmrgBPrbC7QtroTj8NM9mrCOCyGWGjoJP9jmg13_i8CrLdRs0F-y781hNAJGXx27lc9ary_=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "45:50",
+          "published_time": "3 weeks ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/y_YjQFotT2k/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCcbYc1N8PL676a06GnDE398LR7Sw",
+            "rich": "https://i.ytimg.com/vi/y_YjQFotT2k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBZ7TkfA7sJG8kZtr-wZxsT_c9zXA"
+          }
+        },
+        {
+          "position": 9,
+          "id": "xuIRVSr83DU",
+          "title": "78 Elimination Solo Vs Squad \"Ranked RELOAD” Gameplay Wins (NEW! Fortnite Chapter 6 PS4 Controller)",
+          "link": "https://www.youtube.com/watch?v=xuIRVSr83DU",
+          "views": 65108,
+          "channel": {
+            "id": "UC2Loq2qB-wOLikZfrZ2zKbg",
+            "title": "SENSEI",
+            "link": "https://www.youtube.com/@SENSEI1",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/AXf8gwVaZYEepIpb9rbeEmp1O3r24gkNCS4t-Si9PE95EmV0f1E5kudqw3U0sQj2o-MSjzQj2A=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "44:03",
+          "published_time": "3 weeks ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/xuIRVSr83DU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADGH3wYo_5ypz4SHRuzxnHAPEnbg",
+            "rich": "https://i.ytimg.com/vi/xuIRVSr83DU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeLuvfEoO7uyPcgLwMngr8Lq_wyw"
+          }
+        },
+        {
+          "position": 10,
+          "id": "e4_uUcHggag",
+          "title": "New RELOAD MAP UPDATE in FORTNITE!",
+          "link": "https://www.youtube.com/watch?v=e4_uUcHggag",
+          "views": 98871,
+          "channel": {
+            "id": "UCAW-NpUFkMyCNrvRSSGIvDQ",
+            "title": "Ninja",
+            "link": "https://www.youtube.com/@Ninja",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/U1fckzNGBn8FcM29b2TkMMzWPb_AZaFFme90rACZA_rux_aZczVzDMLpTkmu1GroycEcbcgM=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "12:40",
+          "published_time": "4 weeks ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/e4_uUcHggag/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAOLJTRJqY2kA0uhuJh8IjKjbThTw",
+            "rich": "https://i.ytimg.com/vi/e4_uUcHggag/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDvnw3mhNB3_LTXSGv8gN_7bVnu3w"
+          }
+        }
+      ]
+    },
+    {
+      "section_title": "Fortnite gameplay",
+      "position": 11,
+      "items": [
+        {
+          "position": 1,
+          "id": "3aJmLAmQeWc",
+          "title": "36 Elimination Solo \"RANKED Reload” Gameplay Wins (Fortnite Chapter 6 Season 4 PS5 Controller)",
+          "link": "https://www.youtube.com/watch?v=3aJmLAmQeWc",
+          "views": 102223,
+          "channel": {
+            "id": "UCwd2TLYUPNDbrqaULDwugdA",
+            "title": "More Ragequit",
+            "link": "https://www.youtube.com/@MoreRagequit",
+            "thumbnail": "https://yt3.ggpht.com/xD_NTJxzY4mNrisRzIKK6iGb2pLKmM8p-MUabvveOxZpsDm8UjEnk7dSdhH91gyaz-WRUc0=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "24:33",
+          "published_time": "1 month ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/3aJmLAmQeWc/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCcedbW9KDxNVJYZeMD-q12epbfnw"
+          }
+        },
+        {
+          "position": 2,
+          "id": "8j_z9i5BhEc",
+          "title": "76 Elimination Solo Vs Squad \"Ranked RELOAD” Gameplay Wins (Fortnite Chapter 6 PS4 Controller)",
+          "link": "https://www.youtube.com/watch?v=8j_z9i5BhEc",
+          "views": 559134,
+          "channel": {
+            "id": "UC2Loq2qB-wOLikZfrZ2zKbg",
+            "title": "SENSEI",
+            "link": "https://www.youtube.com/@SENSEI1",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/AXf8gwVaZYEepIpb9rbeEmp1O3r24gkNCS4t-Si9PE95EmV0f1E5kudqw3U0sQj2o-MSjzQj2A=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "50:50",
+          "published_time": "3 months ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/8j_z9i5BhEc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDEzhCXCPuArZXKoaYk9m9lnb4fsw",
+            "rich": "https://i.ytimg.com/vi/8j_z9i5BhEc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkQBcQ4vlew7TSC0ffjtVKD12GJg"
+          }
+        },
+        {
+          "position": 3,
+          "id": "2Z_tbAoe1NA",
+          "title": "79 Elimination Solo Vs Squad \"Ranked RELOAD” Gameplay Wins (NEW! Fortnite Chapter 6 PS4 Controller)",
+          "link": "https://www.youtube.com/watch?v=2Z_tbAoe1NA",
+          "views": 85444,
+          "channel": {
+            "id": "UC2Loq2qB-wOLikZfrZ2zKbg",
+            "title": "SENSEI",
+            "link": "https://www.youtube.com/@SENSEI1",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/AXf8gwVaZYEepIpb9rbeEmp1O3r24gkNCS4t-Si9PE95EmV0f1E5kudqw3U0sQj2o-MSjzQj2A=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "44:48",
+          "published_time": "1 month ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/2Z_tbAoe1NA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrmLBtqjex27h9JIFIRJE1J06xgg",
+            "rich": "https://i.ytimg.com/vi/2Z_tbAoe1NA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDnGk6m-vjhZ135-k9u_JGHiJmsQQ"
+          }
+        },
+        {
+          "position": 4,
+          "id": "Sp96Pb0qBmc",
+          "title": "78 Elimination Solo Vs Squad \"Ranked RELOAD” Gameplay Wins (NEW! Fortnite Chapter 6 PS4 Controller)",
+          "link": "https://www.youtube.com/watch?v=Sp96Pb0qBmc",
+          "views": 136403,
+          "channel": {
+            "id": "UC2Loq2qB-wOLikZfrZ2zKbg",
+            "title": "SENSEI",
+            "link": "https://www.youtube.com/@SENSEI1",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/AXf8gwVaZYEepIpb9rbeEmp1O3r24gkNCS4t-Si9PE95EmV0f1E5kudqw3U0sQj2o-MSjzQj2A=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "42:16",
+          "published_time": "4 weeks ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/Sp96Pb0qBmc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJHr0AGIxFry3wt3ovyKfwho8hCg",
+            "rich": "https://i.ytimg.com/vi/Sp96Pb0qBmc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBdGd73KccxibCGUF3zhz1_C31kQ"
+          }
+        },
+        {
+          "position": 5,
+          "id": "bLN2pI4YGuc",
+          "title": "44 Kill Solo Vs Squads Wins \"Fortnite Simpsons\" Gameplay Full Game (Ps4 Controller)",
+          "link": "https://www.youtube.com/watch?v=bLN2pI4YGuc",
+          "views": 196080,
+          "channel": {
+            "id": "UCEe2aqK4fgDYTOjkZvTvang",
+            "title": "KingJoe83",
+            "link": "https://www.youtube.com/@kingjoe83",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_k7vhFaT1Tj_Kv-eGt7Hj3i4fjP4Dm1oEIG4f_jMy7RX0E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "28:39",
+          "published_time": "8 days ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/bLN2pI4YGuc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByUi_jTksOMWXPUilJmovTbDdUDA",
+            "rich": "https://i.ytimg.com/vi/bLN2pI4YGuc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDiZyyo6DEbS-mrdEx9Cxri18S4IA"
+          }
+        },
+        {
+          "position": 6,
+          "id": "ukFNZgyDyto",
+          "title": "110 Kill Solo Vs Squads Wins \"Fortnitemares\" Gameplay Full Game (Fortnite Season 4 Ps4 Controller)",
+          "link": "https://www.youtube.com/watch?v=ukFNZgyDyto",
+          "views": 65804,
+          "channel": {
+            "id": "UCEe2aqK4fgDYTOjkZvTvang",
+            "title": "KingJoe83",
+            "link": "https://www.youtube.com/@kingjoe83",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_k7vhFaT1Tj_Kv-eGt7Hj3i4fjP4Dm1oEIG4f_jMy7RX0E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "50:56",
+          "published_time": "1 month ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/ukFNZgyDyto/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDbmdac76hXUUFFrJ-d_1Q-1RAbfA",
+            "rich": "https://i.ytimg.com/vi/ukFNZgyDyto/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZtkSVNA4taroi0OExJOYQOvLq2Q"
+          }
+        },
+        {
+          "position": 7,
+          "id": "LGs_bAcSRO0",
+          "title": "70 Elimination Solo Vs Squad \"Ranked RELOAD” Gameplay Wins (NEW! Fortnite Chapter 6 PS4 Controller)",
+          "link": "https://www.youtube.com/watch?v=LGs_bAcSRO0",
+          "views": 51995,
+          "channel": {
+            "id": "UC2Loq2qB-wOLikZfrZ2zKbg",
+            "title": "SENSEI",
+            "link": "https://www.youtube.com/@SENSEI1",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/AXf8gwVaZYEepIpb9rbeEmp1O3r24gkNCS4t-Si9PE95EmV0f1E5kudqw3U0sQj2o-MSjzQj2A=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "47:55",
+          "published_time": "2 weeks ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/LGs_bAcSRO0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD100jGMLmTXB_Vt6WesSdZfXqvLQ",
+            "rich": "https://i.ytimg.com/vi/LGs_bAcSRO0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBLLs8qRoeBwpobIKKfe-Wvli3Jw"
+          }
+        },
+        {
+          "position": 8,
+          "id": "xuIRVSr83DU",
+          "title": "78 Elimination Solo Vs Squad \"Ranked RELOAD” Gameplay Wins (NEW! Fortnite Chapter 6 PS4 Controller)",
+          "link": "https://www.youtube.com/watch?v=xuIRVSr83DU",
+          "views": 65108,
+          "channel": {
+            "id": "UC2Loq2qB-wOLikZfrZ2zKbg",
+            "title": "SENSEI",
+            "link": "https://www.youtube.com/@SENSEI1",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/AXf8gwVaZYEepIpb9rbeEmp1O3r24gkNCS4t-Si9PE95EmV0f1E5kudqw3U0sQj2o-MSjzQj2A=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "44:03",
+          "published_time": "3 weeks ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/xuIRVSr83DU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLADGH3wYo_5ypz4SHRuzxnHAPEnbg",
+            "rich": "https://i.ytimg.com/vi/xuIRVSr83DU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeLuvfEoO7uyPcgLwMngr8Lq_wyw"
+          }
+        },
+        {
+          "position": 9,
+          "id": "aj1gGpKq9MY",
+          "title": "91 Elimination Solo Vs Squads \"Zero Build\" Gameplay Wins (NEW Fortnite Chapter 6 PC)",
+          "link": "https://www.youtube.com/watch?v=aj1gGpKq9MY",
+          "views": 37232,
+          "channel": {
+            "id": "UCWdOPHCcns8QcTBP96iBpEg",
+            "title": "IknowDuffy",
+            "link": "https://www.youtube.com/@IknowDuffy",
+            "thumbnail": "https://yt3.ggpht.com/RZVkUB0gKxfT-QtmLrbmpjnzl2LX10Kv8adh1xp0GiY9pANsuxFtVZx4LZ-xTytXUuGNU8r85A=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "54:17",
+          "published_time": "2 weeks ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/aj1gGpKq9MY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSq_5KIE7RLFPV5DfjipJAlHMClg",
+            "rich": "https://i.ytimg.com/vi/aj1gGpKq9MY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDwvlsOvuWpGS2ZOHV7wAj2haqCUA"
+          }
+        },
+        {
+          "position": 10,
+          "id": "M2pyqnypx50",
+          "title": "55 Kill Solo Vs Squads Wins Gameplay Full Game (Fortnite Chapter 6 Season 3 Ps4 Controller)",
+          "link": "https://www.youtube.com/watch?v=M2pyqnypx50",
+          "views": 1093369,
+          "channel": {
+            "id": "UCEe2aqK4fgDYTOjkZvTvang",
+            "title": "KingJoe83",
+            "link": "https://www.youtube.com/@kingjoe83",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_k7vhFaT1Tj_Kv-eGt7Hj3i4fjP4Dm1oEIG4f_jMy7RX0E=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "40:14",
+          "published_time": "5 months ago",
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/M2pyqnypx50/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDq31FBD14xz3g9RChUqgpPAM_JpQ",
+            "rich": "https://i.ytimg.com/vi/M2pyqnypx50/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDX-1xKQHHubNwatAY_-wOXw5V3dg"
+          }
+        }
+      ]
+    },
+    {
+      "section_title": "From related searches",
+      "position": 18,
+      "items": [
+        {
+          "position": 1,
+          "id": "GEMaj3iOQw0",
+          "title": "Brawl Stars is turning upside down!",
+          "link": "https://www.youtube.com/watch?v=GEMaj3iOQw0",
+          "description": "Download NOW!! ▻▻ https://supr.cl/2K62CZG Subscribe!! ▻▻ https://supr.cl/subscribe An epic battle royale made for mobile!",
+          "views": 6568310,
+          "channel": {
+            "id": "UCooVYzDxdwTtGYAkcPmOgOw",
+            "title": "Brawl Stars",
+            "link": "https://www.youtube.com/@BrawlStars",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/xe4zJzVZyyWc1jFPfVqi33R75MBP5qP1uiXc713dm04DowFnV2bRZ6Ihv3yugr-Itiazs8v4sQ=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "0:34",
+          "published_time": "2 weeks ago",
+          "badges": [
+            "CC"
+          ],
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/GEMaj3iOQw0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8oyxKGtGCbislauw2ZKkjWuaUyA",
+            "rich": "https://i.ytimg.com/vi/GEMaj3iOQw0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA4zSJCJ73qMuolupEj71Io82dpAA"
+          }
+        },
+        {
+          "position": 2,
+          "id": "devW3GlNs1U",
+          "title": "【絕地求生M】🦋 榮耀系列最終章：塔羅主題究極套裝登場！🦋",
+          "link": "https://www.youtube.com/watch?v=devW3GlNs1U",
+          "description": "「蝶夢隱者」套裝將於11 月3 日隆重登場！✨ 具備雙形態切換功能  ‍♀️ 全新奔跑互動動作與待機特效   更附帶華麗蝶影特效， ...",
+          "views": 38569,
+          "channel": {
+            "id": "UCkBoytA_J2Mx6UQkkITCV_w",
+            "title": "PUBG MOBILE:絕地求生M",
+            "link": "https://www.youtube.com/@PUBGMOBILEMTW",
+            "is_verified": true,
+            "thumbnail": "https://yt3.ggpht.com/d1y2sL8CI8fY7v8naGog0hkTv3ehHA4TqV9jQvMElIuY64MWhsDmel9JOam2v0fanCRFaSWHKA=s68-c-k-c0x00ffffff-no-rj"
+          },
+          "length": "1:26",
+          "published_time": "9 days ago",
+          "badges": [
+            "4K"
+          ],
+          "thumbnail": {
+            "static": "https://i.ytimg.com/vi/devW3GlNs1U/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9lEccdP1KOvmNfoBB4bEqsxNQdg",
+            "rich": "https://i.ytimg.com/vi/devW3GlNs1U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLASVYLpesxLg6feBj-LD6_a1xHtMQ"
+          }
+        }
+      ]
+    }
+  ],
+  "shorts": [
+    {
+      "position": 3,
+      "items": [
+        {
+          "position": 1,
+          "id": "WGtfic8ke9w",
+          "title": "200 IQ Fortnite Moment! 🤯",
+          "link": "https://www.youtube.com/shorts/WGtfic8ke9w",
+          "views": 5200,
+          "thumbnail": "https://i.ytimg.com/vi/WGtfic8ke9w/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAPNTgCN1Wsrnejm_NPTq422n6eVQ"
+        },
+        {
+          "position": 2,
+          "id": "z2Ml0wq4eAE",
+          "title": "This Actor Was RECOGNIZED By A Fortnite Player.",
+          "link": "https://www.youtube.com/shorts/z2Ml0wq4eAE",
+          "views": 282000,
+          "thumbnail": "https://i.ytimg.com/vi/z2Ml0wq4eAE/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCRj8sscdPMv26V42nSTsE32rsd7Q"
+        },
+        {
+          "position": 3,
+          "id": "ppPOcBflCcM",
+          "title": "Fortnite 67 Weapon in Hilarious!",
+          "link": "https://www.youtube.com/shorts/ppPOcBflCcM",
+          "views": 623000,
+          "thumbnail": "https://i.ytimg.com/vi/ppPOcBflCcM/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLACeLMm0Z0TCuUG4CBjgqKVOrt3lQ"
+        },
+        {
+          "position": 4,
+          "id": "LRpR7aVo2gU",
+          "title": "iShowSpeed Reacts to 67 in Fortnite 💀",
+          "link": "https://www.youtube.com/shorts/LRpR7aVo2gU",
+          "views": 3000000,
+          "thumbnail": "https://i.ytimg.com/vi/LRpR7aVo2gU/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBtY00mF_BkZg4rF4GFAmqHePXwFw"
+        },
+        {
+          "position": 5,
+          "id": "ZbwCkWaHJRs",
+          "title": "Fortnite caught this player in 4k!",
+          "link": "https://www.youtube.com/shorts/ZbwCkWaHJRs",
+          "views": 1500000,
+          "thumbnail": "https://i.ytimg.com/vi/ZbwCkWaHJRs/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLB9xVHq9ZsF8nNKnHJtlmI4evoLsA"
+        },
+        {
+          "position": 6,
+          "id": "elETjgSnK9I",
+          "title": "Rank These 5 Fortnite Loadouts",
+          "link": "https://www.youtube.com/shorts/elETjgSnK9I",
+          "views": 5600000,
+          "thumbnail": "https://i.ytimg.com/vi/elETjgSnK9I/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCboMHzvbmxfB5VC_XpMlVLDh-fvw"
+        },
+        {
+          "position": 7,
+          "id": "YLdSne9ly1k",
+          "title": "Best Sniper Shot in Fortnite",
+          "link": "https://www.youtube.com/shorts/YLdSne9ly1k",
+          "views": 19000000,
+          "thumbnail": "https://i.ytimg.com/vi/YLdSne9ly1k/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAWusCL8dFbr0lfqKEh7J8-wUi5nQ"
+        },
+        {
+          "position": 8,
+          "id": "nEbg4RwM3a8",
+          "title": "How to *EASILY* Take Out This Fortnite Boss",
+          "link": "https://www.youtube.com/shorts/nEbg4RwM3a8",
+          "views": 3100000,
+          "thumbnail": "https://i.ytimg.com/vi/nEbg4RwM3a8/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA_xmKw5qf_OCRRNWTH1VDzgvukJw"
+        },
+        {
+          "position": 9,
+          "id": "2u94puFbI-g",
+          "title": "This Makes Me MAD! 🤬",
+          "link": "https://www.youtube.com/shorts/2u94puFbI-g",
+          "views": 6800000,
+          "thumbnail": "https://i.ytimg.com/vi/2u94puFbI-g/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDlgtyqXGbYp6lYQTNhz4ERvTx9ig"
+        },
+        {
+          "position": 10,
+          "id": "RM9g6qQZYq8",
+          "title": "UNMASKING *NEW* Fortnite Skins! 😱",
+          "link": "https://www.youtube.com/shorts/RM9g6qQZYq8",
+          "views": 666000,
+          "thumbnail": "https://i.ytimg.com/vi/RM9g6qQZYq8/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAmUSDHJ7SNtH05ZMa7OLuhjxxpTg"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "items": [
+        {
+          "position": 1,
+          "id": "elETjgSnK9I",
+          "title": "Rank These 5 Fortnite Loadouts",
+          "link": "https://www.youtube.com/shorts/elETjgSnK9I",
+          "views": 5600000,
+          "thumbnail": "https://i.ytimg.com/vi/elETjgSnK9I/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCboMHzvbmxfB5VC_XpMlVLDh-fvw"
+        },
+        {
+          "position": 2,
+          "id": "YLdSne9ly1k",
+          "title": "Best Sniper Shot in Fortnite",
+          "link": "https://www.youtube.com/shorts/YLdSne9ly1k",
+          "views": 19000000,
+          "thumbnail": "https://i.ytimg.com/vi/YLdSne9ly1k/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAWusCL8dFbr0lfqKEh7J8-wUi5nQ"
+        },
+        {
+          "position": 3,
+          "id": "nEbg4RwM3a8",
+          "title": "How to *EASILY* Take Out This Fortnite Boss",
+          "link": "https://www.youtube.com/shorts/nEbg4RwM3a8",
+          "views": 3100000,
+          "thumbnail": "https://i.ytimg.com/vi/nEbg4RwM3a8/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA_xmKw5qf_OCRRNWTH1VDzgvukJw"
+        },
+        {
+          "position": 4,
+          "id": "2u94puFbI-g",
+          "title": "This Makes Me MAD! 🤬",
+          "link": "https://www.youtube.com/shorts/2u94puFbI-g",
+          "views": 6800000,
+          "thumbnail": "https://i.ytimg.com/vi/2u94puFbI-g/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDlgtyqXGbYp6lYQTNhz4ERvTx9ig"
+        },
+        {
+          "position": 5,
+          "id": "RM9g6qQZYq8",
+          "title": "UNMASKING *NEW* Fortnite Skins! 😱",
+          "link": "https://www.youtube.com/shorts/RM9g6qQZYq8",
+          "views": 666000,
+          "thumbnail": "https://i.ytimg.com/vi/RM9g6qQZYq8/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAmUSDHJ7SNtH05ZMa7OLuhjxxpTg"
+        },
+        {
+          "position": 6,
+          "id": "YeaxULGNQbo",
+          "title": "How a Fortnite Player Won from Spawn Island",
+          "link": "https://www.youtube.com/shorts/YeaxULGNQbo",
+          "views": 4000000,
+          "thumbnail": "https://i.ytimg.com/vi/YeaxULGNQbo/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLB3ii_H88wIy9b62VkKccEs27taxw"
+        },
+        {
+          "position": 7,
+          "id": "GGPACwSkc_g",
+          "title": "4 Secrets YOU MISSED in Fortnitemares 2025!",
+          "link": "https://www.youtube.com/shorts/GGPACwSkc_g",
+          "views": 950000,
+          "thumbnail": "https://i.ytimg.com/vi/GGPACwSkc_g/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAj234T7JrfKKB6Ji3gHgf_cnkLNw"
+        },
+        {
+          "position": 8,
+          "id": "5DLCoSeSxr4",
+          "title": "I Met the Worlds SMARTEST Fortnite Player!",
+          "link": "https://www.youtube.com/shorts/5DLCoSeSxr4",
+          "views": 52000000,
+          "thumbnail": "https://i.ytimg.com/vi/5DLCoSeSxr4/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBYFelF4Hr4bHMYE2nZaJVf3tuW3g"
+        },
+        {
+          "position": 9,
+          "id": "dW0TTm0dJHM",
+          "title": "I Added the \"67 FAMILY\" to my Fortnite Map 💀",
+          "link": "https://www.youtube.com/shorts/dW0TTm0dJHM",
+          "views": 1600000,
+          "thumbnail": "https://i.ytimg.com/vi/dW0TTm0dJHM/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBGISjj7f7BGTnmos9ykFSmodE9UQ"
+        },
+        {
+          "position": 10,
+          "id": "Tl5QCBQIaZY",
+          "title": "Build Your Fortnite Squad!",
+          "link": "https://www.youtube.com/shorts/Tl5QCBQIaZY",
+          "views": 8400000,
+          "thumbnail": "https://i.ytimg.com/vi/Tl5QCBQIaZY/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCZbxK_gzmL9TQ_L8f-Y7vR2WEKMQ"
+        }
+      ]
+    }
+  ],
+  "people_also_search_for": [
+    {
+      "query": "Fortnite Battle Royale",
+      "link": "https://www.youtube.com/results?search_query=Fortnite+Battle+Royale&sp=EiqSAScKDS9nLzExZjUzcXR2dGcqFkZvcnRuaXRlIEJhdHRsZSBSb3lhbGV4AQ%253D%253D",
+      "thumbnail": "https://i.ytimg.com/vi/6Hhz4WuXVZc/mqdefault.jpg"
+    },
+    {
+      "query": "Free Fire MAX",
+      "link": "https://www.youtube.com/results?search_query=Free+Fire+MAX&sp=EiGSAR4KDS9nLzExZnd4ZzVwM3oqDUZyZWUgRmlyZSBNQVh4AQ%253D%253D",
+      "thumbnail": "https://i.ytimg.com/vi/Fu0G4zLI_Es/mqdefault.jpg"
+    },
+    {
+      "query": "Minecraft: Bedrock Edition",
+      "link": "https://www.youtube.com/results?search_query=Minecraft%3A+Pocket+Edition&sp=EiySASkKDC9nLzExZHlqMXQ5cSoZTWluZWNyYWZ0OiBQb2NrZXQgRWRpdGlvbngB",
+      "thumbnail": "https://i.ytimg.com/vi/46KEkSwq9fw/mqdefault.jpg"
+    },
+    {
+      "query": "Among Us",
+      "link": "https://www.youtube.com/results?search_query=Among+Us&sp=EhySARkKDS9nLzExZm14dGtma3oqCEFtb25nIFVzeAE%253D",
+      "thumbnail": "https://i.ytimg.com/vi/TNygv-tTGvg/mqdefault.jpg"
+    },
+    {
+      "query": "Call of Duty: Warzone",
+      "link": "https://www.youtube.com/results?search_query=Call+of+Duty%3A+Warzone&sp=EimSASYKDS9nLzExZnNfaHM5ZGQqFUNhbGwgb2YgRHV0eTogV2Fyem9uZXgB",
+      "thumbnail": "https://i.ytimg.com/vi/IbWOAsb1lTw/mqdefault.jpg"
+    },
+    {
+      "query": "Call of Duty",
+      "link": "https://www.youtube.com/results?search_query=Call+of+Duty&sp=EhySARkKCS9tLzAyMDU5NCoMQ2FsbCBvZiBEdXR5eAE%253D",
+      "thumbnail": "https://i.ytimg.com/vi/pGFYtZD53ZA/mqdefault.jpg"
+    }
+  ],
+  "featured_channel": {
+    "id": "UCXzGWycANrrfyBmzX6JMsvQ",
+    "title": "Fortnite",
+    "subtitle": "Video game • Released: 2017",
+    "link": "https://www.youtube.com/channel/UCXzGWycANrrfyBmzX6JMsvQ",
+    "highligted_video": {
+      "id": "GaYY9ghy8EQ",
+      "title": "Sugar High - Fortnite | The Simpsons",
+      "subtitle": "Fortnite • 82K views • 2 hours ago",
+      "link": "https://www.youtube.com/watch?v=GaYY9ghy8EQ",
+      "length": "3:05"
+    },
+    "videos": [
+      {
+        "id": "uTD9ff8TDME",
+        "title": "Great journeys deserve great company. Fortnite Sidekicks are here!! 🥹",
+        "subtitle": "857K views • 2 days ago",
+        "link": "https://www.youtube.com/watch?v=uTD9ff8TDME&pp=ygUIRm9ydG5pdGU%3D",
+        "length": "0:49",
+        "channel": {
+          "id": "UClG8odDC8TS6Zpqk9CGVQiQ",
+          "title": "Fortnite",
+          "link": "https://www.youtube.com/@fortnite"
+        },
+        "thumbnail": "https://i.ytimg.com/vi/uTD9ff8TDME/hq720_2.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhRIF4oZTAP&rs=AOn4CLCtP7TKNXcCCh_-pyj_zR_-L0zRiA"
+      },
+      {
+        "id": "Ic-GXNo24SE",
+        "title": "Try the new Deodorant Applicator and Bart’s Cobalt Slingshot in BR this weekend only Nov 8-9!",
+        "subtitle": "1M views • 2 days ago",
+        "link": "https://www.youtube.com/watch?v=Ic-GXNo24SE&pp=ygUIRm9ydG5pdGU%3D",
+        "length": "0:18",
+        "channel": {
+          "id": "UClG8odDC8TS6Zpqk9CGVQiQ",
+          "title": "Fortnite",
+          "link": "https://www.youtube.com/@fortnite"
+        },
+        "thumbnail": "https://i.ytimg.com/vi/Ic-GXNo24SE/hq720_2.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBzgWAAoAKigIMCAAQARhlIGUoZTAP&rs=AOn4CLBS9izaUp2umPNMkmrS3C8gaBBghg"
+      },
+      {
+        "id": "JzivnL7VREs",
+        "title": "Drop in to OG November 8 at 2PM ET for the OG Butterfly Live Event",
+        "subtitle": "320K views • 2 days ago",
+        "link": "https://www.youtube.com/watch?v=JzivnL7VREs&pp=ygUIRm9ydG5pdGU%3D",
+        "length": "0:18",
+        "channel": {
+          "id": "UClG8odDC8TS6Zpqk9CGVQiQ",
+          "title": "Fortnite",
+          "link": "https://www.youtube.com/@fortnite"
+        },
+        "thumbnail": "https://i.ytimg.com/vi/JzivnL7VREs/hq720_2.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBzgWAAoAKigIMCAAQARhJIE8oZTAP&rs=AOn4CLCcRWbvQNACIDRviUrfACvL21toKg"
+      },
+      {
+        "id": "AI4mNM0YsnA",
+        "title": "The intro IS pretty sick! Tag your squad in the comments to jump in this weekend.",
+        "subtitle": "262K views • 3 days ago",
+        "link": "https://www.youtube.com/watch?v=AI4mNM0YsnA&pp=ygUIRm9ydG5pdGU%3D",
+        "length": "0:41",
+        "channel": {
+          "id": "UClG8odDC8TS6Zpqk9CGVQiQ",
+          "title": "Fortnite",
+          "link": "https://www.youtube.com/@fortnite"
+        },
+        "thumbnail": "https://i.ytimg.com/vi/AI4mNM0YsnA/hq720_2.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhyIEooOTAP&rs=AOn4CLANf7ox0acehsnj0pLVIV3jogW_nQ"
+      },
+      {
+        "id": "D4qqXEUzc-Q",
+        "title": "It all starts with you... The Young Black & Rich Emote drops TONIGHT! 🎶 Melly Mike + 🕺 Rayyandikha",
+        "subtitle": "953K views • 3 days ago",
+        "link": "https://www.youtube.com/watch?v=D4qqXEUzc-Q&pp=ygUIRm9ydG5pdGU%3D",
+        "length": "0:15",
+        "channel": {
+          "id": "UClG8odDC8TS6Zpqk9CGVQiQ",
+          "title": "Fortnite",
+          "link": "https://www.youtube.com/@fortnite"
+        },
+        "thumbnail": "https://i.ytimg.com/vi/D4qqXEUzc-Q/hq720_2.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARg_IFwoZTAP&rs=AOn4CLAcIFuz16aIFfy66zR1G35QTuNJVQ"
+      }
+    ]
+  },
+  "pagination": {
+    "next_page_token": "SBSCAQtHYVlZOWdoeThFUYIBCzVlekp5WDdLTm1jggELR2ROMU1SSVFoV1WCAQtWbjRSOHAtQ0U3MIIBCzNmanZNMXFYdU1rggEYVUNsRzhvZERDOFRTNlpwcWs5Q0dWUWlRggELQ3Q0MUpLNXRxZ3OCAQsxRGZoTlZRcFZHb4IBC2d6dTBWWExOeWp3ggELT1Z6Z3k4S3ZvZHOCAQtGM1dVc1h4OF9Od4IBC2JjaGR2b0pQaVdnggELSWdlb3A4TWlNamuCAQtFUHJqRzdIWGJTWYIBC3lURU1FUm1WMlhrggELT2hoTS1fZm43ZWeCAQtKVEJCa1BhZkxJMIIBC25CbU45aFFpQnE0ggELQ0Z1S0RpT2NIbXeyAQYKBAgZEALqAQQIAhAU"
+  }
+}
