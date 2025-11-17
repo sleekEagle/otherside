@@ -21,6 +21,21 @@ class SummerizeGeminiAPI:
         )
         return response.text
     
+    def parse_summary(self, summary: str) -> list:
+        # assuming summary is in bullet points
+        lines = summary.split('\n')
+        for line in lines:
+            first_char = line.lstrip()[0] if line.lstrip() else ""
+            #does this belong to the bullet points?
+            if first_char != "*":
+                continue
+            #is this a topic
+            if line.count("**")==2:
+                pass
+            else:
+                pass
+            pass
+    
 
 '''
 How to use SummerizeGeminiAPI:
@@ -33,3 +48,9 @@ sg = SummerizeGeminiAPI()
 summary = sg.summerize(tr.content)
 
 '''
+
+with open('summary.txt', "r", encoding="utf-8-sig") as f:
+    transcript = f.read()
+
+sg = SummerizeGeminiAPI()
+sg.parse_summary(transcript)
