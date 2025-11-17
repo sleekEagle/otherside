@@ -1,0 +1,2 @@
+https://www.reddit.com/r/LocalLLaMA/comments/1fk9rvf/i_benchmarked_several_popular_llms_on_text/
+https://www.prollm.ai/leaderboard/summarization?language=afrikaans,brazilian+portuguese,english,polish&level=advanced,basic
