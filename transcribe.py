@@ -2,6 +2,33 @@
 https://github.com/jdepoix/youtube-transcript-api
 '''
 from youtube_transcript_api import YouTubeTranscriptApi
+from supadata import Supadata, SupadataError
+from helper import read_yaml
+CRED_PATH = './credentials.yaml'
+cred = read_yaml(CRED_PATH)
+SUPADATA_KEY = cred.get("supadata")
+assert SUPADATA_KEY , "You must set your Supadata API key in credentials.yaml"
+
+supadata = Supadata(api_key=SUPADATA_KEY)
+'''
+how to use get_transcript_supadata:
+tr = get_transcript_supadata("https://www.youtube.com/watch?v=nuIgsUM9GgM")
+get string of the transcript: 
+tr.content
+'''
+def get_transcript_supadata(video_url):
+    try:
+        transcript = supadata.transcript(
+            url=video_url,
+            lang="en",  # Optional: preferred language
+            text=True,  # Optional: return plain text instead of timestamped chunks
+            mode="auto"  # Optional: "native", "auto", or "generate"
+        )
+        return transcript
+    except SupadataError as e:
+        print(f"Error fetching transcript: {e}")
+        return None
+
 
 # video_id = "yKuwrnCfsFQ"  # The part after "v=" in YouTube URL
 # tr = get_trancript_ytTapi(video_id)
