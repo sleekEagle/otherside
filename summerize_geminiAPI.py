@@ -1,9 +1,6 @@
 from google import genai
 from helper import read_yaml
-from transcribe import YouTubeTranscriber
-import json
 import re
-
 
 class SummerizeGeminiAPI:
     def __init__(self):
