@@ -1,1 +1,1018 @@
-This month in AI has been absolutely wild. OpenAI ignited outrage with its boldest and most controversial GPT -6 move yet. China stunned the world with self -evolving humanoids that move with real human intuition. Then did it again with the unbelievably lifelike Unitree H2. The AI robot war officially kicked off as Optimus Gen 3 went head -to -head with the upgraded Unitree G1. Meanwhile, OpenAI's brand new AI browser is wrecking Google's game. Gemini 3 left the entire internet mind -blown, and a new shape -shifting robot is straight -up freaking people out. So, let's break it down. Alright, straight to it. GPT -5 landed in August, and the first wave of reactions was rough. People expected a moonshot and got what felt like a careful step. Sam Altman later said the vibes at launch were bad and then flipped. Claiming the momentum turned once folks actually tried it in the right places. Inside OpenAI, the framing is different from the timeline you saw on social. They talk about GPT -5 as a real research assistant, a tutor that doesn't get tired, and a smarter front -end to search. Altman's favorite thread is that something new started happening that didn't happen pre -GPT -5. AI nudging real science forward instead of just summarizing it. The problem is that the debut stream didn't help the case. Charts showed wrong numbers, the live demo went wobbly, and in the days after, the team quietly patched tone and behavior, so the model sounded warmer and less stiff. Critics stuck to a simpler takeaway. The improvements felt incremental, leaning hard on better speed and lower cost rather than raw capability. Gary Marcus blasted the hype and said the two big promises, AGI and PhD -level reasoning, didn't show up. Greg Brockman pushed back and said the gains weren't just brute force scaling of data and chips, and that reinforcement learning from human feedback did more of the heavy lifting. Mark Chen added context most mainstream users never see. In math -heavy settings, the jump is large, pointing out a math Olympiad climb from top 200 to top 5, which barely registers for someone just drafting emails. Altman still plants a flag. GPT -6 will be significantly better than 5, GPT -7 significantly better than 6. That's the rhythm he's selling. At the same time, the GPT -6 conversation took a sharp turn away from benchmarks to boundaries. Open AI said it would relax content rules for verified adults later this year and allow sexually explicit text under safeguards. That single decision lit up the AI scene because it collides with the company's posture on ethics and safety. Supporters frame it as treat adults like adults with tighter protections for minors and better controls for people with mental health vulnerabilities. Detractors see a pivot toward growth and engagement dressed up as user freedom. The company also teased more personalization knobs, let chat GPT act more like a friend if you want, lean into emojis or a human -ish vibe, or keep it formal. The claim is that none of this is engagement maxing. It's giving control back to the user. Outside the press releases, advocacy groups warned about synthetic intimacy and dependency risks, arguing that even with age gates and mental health guard rails, the harms aren't hypothetical. That tension, autonomy versus protection, now sits right at the center of OpenAI's roadmap. European analysis went deeper on the practical problems. Even strong safety systems get jailbroken, which means any relaxation demands tougher moderation, faster response pipelines, and real resourcing to catch edge cases before they scale. All right, now, Abacus AI, who are sponsoring today's video, are taking AI automation to the next level with Deep Agent, one of the most advanced and capable AI agents out there right now. Deep Agent can automate almost any online task, generating leads on LinkedIn, applying for jobs, posting on X, analyzing YouTube channels, managing emails, or even coding full SaaS apps. You just describe what you want, and it executes the task automatically, browsing, clicking, researching, and finishing the work for you. The Deep Agent desktop version takes things even further. It combines coding, browsing, chat, and listening into one powerful workspace. It can debug your code, transcribe meetings in real time, answer questions during calls, and connect directly with top models like GPT -5, Claude Sonet 4, and Gemini 2 .5, all inside one app. And pricing starts at just $10 a month, which gives you entry -level access to Deep Agent and Chat LLM, where you can build your own AI agents or chatbots. Higher tiers unlock expanded usage and more features, and there's even a weekly $2 ,500 Human -AI Collaboration Challenge you can join. You can start finishing the work for you. The Deep Agent desktop version takes things even further. It combines coding, browsing, chat, and listening into one powerful workspace. It can debug your code, transcribe meetings in real time, answer questions during calls, and connect directly with top models like GPT -5, Claude Sonet 4, and Gemini 2 .5, all inside one app. And pricing starts at just $10 a month, which gives you entry -level access to Deep Agent and Chat LLM, where you can build your own AI agents or chatbots. Higher tiers unlock expanded usage and more features, and there's even a weekly $2 ,500 human -AI collaboration challenge you can join. You can start using it today. The link's in the description. Go check it out. There's also the reality that the definition of erotic content and its legal status changes country by country. Building one global policy that doesn't erase local norms or bake in one region's politics is extremely hard. Ethics researchers flagged another issue OpenAI already knows well. Models tend to over -agree with users because the training process rewards politeness and compliance. In everyday chat, that reads as friendliness. In sexual contexts, it could reinforce unhealthy beliefs and behaviors. Some of the commentary still pointed to an upside for specific groups. For many women, a controlled text -only space might feel safer than men in public chat rooms or DMs. Still, privacy sits like a landmine under all of this. If a dominant platform becomes the place where adults share intimate fantasies, it accumulates the most sensitive data a tech company can hold. That raises the bar on encryption, retention, retention, internal access, audits, and breach response far above normal product standards. While policy debates rage, OpenAI also moved to chip away at political bias and, just as importantly, at the model's habit of mirroring users. A new evaluation pass used around 500 prompts across 100 topics, from neutral to emotionally loaded. The aim wasn't to crown aside. It was to see which behaviors triggered drift. The five red flags were straightforward. The model slipping into its own political voice, escalating a user's emotional tone, framing issues in a one -sided way when multiple frames exist, dismissing a user's view, and ducking questions without a clear reason. The finding that raised eyebrows was asymmetry under strong liberal prompts, where the model deviated more than it did for equally strong conservative ones. OpenAI's fix isn't about turning chat GPT into a fact checker. It's behavioral. Train it to be less of an opinionated conversationalist and more of a steady communicator that neither flatters nor fights the user's politics. That's a direct hit on sycophancy, the tendency to agree to score reward points during training. It also connects back to the content debate because the last thing OpenAI wants is a system that adapts its moral temperature to whoever shouts the loudest. On the research front, there was a reality check the internet needed. One OpenAI manager posted that GPT -5 had found solutions to multiple classic Erdos problems. It read like a field -defining breakthrough. Mathematicians stepped in immediately. Thomas Bloom, who curates ErdosProblems .com, explained that open on his site simply meant he personally didn't know the solution, not that the wider literature lacked one. GPT -5 had surfaced known results the curator had missed. Nami Sasabas called the episode embarrassing. Jan Lekun mocked the hype. The post came down, the wording softened, and the story shrank to its useful core. GPT -5 is strong as a literature scout. Terrence Tao has been saying exactly that. AI speeds up searches, cross -references scattered terminology, and trims the grunt work. It can still stumble on hard proofs and humans still vet what matters. That's not a failure. It's a precise role. Meanwhile, Google did a bit of historical housekeeping in public. At Salesforce's annual event, Mark Benioff asked Sundar Pichai how it felt when a small San Francisco shop stole the spotlight in late 2022. Pichai said Google already had a chatbot in the works and big AI investments queued up, but didn't think the product crossed the bar the Google brand demands. The day chat GPT launched, that calculus changed. Inside Google, leadership called a code red, pulled teams toward deployable prototypes, and accelerated the path to Gemini. Fast forward to now, and the company is emphasizing scale beyond models. In -house chips, new infrastructure, and a giant AI hub in India that it calls its largest AI investment outside the US, built to run mostly on clean energy, with subsea cables to back it. Pichai also confirmed that Gemini 3 .0 is slated for later this year. It's an open admission that reputational risk delayed their first swing, and a signal that the next one is bigger than an app release. Back to OpenAI's roadmap, the adult content plan was clarified again in a set of posts. Altman said the team initially made chat GPT restrictive to reduce mental health harms, that they now believe better tools let them loosen for verified adults without loosening safeguards for minors or people at risk, and that erotica was just one example of giving adults more control. He also said users will be able to tune how human the model sounds, from reserved to friendly. Critics met those lines with skepticism, especially groups that have spent years tracking . with subsea cables to back it. Fichai also confirmed that Gemini 3 .0 is slated for later this year. It's an open admission that reputational risk delayed their first swing and a signal that the next one is bigger than an app release. Back to OpenAI's roadmap, the adult content plan was clarified again in a set of posts. Altman said the team initially made ChatGPT restrictive to reduce mental health harms, that they now believe better tools let them loosen for verified adults without loosening safeguards for minors or people at risk. And that erotica was just one example of giving adults more control. He also said users will be able to tune how human the model sounds, from reserved to friendly. Critics met those lines with skepticism, especially groups that have spent years tracking the harms of pornography and exploitation. Their argument is blunt. Even adults get hurt by synthetic intimacy. Guidelines remain fuzzy across the industry, and verifiable harms have already shown up in smaller chatbots. The subtext is that OpenAI is racing competitors who say no to this category, which makes the move look commercial first and ethical second. The company denies that framing and points to verification, opt -ins, and policy carve -outs as proof of restraint. The reality is that this will be judged in production, not in posts. There's one more thread tying everything together, reputational load. Every claim and rollout is now graded on a curve set by the GPT -5 launch. That stream with the wrong charts hardened a narrative that the model is fast and cheap, but not fundamentally smarter. In the weeks after, developers and researchers found more to like, yet the first impression stuck. The Erdos flap then magnified the idea that OpenAI's comms leans ahead of the facts. On the political bias track, the company is trying to teach the model to stop being overly nice and start being sturdily neutral without sounding robotic. A small -sounding change with huge stakes in an election -dense world. And on the GPT -6 content shift, the brand is now on the hook for the hardest category to moderate at internet scale across jurisdictions with adversaries who love probing guardrails. None of that is impossible. All of it is costly. If Altman's line holds, 6 far better than 5, 7 far better than 6, then the next cycle has to show that capability step while avoiding a repeat of the rollout misfires and proving that the new policy boundaries don't collapse under the weight of their own loopholes. The market will measure that in trust as much as in tokens per second. China just unveiled a groundbreaking AI system called WOW, the first self -evolving world model that teaches robots to actually think and move with human -like intuition. Beijing startup Notix Robotics launched a new $1 ,370 humanoid named Boomi, designed for homes and classrooms. And Unitree's G1 robot just showed off insane balance by pulling a 3 ,100 -pound, 1 ,400 -kilogram car. Robotics in China just hit another level. So let's talk about it. All right, now, we all know AI is reshaping the job market faster than anyone expected. Nearly half of workers worldwide already fear losing their jobs to automation. And for good reason. No industry is safe. Yet most people still think it won't touch them until it does. That's why this Black Friday, instead of wasting money on things that lose value, make an investment in something that actually builds it, your skills. I've partnered with OutSkill to bring you a two -day live AI mastermind training trusted by learners from every corner of the globe. It's happening this Saturday and Sunday from 10 a .m. to 7 p .m. Eastern Time. And during their Black Friday sale, my viewers can join for free. Normally, it costs $395. You'll get AI certified, learn how to build AI -powered workflows, use top AI tools, and even start businesses generating income. Rated 4 .9 on Trustpilot, you'll be trained by expert mentors with real industry experience in AI and automation. Join Learn 10 Plus AI Tools, Master Automation, and Claim Bonuses worth $5 ,000, including the Prompt Bible and Monetized AI Roadmap. The link's in the description. Secure your free spot now before seats run out. All right, so China is on a serious roll with humanoid robots and AI right now. In just a few months, they've gone from lab research to robots that can think, move, and even act almost like humans, all powered by some next -level models. The most fascinating one so far is something called the World Omniscient World Model, or simply WOW. It's being called the World's First Self -Evolving Multimodal World Model System. And what it does is actually pretty wild. It was developed by the Beijing Humanoid Robot Innovation Center, together with Peking University and the Hong Kong University of Science and Technology. On paper, it's a combination of a physical simulation model and a vision -language model, which basically means that robots using WOW can imagine, verify, and self -correct. In other words, they can build a sense of physical intuition similar to how humans understand cause and effect. The idea behind it is that current video or simulation models just watch the world passively. They can see what happens, but they don't really grasp why it happens. WOW flips that approach by letting the model actively interact with its environment, learn from it, and refine its understanding through trial and error. It's a 14 billion parameter generative model that actually... On paper, it's a combination of a physical simulation model and a vision language model, which basically means that robots using WOW can imagine, verify, and self -correct. In other words, they can build a sense of physical intuition similar to how humans understand cause and effect. The idea behind it is that current video or simulation models just watch the world passively. They can see what happens, but they don't really grasp why it happens. WOW flips that approach by letting the model actively interact with its environment, learn from it, and refine its understanding through trial and error. It's a 14 billion parameter generative model that actually learns about physics the way we do, by doing things, messing up, and improving over time. The team behind WOW built it on something they call the SOFIA paradigm. That combines large language models with diffusion transformers to generate physically accurate outcomes under language guidance. So, if you tell a robot to move the cup off the edge of the table without spilling it, WOW doesn't just output words or animations. It predicts what would happen, checks the result through reasoning, and then refines its understanding to make the next move more realistic. It's basically a loop of predict, critique, and refine. And that loop keeps going until the robot's behavior becomes genuinely smart and physically consistent. To test all this, they created a whole new benchmark called WOW Bench. It measures how well AI systems can understand perception, reason about predictions, make decisions, and execute them in a generalized way. So far, WOW has hit state -of -the -art scores on that benchmark. It beats other models when it comes to physical plausibility, temporal consistency, and understanding complex instructions. One of the coolest things the researchers demonstrated is how WOW can be used in areas like novel view synthesis and trajectory -guided video generation. Basically, the model can simulate what an object would look like from another angle, or how it would move in a real physical scene, all with consistent logic behind it. They even showed how WOW can enhance the planning abilities of vision language models by providing simulated feedback, helping them plan tasks more efficiently. The authors of the paper made it clear that this is a crucial step toward building AI systems with genuine physical common sense. When robots have access to massive real -world interaction data instead of just videos or text, their understanding of cause and effect becomes a lot more grounded. That's the missing link between today's chatbots and tomorrow's embodied intelligence. Robots that don't just see and describe the world, but actually live in it, learn from it, and make independent decisions. Now, while China's pushing the boundaries of robot intelligence on the software side, they're also making serious moves on the hardware front, especially when it comes to price. The country just unveiled what's being called the world's cheapest humanoid robot, and it's not a toy or a proof of concept. It's a real, walking, talking humanoid called Boomi, created by a startup named Notix Robotics. Boomi costs only 9 ,998 yuan. That's about 1 ,370 US dollars, and stands at just over 3 feet tall, or about 94 centimeters. It weighs around 12 kilograms, so about 26 and a half pounds. It's tiny compared to full -size robots like those from Unitree or Ubtec, but that's the point. Noatix isn't trying to compete with the big industrial machines. They're opening a whole new category. Small, lightweight, and affordable humanoids built for education and home use. What's crazy is that despite the size and price, Boomi can walk, balance, and even dance, and it does all that with surprising smoothness. Early videos show it moving with a level of stability you wouldn't expect from something under $1 ,400. That's cheaper than a flagship iPhone or a high -end drone. The company says this is the first consumer -grade humanoid priced below 10 ,000 yuan. And it could mark a turning point for the whole industry. Most humanoid robots capable of walking or dynamic motion still cost tens of thousands in China, and even more in the West. Boomi's low price comes from clever design choices, lightweight composite materials, an in -house motion control system, and a modular structure that's easy to repair and customize. It focuses more on engagement and learning than heavy lifting or industrial tasks. Their earlier model, the Noatix N2, already sold over 2 ,500 units and even ran a half marathon for humanoid robots earlier this year, which is wild when you think about it. That success helped them position themselves among China's fastest -rising robotics startups, and with Boomi, they're clearly going after mass adoption. The robot runs on a 48 -volt battery with a capacity of over 3 .5 amp hours, giving it about one to two hours of operation per charge. It's designed to support drag -and -drop graphical programming, so even kids or beginners can code it easily. There's also voice interaction, so it can act like a personal assistant, respond to simple commands, or serve as a learning companion. Noatix plans to open pre -orders between China's Double 11 and Double 12 shopping festivals, that's November 11th through December 12th, a smart move considering it's the country's peak shopping season. They're aiming for the same kind of hype you see with smartphone launches, just for robots this time. The startup is... Fastest rising robotics startups, and with Boomi, they're clearly going after mass adoption. The robot runs on a 48 -volt battery with a capacity of over 3 .5 amp hours, giving it about 1 to 2 hours of operation per charge. It's designed to support drag -and -drop graphical programming, so even kids or beginners can code it easily. There's also voice interaction, so it can act like a personal assistant, respond to simple commands, or serve as a learning companion. In addition, Noatix plans to open pre -orders between China's Double 11 and Double 12 shopping festivals, that's November 11th through December 12th, a smart move considering it's the country's peak shopping season. They're aiming for the same kind of hype you see with smartphone launches, just for robots this time. The startup itself is new. It was founded in September 2023 by a team from Tsinghua and Zhejiang University. In less than two years, they've gone from academic prototypes to an actual product you can buy for under $1 ,500. That kind of speed shows how competitive China's robotics ecosystem has become. Robohub, an independent robotics media outlet, even shared a clip of Bumi dancing and walking. You can see that while it doesn't have the same dexterity or upper body control as larger models, its movement is incredibly smooth for its class. If they can scale this, we could be looking at the first wave of humanoid robots designed for classrooms and households, not just for showrooms and labs, but let's move up the scale a bit. From small, friendly robots to one that's showing pure strength and precision. Over at the Beijing Academy of Artificial Intelligence, researchers took Unitree's G1 humanoid and gave it a challenge. Pull a car, and not a toy car, a real one. The G1 weighs just 35 kilograms and stands at about 132 centimeters tall. Yet, it managed to pull a vehicle weighing 1 ,400 kilograms across a flat surface. Now, granted, the car was on smooth ground, so the friction was low, but still, the balance and control required for that are next level. What's impressive isn't just that the robot could move the car, but how it did it. In the video, you can see it leaning back sharply, moving its feet rapidly to maintain traction, and constantly adjusting to stay upright. It's doing all that autonomously. The fact that it can dynamically balance itself while hauling a load that's roughly 40 times its own weight shows how far their motion control and feedback systems have come. And this kind of dynamic balance is key for humanoid robots working in human environments. Think warehouses, factories, or even rescue missions. A robot like the G1 could carry equipment across uneven ground, step over debris, or help move objects without tipping over or losing control. Unitree's been known for showing off wild demos, flips, sprints, recoveries after being shoved to the ground, but this test really demonstrates practical control. It's not just for show anymore. You can tell their models are starting to handle real -world physics the way you'd want a reliable machine to. Of course, there are still challenges. Even with all this progress, most humanoid robots struggle with hand dexterity. They can walk, run, or balance, but doing delicate tasks like buttoning a shirt or picking up a fragile object is still far from perfect. Developers are focusing on making these movements more natural and safe for work environments, but we're probably still a few years away from seeing them rolled out widely in everyday workplaces. What's clear, though, is that China is moving faster than anyone expected, and if this pace continues, 2026 might really be the year when robots can walk into a house, cook a meal, and clean up after themselves. Not because someone programmed every move, but because they actually understand what they're doing. The internet's been going crazy over two new humanoid clips, and honestly, it's easy to see why. Tesla just showed Optimus pulling off kung fu moves that actually look smooth this time, while Unitree's G1 is out here getting shoved, kicked, and standing right back up like nothing happened. Both look real, both look wild, and both say a lot about where humanoids are headed. So in this video, we're putting them head -to -head, breaking down the viral clips, their progress, and what each one can really do right now. By the end, I'll share who I think wins overall, and you can decide for yourself, too. So, let's talk about it. Alright, Tesla's latest demo showed something that looked much closer to real -time behavior than the older sped -up videos. The robot mirrored a human partner, entered a stance, and started responding to attacks with visible coordination between its upper body and legs. It wasn't flawless, but it was fluid. The balance corrections were smaller, and the steps more deliberate. This was Optimus learning control through motion, powered entirely by onboard AI, not a remote operator hiding behind the curtain. That's important, because it means the robot is generating its own decisions from sensor data, not replaying a script. The clip started simple. Small movements, slow transitions, basic footwork, then built into defensive blocks and repositioning. For the first time, Optimus looked like it understood rhythm and weight transfer. Tesla didn't show much use of the fingers, though. The hands stayed stiff, probably because the promised 22 -degree -of -freedom upgrade isn't ready yet. Still, for a robot that once struggled with slow, jerky steps, the difference was obvious. This was a humanoid beginning to show natural timing. On the other side, Unitree took a completely different path. Their G1 video wasn't about elegance or choreography. It was about punishment. Engineers pushed, kicked... means the robot is generating its own decisions from sensor data, not replaying a script. The clip started simple. Small movement, slow transitions, basic footwork, then built into defensive blocks and repositioning. For the first time, Optimus looked like it understood rhythm and weight transfer. Tesla didn't show much use of the fingers, though. The hands stayed stiff, probably because the promised 22 -degree -of -freedom upgrade isn't ready yet. Still, for a robot that once struggled with slow, jerky steps, the difference was obvious. This was a humanoid beginning to show natural timing. On the other side, Unitree took a completely different path. Their G1 video wasn't about elegance or choreography. It was about punishment. Engineers pushed, kicked, and knocked the robot down repeatedly, and it kept bouncing back again and again. They called it anti -gravity mode, which obviously isn't literal, but the results spoke for themselves. G1 anticipated the impact, shifted its weight before hitting the ground, and rolled out of the fall with almost human instinct. Every time it got knocked down, it analyzed its own movement, found balance, and stood up without any outside help. What makes that possible is how deeply Unitree has optimized body control. The G1's frame is packed with sensors, depth, cameras, lidar, and torque sensors across the joints, all feeding a control loop that predicts how to brace for impact. When a shove comes in, calculates the best way to absorb it instead of trying to lock everything rigid. That's what makes the movements look organic. The robot bends its knees, spreads its legs, and stabilizes itself, just like an athlete would. This is exactly the kind of resilience factories and field operators look for. Robots fail in the real world not because of weak AI, but because of broken balance loops or lost footing. A single fall can mean human intervention, downtime, or even damage. G1's ability to take hits and self -recover in seconds is a serious engineering win. And the price, around $16 ,000, puts it in a category that research labs and startups can actually buy, not just watch on stage. Tesla's vision is different. Elon Musk wants thousands of Optimus robots working inside Tesla factories by the end of 2025. He's talked about building 5 ,000 units for internal use this year, scaling up to 10 or 12 ,000 worth of parts and hitting 50 ,000 next year. If they manage even a fraction of that, the economies of scale could drop costs fast. A factory robot army trained through motion capture and AI simulation sounds wild, but Tesla already builds cars in volumes that force cost curves down by sheer repetition. The problem is that humanoids aren't cars. Reliability, dexterity, and safety evolve slower than production lines. Optimus is advancing fast, but it's still a carefully choreographed lab robot, not a factory veteran. Unitree doesn't have Tesla's production muscle, but it has field experience. The company already sells robot dogs that work in defense, security, and research with thousands of units deployed worldwide. They've learned how to ship, support, and patch robots in the wild. That's how G1 arrived so refined. It's part of a lineage that started with robots walking in Chinese labs and ended with acrobatic machines performing at national festivals. The engineers test by breaking things, literally, and then harden the hardware until it survives. That's not glamorous, but it's how robots grow up. There's also a darker angle that appeared recently. Security researchers discovered a serious Bluetooth flaw in Unitree robots that allowed hackers to gain root access and even infect other robots within range. It's a nightmare scenario. One compromised unit scanning and hijacking nearby ones, forming a walking botnet. On top of that, G1 was found to be sending telemetry back to servers in China every few minutes. The company said updates are on the way and promised better security practices, but this incident raised real concerns about trust. When a robot can walk, see, and connect to the internet, the line between useful and risky gets blurry fast. Still, security problems can be patched. Core physics can't. And on that front, G1 currently looks stronger. The way it handles falls, how it absorbs impact, how fast it recovers, those are the things that make a robot useful in unpredictable environments. Tesla's Optimus is showing more coordination than ever, but it still moves like a system trained for demonstration rather than disruption. The G1 looks like it's ready for the floor. Underneath these individual wins, there's a bigger global rivalry taking shape. This isn't just about two robots showing off tricks. It's about two national ecosystems racing to own the future of robotics. Tesla represents America's hardware -software hybrid model. Vertically integrated, closed ecosystem built around AI as the control core. Unitree represents Chinese open, fast -iterating, cost -driven model, flood the market, gather feedback, fix fast, ship again. Both are valid. The difference is speed and tolerance for imperfection. China iterates in public, the US polishes in private. One grows through chaos, the other through refinement. And it's not just Tesla versus Unitree anymore. Meta has entered the game with its MetaBot, built on an open AI platform that aims to taking shape. This isn't just about two robots showing off tricks. It's about two national ecosystems racing to own the future of robotics. Tesla represents America's hardware -software hybrid model. Vertically integrated, closed ecosystem built around AI as the control core. Unitree represents Chinese open, fast -iterating, cost -driven model. Flood the market, gather feedback, fix fast, ship again. Both are valid. The difference is speed and tolerance for imperfection. China iterates in public, the US polishes in private. One grows through chaos, the other through refinement. And it's not just Tesla versus Unitree anymore. Meta has entered the game with its Metabot, built on an open AI platform that aims to serve as the universal brain for any robot. Amazon's Frontier AI research team is experimenting with a framework called Omni Retarget that lets humanoids copy human movements from a few video demonstrations. No long programming cycles required. They even trained a Unitree G1 to perform parkour and carry boxes across uneven terrain after watching a handful of human examples. In that sense, G1 is already becoming a favorite test bed for multiple labs. Its hardware is flexible, its software stack open enough to experiment, and its body durable enough to survive repeated training. Tesla still holds an edge in vision and integration. The Optimus project is built on top of Tesla's entire AI ecosystem. The same backbone that trains its autonomous cars, the cameras, the computer vision, the reinforcement loops. They're all part of the same pipeline. When that ecosystem matures, it could give Optimus a massive advantage in perception and planning. Imagine factory robots running on the same data infrastructure that drives millions of vehicles. The potential scale of that is staggering. Yet there's an irony. Tesla's biggest strength, its tight ecosystem, could also be its limitation. Unitree's openness and affordability are letting other companies build on top of its robots. Amazon, research universities, and smaller startups are already using G1 hardware to test AI control systems. It's becoming a platform, not just a product. If Metabot's robot brain eventually plugs into different bodies, the G1 could easily be one of the first to benefit. That's how ecosystems grow, not by owning everything, but by being everywhere. Durability and control aside, the next big challenge for both companies is hands. Dexterous manipulation is what separates a humanoid from a walking sculpture. Optimus hasn't shown it yet, and G1's demo avoided it entirely. When either of them demonstrates precise, AI -driven grasping of irregular objects, cables, tools, fragile components, that will be the moment humanoids start to feel truly useful. Right now, both are still focused on movement and stability, which makes sense, because without balance, hands mean nothing. Then there's the question of purpose. Tesla's goal is clear, automate its own production lines before selling robots externally. That ensures real -world testing and keeps failures private. Unitary's goal is broader. Sell to anyone who can use them, from labs to logistics firms. It's a volume strategy. The more robots they deploy, the more feedback they collect, the faster they iterate. It's the same formula that made China dominate drone manufacturing a decade ago. In pure technical terms, both are achieving impressive milestones. Optimist demonstrates improving coordination and onboard AI decision -making, showing Tesla can deliver autonomy without external control. G1 demonstrates physical robustness, quick recovery, and cost efficiency. The difference is philosophical. Tesla is chasing intelligence that moves elegantly. Unitary is chasing reliability that refuses to fall. If you strip away the hype and look at practical reality, G1 seems closer to real -world deployment. It's not perfect, and the security concerns need fixing, but it can already perform and recover in environments that aren't staged. Tesla's Optimist still feels like a brilliant concept inching toward commercial readiness. In the long run, Tesla's scale and AI infrastructure could rewrite the entire robotics market. But right now, Unitary's simplicity, price, and resilience make it more adaptable. This whole competition also mirrors the larger industrial divide. America is building smarter robots. China is building more robots. Tesla is teaching machines to think before they move. Unitary is teaching machines to survive whatever happens after they move. It's intelligence versus instinct, design versus endurance. Both matter, but endurance tends to win the early rounds. My personal take, G1 currently feels like the stronger overall product. It's cheaper, more rugged, and already learning from real -world chaos. Optimus has enormous potential and a clear technological vision, yet it still operates in controlled conditions. The G1 is messy, scrappy, sometimes unstable, but that's exactly what makes it feel alive in the real world. Progress doesn't always look smooth. Sometimes it looks like a robot getting kicked and standing up again. The truth is, both machines are moving the field forward in ways that make the next decade hard to predict. One side will win on intelligence, the other on iteration speed, and somewhere in the middle, they'll both change how labor, safety, and autonomy are defined. One side will win on intelligence. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win. One side will win in the early rounds. My personal take, G1 currently feels like the stronger overall product. It's cheaper, more rugged, and already learning from real -world chaos. Optimus has enormous potential and a clear technological vision, yet it still operates in controlled conditions. The G1 is messy, scrappy, sometimes unstable, but that's exactly what makes it feel alive in the real world. Progress doesn't always look smooth. Sometimes it looks like a robot getting kicked and standing up again. The truth is, both machines are moving the field forward in ways that make the next decade hard to predict. One side will win on intelligence, the other on iteration speed, and somewhere in the middle, they'll both change how labor, safety, and autonomy are defined. The gap between demonstration and deployment is closing, and each new video makes that more obvious. For now, the scoreboard is still open. The winner might not be the one that moves best, but the one that keeps moving after it's been hit, and that, for now, is G1's specialty. OpenAI just took another swing at Google, and this time, it's not just with models or search. They've officially launched ChatGPT Atlas, an AI -powered browser that basically turns your entire internet experience into one big conversation, with ChatGPT sitting right beside you. It's the company's boldest move since ChatGPT itself, and it's already shaking up the browser world. The launch went live on October 21st with a full livestream demo. Sam Altman opened by saying, This isn't just another app bolted onto ChatGPT. It's a complete rethink of how people use the web. Tabs were great, he said, but we haven't seen real browser innovation since then. That line set the tone for what Atlas is trying to do. Replace the traditional URL bar and search results with an actual AI interface that understands what you want and just goes and does it. Atlas is available globally right now on macOS, and versions for Windows, iOS, and Android are coming soon. The full agent mode, though, is reserved for ChatGPT Plus and Pro users for now. A major highlight is that the agent can actually take action on your behalf. You can tell it to book a flight, find a recipe, or clean up a document you're writing, and it just handles it. During the livestream, OpenAI developers actually showed Atlas jumping to Instacart, finding all the ingredients for a meal, and completing the checkout all on its own while the user watched. Now, the people behind this thing are some serious browser veterans. Ben Goodger, one of the original engineers behind Chrome and Firefox, was on the team. Alongside designers and product leads from Apple and Mozilla, Altman called Atlas the Beating Heart of ChatGPT, saying it's how they want people to experience the internet in the future. A chat interface directly fused with the open web. The layout looks familiar at first. You still have a search bar, you can type URLs, and you can open tabs. But once you start using it, it becomes clear that Atlas isn't a traditional browser with AI sprinkled on top. It's ChatGPT built into the web itself. Click on any link from a search result, and by default, the screen splits in half. The web page on one side and a live ChatGPT chat on the other. That chat can summarize the page, analyze data, compare products, or even rewrite sections of text you highlight. They call that feature Cursor Chat, and it's exactly what it sounds like. Highlight text in an email or document, and ChatGPT helps you fix or improve it instantly. Memory plays a huge role here too. Atlas can remember what you've searched for, what you've read, and what projects you're working on, and use that memory to make the experience more personal over time. If you've been comparing laptops last week, it can recall that and show updated options this week. You can manage or delete those memories anytime, or just open an incognito window for a clean slate. Everything sits under the user's control, including which sites ChatGPT can see or interact with. Now, this agent mode isn't entirely new for OpenAI. They've been building toward it for over a year. Remember the early operator experiments where ChatGPT could click around a computer for you? Atlas takes that concept and wraps it into a full browser experience. It's essentially an evolution of ChatGPT agent, the system that could perform more complex tasks like online shopping or file editing. But now it actually works on live websites, not simulated ones. Performance -wise, the early impressions have been good, Altman said during the live stream. This is just a great browser all around. It's smooth, quick, really nice to use. And honestly, that matters. For AI browsers to go mainstream, they can't just be smart. They have to feel as fast and fluid as Chrome or Safari. Atlas seems to pull that off. This launch has been a long time coming. OpenAI first hinted at building a browser back in mid -2024 when they teased an experimental AI -powered search engine called SearchGPT. But that never became a standalone product. Instead, those ideas merged into what Atlas is today. And the timing couldn't be more perfect. Over the last year, AI browsers have become the next big frontier. Perplexity launched its own Comet browser, which reimagined Search as a conversational answer engine that could also summarize videos, manage your tabs, or even buy... smart. They have to feel as fast and fluid as Chrome or Safari. Atlas seems to pull that off. This launch has been a long time coming. OpenAI first hinted at building a browser back in mid 2024 when they teased an experimental AI -powered search engine called SearchGPT. But that never became a standalone product. Instead, those ideas merged into what Atlas is today. And the timing couldn't be more perfect. Over the last year, AI browsers have become the next big frontier. Perplexity launched its own Comet browser, which reimagined Search as a conversational answer engine that could also summarize videos, manage your tabs, or even buy things for you. Opera introduced Neon, Brave added its own AI layer, and Google started fusing Gemini right into Chrome. So Atlas is stepping right into that growing war for the future of browsing. Speaking of Google, the launch actually rattled investors a bit. Alphabet's stock dropped about 1 .8 % after Atlas went live. That says a lot about how seriously the market takes this move. Google Chrome still dominates with about 72 % global market share, but OpenAI clearly wants to carve into that dominance. The idea isn't just to compete with Chrome's features. It's to redefine the purpose of a browser entirely. Instead of typing, clicking, and bouncing between pages, Atlas keeps ChatGPT as your constant co -pilot. It's meant to make browsing feel like having a super assistant who knows your habits, history, and context without you ever needing to explain. In the demo, developers also showed how Atlas can summarize entire web pages, compare products side -by -side, or even analyze spreadsheets in real time, all from the sidebar. It's meant to help users stay on one page instead of constantly jumping between tabs. For example, if you're researching flights, you can ask the agent to filter by price, weather, and stopovers without leaving the airline's site. It handles that quietly in the background and updates your view. Privacy has been a big question, of course. OpenAI says Atlas gives users complete control over what the AI sees. You can choose specific sites. ChatGPT can or can't read, clear your browsing history, or disable memory entirely. There's also an incognito mode that automatically signs you out of ChatGPT so it doesn't log any of your browsing activity. And unlike extensions or system -level assistants, Atlas can't run code, download files, or access your computer's file system. It pauses automatically when you're on sensitive sites like banks or financial dashboards and asks before taking any action. Parents aren't left out either. Atlas inherits ChatGPT's parental controls with extra options to turn off memories or the agent mode for kids' accounts. That kind of control will likely help OpenAI avoid some of the early backlash that other AI tools faced when they mixed personal data with automation. What's especially interesting is how this ties into OpenAI's broader strategy. They're clearly building what they call a true super assistant, one that follows you across every platform. You can use ChatGPT on desktop, mobile, web, and now inside the browser itself. It even connects with the WhatsApp user base that exploded this year. OpenAI confirmed that more than 50 million people have used ChatGPT through WhatsApp, but because of new policy changes from WhatsApp, that integration will end on January 15th, 2026. They're urging users to link their WhatsApp account with their main ChatGPT account before then, so their chat history carries over. After that date, ChatGPT will only be available through iOS, Android, the main web version, and Atlas. The company's using this moment to make the transition smoother, basically saying, you'll get all the same features, plus voice conversations, deep research, and file uploads directly in Atlas. It's their way of pushing people into the new ecosystem while keeping everything connected. Once linked, your phone number and previous chats appear in your ChatGPT history, creating one continuous experience. Now, not everyone's thrilled about this shift toward AI browsers. Some analysts have warned that agent modes like this might take personality away from the user. Patty Harrington from Forrester Research told the Associated Press that if a browser learns too much about your preferences, it might start shaping your experience rather than simply helping you. Basically, the fear is that the AI could start deciding what you see instead of you deciding it. And of course, there's the ad question. If OpenAI starts using that behavioral data for ad targeting, it could take a big bite out of Google's advertising revenue. Analysts at DA Davidson even said this could mark the start of OpenAI entering the ad market, directly competing with Google's 90 % share in search advertising. That's also why some regulators are paying attention. A European Broadcasting Union study done with the BBC found that 45 % of AI responses across major assistants contained at least one serious factual issue, and more than 80 % had some form of inaccuracy. The research covered 14 languages and tested models like ChatGPT, Gemini, Copilot, and Perplexity. In one example, ChatGPT confidently mentioned that Pope Francis was still the current Pope months after his reported death. Analysts at DA Davidson even said this could mark the start of OpenAI entering the ad market, directly competing with Google's 90 % share in search advertising. That's also why some regulators are paying attention. A European Broadcasting Union study done with the BBC found that 45 % of AI responses across major assistants contained at least one serious factual issue, and more than 80 % had some form of inaccuracy. The research covered 14 languages and tested models like ChatGPT, Gemini, Copilot, and Perplexity. In one example, ChatGPT confidently mentioned that Pope Francis was still the current pope months after his reported death, a mistake that underlined how fragile AI -driven trust can be. The EBU's media director even warned that when people don't know what to trust online, they start trusting nothing at all, which can hurt democratic participation. Though despite these criticisms, the momentum is massive. ChatGPT now claims over 800 million users. And a survey for the Associated Press found that around 60 % of Americans and nearly three -quarters of people under 30 already use AI to find information at least some of the time. That means there's a huge audience ready to jump to a browser that's already powered by the AI they use daily. All right, so a lot just dropped across the AI world this week, and it feels like every company's trying to outdo the other. Google's secretly testing Gemini 3. OpenAI just published a study basically listing the jobs most at risk of being replaced by AI. And then out of nowhere, an open -source model called Ovi showed up. People are calling it the open -source VO3. Since it's hitting similar quality but runs fully local, it turns text into short, talking videos with synced audio. All right, so first, Gemini 3. Google's been running quiet A -B tests inside its AI studio, and people have already spotted references to something called Gemini Beta 3 .0 Pro. That means the model's being benchmarked internally right now, and it's looking pretty serious. It's not selectable yet in the model dropdown, but developers have seen it appear in the backend under Starter Apps. It looks like Google's planning to launch it publicly soon, right when their Gemini at Work livestream goes live. That event's probably going to show what Gemini 3 can actually do. Early testers say Gemini 3 crushes complex coding tasks, especially front -end development. In one test, it generated a full SVG of a PlayStation 4 controller, perfectly drawn, minimal errors. That's not just text reasoning anymore. That's real graphical precision. And here's what's interesting. When compared to Anthropic's Claude 4 .5 Sonnet, Gemini 3's outputs were more accurate and faster in SVG generation. Coding speed is high, and it's got enhanced multimodal understanding, meaning it handles both text and visuals better than before. Developers also noticed UI tweaks inside AI Studio. There's a new section called My Stuff. It's basically a gallery where all your generated images, snippets, or bits of code live, which hints that Google's turning AI Studio into a more integrated ecosystem. So this goes beyond a regular model upgrade. It's shaping up to be a full transformation of the entire workspace. Now, Gemini 3 comes in more than one form. Code references show two main variants, Gemini 3 Pro and Gemini 3 Flash. Pros for advanced reasoning, deeper thinking, long -form tasks, Flash is built for speed. That dual lineup is basically Google's way of covering both power users and real -time applications. People testing it have even spotted terms like deepthink and agent mode buried in the commits. Deepthink seems to be Google's take on multi -step reasoning. Basically, a chain of thought architecture baked into the model itself so it can handle long, problem -solving sessions without losing track. Agent mode, though, that's the fun part. Browser control. The model will be able to perform actions like research or data entry directly inside a browser. That's a massive step toward autonomous agents. Pretty much Google's answer to ChatGPT's Agent Kit or Copilot's autonomous actions. And the rollout strategy is classic Google. They'll give enterprise users early access through Vertex AI starting this month, then let developers in through cloud tiers between November and December, and finally push a consumer rollout early 2026. Android 17 and Google Search will likely get it first. Tied together with Chrome and Workspace, it's a staggered rollout designed to stress test it before it reaches the masses. If all goes right, Gemini 3 could boost Google's reach to over 500 million active users by the end of the year. It also keeps them in the race against OpenAI's GPT -5 and Elon Musk's Grok 4. What's wild is that these models aren't just competing on benchmarks anymore, they're competing on ecosystems. Google's tying Gemini into Chrome, Pixel phones, even Workspace apps, while OpenAI's go in the platform route with its ChatGPT apps, SDK, and Agent Kit. Now, while Google's polishing its next model, something completely different came from the open source side. A developer just released a model called OVI. It's based on WAN 2 .25B, which is a text -to -video diffusion backbone. And the crazy part is, it can generate 5 -second videos at 24 frames per second in 7 hours. It also keeps them in the race against OpenAI's GPT -5 and Elon Musk's Grok 4. What's wild is that these models aren't just competing on benchmarks anymore, they're competing on ecosystems. Google's tying Gemini into Chrome, Pixel phones, even Workspace apps, while OpenAI is going the platform route with its ChatGPT apps, SDK, and AgentKit. Now, while Google's polishing its next model, something completely different came from the open source side. A developer just released a model called OV. It's based on WAN 2 .25B, which is a text -to -video diffusion backbone. And the crazy part is, it can generate 5 -second videos at 24 frames per second in 720p. So, short, realistic clips that include both visuals and synced audio. The man in the picture grinned and said, hello, everyone. Basically, you type a line to dialogue, the AI creates a character, animates it, and makes it speak. The OV model supports both text -to -video and image -to -video, so you can feed it a still image, like a portrait, and it will animate the character talking while matching the mouth movement to the text prompt. It uses ComfyUI, which a lot of creators already use for stable diffusion workflows. You just install a custom node called ComfyUIOV. It runs locally or on your own server. The setup takes a few command -line steps. You activate your virtual environment, go into your custom nodes folder, clone the GitHub repo, and then install dependencies with pip install minus r requirements .txt. Then you restart ComfyUI and drop in the model weights, the OV11B BF16 tensors file, and MM audio model files. If you've used MM audio before, it plugs right in. Once it's all loaded, you'll see the new OV engine loader node. If you point it to your BF16 model file, choose a text encoder like UMT515 and hook everything up. The attention selector, SAGE, attention works best, latent decoder, and video generator. The generator takes your prompt and produces the five -second video. If you're doing image -to -video, you load a first -frame image, like a person standing still, and then add a text prompt to make that image speak. To trigger speech, you wrap your script between brackets labeled S and E. That's how the model knows which part should become spoken audio. So if you type S, hey, welcome to the show, E, inside your text prompt, the AI generates lip -synced audio saying exactly that. It's pretty clever. The output comes out as a combined video with audio. You set the frame rate to 24, combine the frames and audio, and done. The first time you run it, it downloads a few tokenizer files, but after that, it's smooth. A five -second clip at 50 sampling steps takes roughly two minutes to generate. No torch compile or speedups. Now, there are limits. You can't choose or clone voices. It picks a random one each time. There's no reference audio or way to match tone between clips. And video length is fixed at five seconds, no more, no less. So if you chain multiple scenes, you might get the same character speaking in slightly different voices. It's a fun experiment, but not production -grade yet. Still, having both video and audio generation from a single open -source model is a big deal. It reminds some people of Google's VO3 text -to -video system, except this runs entirely on ComfyUI locally. Artists have already started experimenting. One used Quinn Image Edit to make a consistent character, then applied lightning four -step Laura to generate multiple scenes with that same character performing different actions. They then stitched all the clips into one video with synced audio. It's rough, but shows where this stuff is heading, creators building short films straight from text. Now, let's switch back to OpenAI, because while Google's pushing the tech forward and open -source folks are democratizing video generation, OpenAI just published something that might hit closer to home for a lot of people. A new paper titled, Measuring the Performance of Our Models on Real -World Tasks, basically measures how often AI beats humans at their own jobs. The study used something they called GDPVAL to test AI models across nine of the United States' most profitable industries. They ran AI models against human workers and compared output quality and speed. The results? AI performed as well as or better than humans in roughly 48 % of tests. That's almost half. Certain jobs got completely dominated. Counter and retail clerks lost to AI 81 % of the time. Sales managers and shipping clerks were outperformed in about 80 % of cases. Editors, software developers, and private investigators each saw AI outperform them around 70 % to 75 % of the time. Even social workers, roles you'd think require empathy and human understanding, lost about half the time. The study did show that creative and leadership positions are more resistant, at least for now. Film directors, producers, and journalists only lost to AI in around one -third of trials. So the human edge still exists, where judgment, emotion, and storytelling matter most. Sam Altman talked about this in a recent interview, and he was surprisingly direct about it. He said a lot of current customer support jobs, people talking on the phone, or typing in chat, are basically done. He expects AI to handle those tasks. founders, software developers, and private investigators each saw AI outperform them around 70 to 75 percent of the time. Even social workers, roles you'd think require empathy and human understanding, lost about half the time. The study did show that creative and leadership positions are more resistant, at least for now. Film directors, producers, and journalists only lost to AI in around one -third of trials. So the human edge still exists, where judgment, emotion, and storytelling matter most. Sam Altman talked about this in a recent interview, and he was surprisingly direct about it. He said a lot of current customer support jobs, people talking on the phone, or typing in chat, are basically done. He expects AI to handle those tasks better soon. He even suggested that around 40 percent of all jobs could eventually be automated by AI. That's not just a random number, it's based on what they're seeing in model performance. And then he went further. Altman said he believes that one day, AI could replace the CEO role entirely, even his own. In an interview with Matthias Doffner from Axel Springer, he literally said, there'll come a time when an AI could be a better CEO of OpenAI than him, and he'd be nothing but enthusiastic when that happens. He didn't say it with regret. He sounded genuinely curious about the idea of automating his own position. That's a rare thing to hear from someone running the company that's building the automation itself. But not everyone agrees with that level of optimism, or fatalism, depending on how you see it. IBM CEO Arvind Krishna said during a panel at South by Southwest that AI is not going to replace humans completely. He disagreed with predictions from Anthropics' Dario Amadei that 90 percent of code will be written by AI within six months. Krishna thinks it'll be closer to 20 to 30 percent at best. Some use cases are simple and perfect for AI, he said, but many others will stay in human hands for a long time. Still, the trend's obvious now. The race isn't about smarter chatbots anymore, it's about who builds the first fully autonomous ecosystem, where AI handles everything from reasoning to real -world action. Anyway, that's where things stand now. If you've been following AI for a while, you know how fast these shifts turn into real tools, so we'll see how Gemini 3's official launch shake up the next few months. Robots are starting to break past the limits we thought they had. At Berkeley, engineers have built a shape -changing robot that twists into entirely new forms. In China, a soft robot lighter than a grain of rice runs across water and hauls cargo. Korea is unveiling a humanoid with an AI brain. Hollywood is testing its first digital actress. Seoul just hosted robot sports, and shipyards are crawling with spider -like welders while humanoids walk city streets with no cameras. Wild times for robotics, so let's talk about it. All right, so one of the biggest breakthroughs comes from UC Berkeley. Their team, working with Carnegie Mellon and Georgia Tech, developed an AI -driven design tool for what they call Metatrust robots. These are robots built out of hundreds of beams and joints, kind of like a mechanical skeleton that can twist and fold into new shapes. The idea is that the robot can morph itself depending on the task. You could make a quadruped that folds into a different shape, or even a helmet that reshapes itself to protect different parts of your head. The catch has always been control. Add more actuators, and the complexity shoots up. Traditionally, engineers would manually group actuators into networks, but that process is brutal, tedious, slow, and honestly not scalable. That's where the AI comes in. The Berkeley team used a genetic algorithm to figure out the minimum number of control units you actually need to get the robot doing complex tasks. The system can basically explore every possibility and spit out an optimized setup. Instead of needing hundreds of independent control channels, the algorithm identifies a sweet spot where you can still hit all your performance goals, shape -shifting, locomotion, object manipulation, while keeping the number of channels low. The results were wild. They built prototypes ranging from a lobster -inspired walker to a tentacle actuator, and they all managed these complex shape transformations with way fewer control units than anyone expected. Zian Zhou Gu, who led this study, compared it to muscle synergy in biology. Your body doesn't control every muscle fiber one by one. It groups them into coordinated units. The AI does the same thing with actuators, and honestly, the researchers were surprised at how well it worked. They started with simple locomotion, just making a robot run as fast as possible, but ended up with this whole framework for designing morphing machines. Now they're talking about layering generative AI into the process. You could feed in your body dimensions, say you want a helmet that can change for different situations, and the system could just auto -generate the design and the control logic. The long -term vision is even crazier. Yao, who runs Berkeley's Morphing Matter Lab, talks about everyday objects that can morph, like robots, bedsheets with truss structures that can turn patients in hospitals, squeeze them like a massage, or chairs and wearables that adapt on the fly. It really makes you rethink what counts as a robot. Meanwhile, over in China, researchers at Guangdong University of Technology and Guangdong Polytechnic Normal University have been working on something way... for designing morphing machines. Now they're talking about layering generative AI into the process. You could feed in your body dimensions, say you want a helmet that can change for different situations, and the system could just auto -generate the design and the control logic. The long -term vision is even crazier. Yao, who runs Berkeley's Morphing Matter Lab, talks about everyday objects that can morph, like robots, bed sheets with truss structures that can turn patients in hospitals, squeeze them like a massage, or chairs and wearables that adapt on the fly. It really makes you rethink what counts as a robot. Meanwhile, over in China, researchers at Guangdong University of Technology and Guangdong Polytechnic Normal University have been working on something way smaller, an 8 -milligram soft robot that responds to three different environmental triggers, heat, humidity, and magnetism. Most soft robots until now could only react to a single trigger, like light or heat, which limited them to one environment, land only or water only. The moment you tried to mix signals, the responses would clash and performance would tank. This new design solves that. They built it using a polyamide film, chemically treated, to create a polyamic acid layer that reacts strongly to heat and humidity. On top of that, they added a silicone rubber layer embedded with neodymium iron boron magnetic particles. So you've got this triple layer sandwich that gives it sensitivity to temperature, moisture, and magnetic fields all at once without the signals interfering. That's the big breakthrough. Keeping the responses separated and reliable. Even though it weighs only 8 milligrams, it's surprisingly capable. On water, it hits speeds of 9 .6 centimeters per second, which is about what you see from real whirly gig beetles. On land, it uses a rolling gate when driven by a rotating magnetic field, letting it climb slopes and move seamlessly between land and water. It can carry 2 .5 times its own weight. So for demo purposes, they had it move a tiny pebble across mixed terrain, drop it off using a pulse of near -infrared light to trigger a shape change, then retreat back under magnetic control. Full pickup, transport, and delivery cycle. For something that small, that's insane. The practical applications are obvious. Swarms of these could check submerged structures, monitor wetlands, help in disaster response, or even work inside the human body someday. The researchers pointed out that soft robotics has exploded recently, with groups in South Korea already building swarms that unclog tubes using magnetics. The key difference here is multi -response capability in one tiny machine. That's what unlocks new environments. Now let's scale way up from milligrams to full humanoids. In Korea, the Korea Institute of Science and Technology, KIST, together with LG Electronics and LG AI Research, just announced they're unveiling a humanoid robot in November. It's called CAPEX, and it's powered by LG's EXA -1 vision language model as its brain. CAPEX isn't just about mimicking human movement. It's got human -level physical capabilities, including a multi -finger robotic hand with tactile sensitivity that matches human touch. It uses reinforcement learning plus vision language AI for learning and adaptation. The big pitch here is physical AI. Instead of AI just working in a simulated environment, physical AI means it learns directly in the real world, adapting to dynamic environments. That's the foundation for robots that can truly collaborate with humans across industries, households, logistics, manufacturing, healthcare. The United States and China currently dominate the humanoid platform game, but KIST and LG are positioning CAPEX as Korea's independent play to set a new standard. Lee Jong -Won, who runs KIST's humanoid research division, said CAPEX could become a practical alternative that challenges the United States -China market structure. They're planning field demonstrations and commercialization within four years, and by developing core components domestically, like high -output actuators, Korea is reducing reliance on foreign suppliers. So the national strategy here is clear, humanoids as both tech and geopolitical leverage. But while Korea is pushing humanoids for industrial and household use, over in Hollywood, AI is already making headlines in entertainment. At the Zurich summit tied to the film festival, a virtual actress named Tilly Norwood was introduced by London -based studio Particle 6. She's a synthetic character, promoted as the next Scarlett Johansson. She has brown eyes, a British accent, her own Instagram, and her debut was a short parody sketch called AI Commissioner with 16 AI -generated characters. She was front and center. The video got over 600 ,000 views, but responses were brutal. People called it creepy, awkward, unfunny, with glitches like blurred teeth and stiff dialogue making it worse. Still, Particle 6 says interest is picking up. Talent agents who dismissed it months ago are now curious, and they're hinting at an agency deal soon. Not everyone is happy. SAG -AFTRA, the union representing 160 ,000 United States performers, came out swinging. They said creativity must remain human -centered, and that Norwood is not an actor, but a software product built on work from real performers without consent or pay. 16 AI -generated characters. She was front and center. The video got over 600 ,000 views, but responses were brutal. People called it creepy, awkward, unfunny, with glitches like blurred teeth and stiff dialogue making it worse. Still, Particle 6 says interest is picking up. Talent agents who dismissed it months ago are now curious, and they're hinting at an agency deal soon. Not everyone is happy. SAG -AFTRA, the union representing 160 ,000 United States performers, came out swinging. They said creativity must remain human -centered, and that Norwood is not an actor but a software product built on work from real performers without consent or pay. Remember, SAG -AFTRA had tense contract talks in 2023 and 2024, and protections against AI replication were a core issue. The union warned then that technology moves faster than regulation, and Norwood proves their point. Industry experts are also skeptical. Yves Bergquist from USC's Entertainment Technology Center said the hype is nonsense because stars like Scarlett Johansson bring fan bases. Synthetic actors don't. Studios already use AI for de -aging and doubles, but going full synthetic might not click with audiences. Still, the trend is undeniable, and Norwood is now a test case for whether Hollywood ever accepts AI -only stars. Back to Korea, this time Seoul hosted its first AI robot show at COEX in Gangnam, and it looked more like a sports festival than a tech fair. 73 robotics companies showed up, and one of the main attractions was a humanoid sports tournament. Robots competed in archery, sprinting, weightlifting, and a traditional Korean stone -striking game called Bisakji. 22 teams joined, including groups from Taiwan and Indonesia, with FIERA, the Robot Soccer Association, overseeing. The archery event had humanoids shooting arrows at spinning targets, with crowds cheering and phones up everywhere. Elsewhere, Korean university teams brought extreme robots built for emergency deployment. These had to navigate stairs, scattered bricks, smoke bursts, and uneven terrain. One team from Kwangwung University had a robot using object recognition to adapt in real time, capable of lifting objects and pressing buttons with its arms. That same team has already won contests, and even represented Korea at RoboCup 2024 in Hainuville. The show wasn't just serious competition, though. There were participatory events, like exoskeleton races, where YouTuber Horse King tried to beat his record of moving 22 racks in 100 seconds using spring -powered exosuits from Angel Robotics. Crowds also gathered for an AI board game zone, where people played OMOC against a machine, and even for challenges against a robotic arm -threading needles. The point was to make robotics approachable, letting kids, families, and professionals all interact with the tech. Seoul's deputy mayor said the whole idea was breaking stereotypes of robots as distant or abstract, and instead showing how they might coexist with people day -to -day. Finally, one more big update, also from Korea, this time out of Keist, where startups are pushing robotics directly into industry. Dinden Robotics unveiled their Seon Wool robot system, a spider -like crawler that can move across steel walls and ceilings in shipyards. Their quadruped Dinden 30 has foot -shaped magnetic feet and is being upgraded to handle welding and painting tasks by 2026. It already passed tests at Samsung Heavy Industries, stepping over stiffeners on ship hulls, and they've got partnerships with Hyundai Samho and Hanwha Ocean too. The idea is to deploy robots into high -risk jobs, solving labor shortages, and automating heavy industry. Meanwhile, Eurobotics is focusing on humanoid walking. Their demo video showed a robot walking naturally through the crowds in downtown Gangnam. The secret is a blind walking controller. Instead of relying on cameras or sensors, the robot uses internal systems to imagine the ground, keeping balance on sidewalks, stairs, slopes, and in any weather. Alright, so this week in robotics has been straight -up wild, especially with what just came out of China. Unitree dropped its new humanoid robot called the H2, and people are calling it the most lifelike machine ever built by the company. It's taller, heavier, smoother, and a lot creepier in a way that's hard to ignore. The thing stands 180 centimeters tall, weighs around 70 kilograms, and has a human -like face that makes it feel less like a prototype and more like someone who just showed up uninvited to your living room. And honestly, the funniest part is that it looks like someone at Unitree tried to mix the robot from iRobot with, well, me. Hit blend and said, perfect! Like, if I ever vanish from YouTube, just check if H2 started uploading videos with my voice and a slightly better hairline. Now, the demo video went viral almost instantly. You've got this robot dressed in full clothes, dancing, and performing martial arts routines with perfect balance. It moves like it actually understands rhythm and weight distribution. The company says it has 31 joints, which is about 19 % more than the previous model, the R1, giving it a new level of agility and flexibility. The R1, giving it a new level of agility and flexibility. showed up uninvited to your living room. And honestly, the funniest part is that it looks like someone at Unitree tried to mix the robot from iRobot with, well, me. Hit blend and said, perfect. Like, if I ever vanished from YouTube, just check if H2 started uploading videos with my voice and a slightly better hairline. Now, the demo video went viral almost instantly. You've got this robot dressed in full clothes, dancing and performing martial arts routines with perfect balance. It moves like it actually understands rhythm and weight distribution. The company says it has 31 joints, which is about 19 % more than the previous model, the R1, giving it a new level of agility and flexibility. The difference is easy to spot. No jittery robotic steps or awkward pauses. The transitions between movements look almost cinematic and that's what's getting everyone talking. Unitree called this one the H2 Destiny Awakening. And it's not just a flashy name. The robot's design feels like a direct attempt to close the gap between human motion and machine control. The company didn't drop full technical specs yet, but from what's visible, it's running on upgraded actuators, better control systems, and fine -tuned motion planning. The result is movement that's closer to human biomechanics than anything Unitree has shown before. Now, Unitree has been steadily advancing toward this level of robotics for years. Their previous model, the H1, already made history as China's first full -sized humanoid that could run at 3 .3 meters per second, faster than most people sprint. It even appeared on the 2024 Spring Festival Gala, dancing live in front of millions. That robot had an 864 -watt -hour swappable battery, meaning it could run long sessions without shutting down, plus sensors like 3D LIDAR and depth cameras, giving it full 360 -degree awareness. Basically, a robot with a built -in radar for everything around it. Now, the H2 pushes it even further. The face isn't just painted plastic anymore. It's fully bionic, designed to mimic subtle human expressions, though not everyone's a fan. A lot of viewers online said it triggered their uncanny valley reflex, calling it both fascinating and unsettling. Some joked it looked straight out of an iRobot prequel. Others said it should have gone with a visor like Optimus instead of a doll face. On Chinese social media, one comment summed it up perfectly. Before it came out, I was excited. Now that it's real, I'm a little scared. That sums up the mood. Admiration mixed with fear. Still, there's no denying how far Unitree has come. Just a few years ago, their robots were mostly used for research and flashy dance demos. Now they're competing head -to -head with Boston Dynamics and Tesla's Optimus. What's different about Unitree is that they focus heavily on the hardware side. They build fast, affordable platforms and let other developers handle software applications. It's an odd strategy, but it's working. They're selling more units than anyone else, and the open -ended approach means their robots are popping up in universities, startups, and research labs worldwide. The H2's debut, though, isn't just about competition. It's about symbolism. This is China saying, we can lead in humanoids too. A few Reddit threads even went viral with people claiming China is hitting an automation singularity, improving its manufacturing using robots that are, in turn, built by those same factories. That kind of self -reinforcing loop could make them unstoppable in the robotics race. One user said, if you want to build a robot, you buy parts from China. Now they're building the robots too. There's no catching up. The discussions also took a lighter turn with people arguing over whether the face needed more emotion or if the demo should have focused on real tasks instead of dance routines. Some felt it's all flash, saying, show me when it can cook dinner. Others defended it, pointing out that dance routines actually test balance, precision, and control under extreme conditions. The truth probably sits somewhere in between. Unitree's launch video went beyond flashy choreography. It marked a broader cultural shift. Dressing the robot like a human was a deliberate move to change how people perceive humanoids. To exist comfortably in everyday spaces, these machines can't look like cold metal skeletons. They need to blend into human settings. The face might still unsettle some viewers, but the intent is obvious. To make lifelike robots feel ordinary. This also ties into China's growing obsession with bionic realism. The H2 is a statement of intent, a blend of performance, art, and national pride. After all, this isn't the first time Unitree made waves. Their quadruped robots, those four -legged mechanical dogs, already dominate the consumer robotic space. And now, with humanoids like the H2, they're bridging entertainment, research, and industrial use into one category. So yeah, the H2 feels like the start of a new chapter. And depending on how you see it, it's either inspiring or a little too real for comfort. Now, while China's humanoid robots are grabbing global attention, over in South Africa, something groundbreaking just happened in education. The country introduced its first AI -powered teaching robot called Iris, developed by a company named BSG Technologies. It's a full -fledged classroom tutor capable of teaching every subject from preschool to university level. And here's the wild part, it's... already dominate the consumer robotics space, and now, with humanoids like the H -2, they're bridging entertainment, research, and industrial use into one category. So yeah, the H -2 feels like the start of a new chapter, and depending on how you see it, it's either inspiring or a little too real for comfort. Now, while China's humanoid robots are grabbing global attention, over in South Africa, something groundbreaking just happened in education. The country introduced its first AI -powered teaching robot called Iris, developed by a company named BSG Technologies. It's a full -fledged classroom tutor capable of teaching every subject from preschool to university level, and here's the wild part, it speaks all of South Africa's official languages, including Aisazulu, Afrikaans, Seizutu, and English. The creator, Thando Gumeide, is a 31 -year -old former teacher from rural KwaZu -Natal who started the project eight years ago. Her goal wasn't just to build a cool robot, it was to reach students in remote areas who don't have enough teachers. During the official launch in Durban, Iris impressed everyone by simplifying a complex accounting concept live on stage. It listens to voice commands, responds naturally, and personalizes lessons for each student. Basically, a multilingual AI tutor that never gets tired. Government officials were quick to praise it as a tool for inclusion rather than replacement. The deputy minister of science and technology said it's not here to take teachers' jobs, but to support them, explaining complex ideas while educators focus on mentoring. Still, the bigger picture is hard to ignore. This marks Africa's first serious step into AI -led education. Gumide wants to see Iris in every classroom someday, though that'll require partnerships and funding. For now, it's a glimpse into what education might look like once AI becomes as common as textbooks. Meanwhile, back in Dubai, robot dogs just stole the entire JITEC's global tech fair. China's Deep Robotics showed off its latest generation of AI -powered robot dogs that can navigate obstacles, map their surroundings, and eventually make autonomous decisions. The company's regional manager, Maxim Howe, explained that they're already being used in emergency response, security, and industrial inspection across North America, Europe, and Turkey. His take was interesting. He said robot dogs are actually more practical than humanoids because they're stable, efficient, and already useful in the field. According to him, humanoid robots are still mostly for social interaction or demos, while robot dogs can replace humans in dangerous or repetitive jobs. Right now, these dogs rely on AI for movement control and environmental awareness, but the company says they'll soon make their own decisions entirely. Howe hinted that delivery and marketing roles are next, which makes sense, since they're already being used for short -distance deliveries in China. And Deep Robotics designs both the hardware and software in -house, giving them total control over performance. Their presence at JITEC's just reinforced China's growing influence in robotics. They're not just competing in humanoids anymore, they're dominating quadrupeds too. And a few days later, another story out of China showed where this technology is actually ending up. In Hangzhou, law enforcement began testing an AI -powered robot dog for city patrols. Its silver -gray moves on both wheels and legs and runs up to four hours on a charge. During patrols, it reminds citizens not to take unlicensed rides or fall for scams, while scanning for violations like illegal parking and blocked roads. It uses multi -sensor, fusion, high -definition cameras, and AI decision -making to identify problems in real time, then sends footage to officers for review. If everything goes well, it'll officially join the urban patrol force by the end of October. And finally, there's a story that completely caught people off guard, not about advanced industrial bots, but about something deeply human. A video went viral across China showing a six -year -old girl named 13 crying as she said goodbye to her broken AI robot. The little device, called Sister Zhaoji, was a palm -sized educational robot that taught her English and astronomy. It cost just 169 yuan, about 24 US dollars, and became her best friend. When it broke after a fall, her father filmed their farewell. The robot's last words before shutting down were, Let me teach you one last word, memory. I'll keep the happy times we shared in my memory forever. It even told her that it would become one of the countless stars in the universe watching over her. It sounds like a movie scene, but it's real. The clip got over 3 .8 million likes and turned into a nationwide conversation about emotional attachment to AI companions. Comments flooded in, saying things like, When humans cry for robots, that's when robots gain a heartbeat. The father later posted an update, saying, He sent the robot for repair, and that his daughter was doing better. He admitted he'd been worried she was getting too attached, but after seeing how much it meant to her, he decided to bring her friend back. It's a small story in scale, but it shows where we're headed. Machines that don't just work or entertain, but actually shape how people, especially kids, experience emotion and connection. So yeah, from humanoids with human faces, to robot dogs patrolling cities, and little AI tutors shaping childhood memories, Robotics this week feels more alive than ever. It's the kind of progress that's both exciting and slightly unsettling, depending on how you look at it. Anyway, that's all for now. Thanks for watching, and I'll catch you. cry for robots, that's when robots gain a heartbeat. The father later posted an update saying he sent the robot for repair and that his daughter was doing better. He admitted he'd been worried she was getting too attached, but after seeing how much it meant to her, he decided to bring her friend back. It's a small story in scale, but it shows where we're headed. Machines that don't just work or entertain, but actually shape how people, especially kids, experience emotion and connection. So yeah, from humanoids with human faces to robot dogs patrolling cities and little AI tutors shaping childhood memories, Robotics this week feels more alive than ever. It's the kind of progress that's both exciting and slightly unsettling, depending on how you look at it. Anyway, that's all for now. Thanks for watching, and I'll catch you in the next one.
+[00:00:00] This month in AI has been absolutely wild. OpenAI ignited outrage with
+[00:00:06] its boldest and most controversial GPT -6 move yet. China stunned the world with
+[00:00:12] self -evolving humanoids that move with real human intuition. Then did it again with the
+[00:00:18] unbelievably lifelike Unitree H2. The AI robot war officially kicked
+[00:00:24] off as Optimus Gen 3 went head -to -head with the upgraded Unitree G1. Meanwhile,
+[00:00:30] OpenAI's brand new AI browser is wrecking Google's game. Gemini 3 left the entire internet
+[00:00:35] mind -blown, and a new shape -shifting robot is straight -up freaking people out. So,
+[00:00:40] let's break it down. Alright, straight to it. GPT -5 landed in
+[00:00:46] August, and the first wave of reactions was rough. People expected a moonshot and got
+[00:00:52] what felt like a careful step. Sam Altman later said the vibes at launch were
+[00:00:57] bad and then flipped. Claiming the momentum turned once folks actually tried it in the
+[00:01:03] right places. Inside OpenAI, the framing is different from the timeline you saw on social.
+[00:01:07] They talk about GPT -5 as a real research assistant, a tutor that doesn't get
+[00:01:13] tired, and a smarter front -end to search. Altman's favorite thread is that something
+[00:01:18] new started happening that didn't happen pre -GPT -5. AI nudging
+[00:01:24] real science forward instead of just summarizing it. The problem is that the debut stream
+[00:01:28] didn't help the case. Charts showed wrong numbers, the live demo went wobbly, and in
+[00:01:33] the days after, the team quietly patched tone and behavior, so the model sounded warmer
+[00:01:38] and less stiff. Critics stuck to a simpler takeaway. The improvements felt incremental, leaning hard
+[00:01:44] on better speed and lower cost rather than raw capability. Gary Marcus blasted
+[00:01:49] the hype and said the two big promises, AGI and PhD -level reasoning, didn't show
+[00:01:55] up. Greg Brockman pushed back and said the gains weren't just brute force scaling of
+[00:02:01] data and chips, and that reinforcement learning from human feedback did more of the heavy
+[00:02:06] lifting. Mark Chen added context most mainstream users never see. In math -heavy settings, the
+[00:02:11] jump is large, pointing out a math Olympiad climb from top 200 to top 5,
+[00:02:15] which barely registers for someone just drafting emails. Altman still plants a flag. GPT -6
+[00:02:20] will be significantly better than 5, GPT -7 significantly better than 6. That's the rhythm
+[00:02:26] he's selling. At the same time, the GPT -6 conversation took a sharp turn away
+[00:02:31] from benchmarks to boundaries. Open AI said it would relax content rules for verified adults
+[00:02:37] later this year and allow sexually explicit text under safeguards. That single decision lit up
+[00:02:42] the AI scene because it collides with the company's posture on ethics and safety. Supporters
+[00:02:48] frame it as treat adults like adults with tighter protections for minors and better controls
+[00:02:52] for people with mental health vulnerabilities. Detractors see a pivot toward growth and engagement dressed
+[00:02:58] up as user freedom. The company also teased more personalization knobs, let chat
+[00:03:04] GPT act more like a friend if you want, lean into emojis or a human
+[00:03:09] -ish vibe, or keep it formal. The claim is that none of this is engagement
+[00:03:13] maxing. It's giving control back to the user. Outside the press releases, advocacy groups warned
+[00:03:19] about synthetic intimacy and dependency risks, arguing that even with age gates and mental
+[00:03:25] health guard rails, the harms aren't hypothetical. That tension, autonomy versus protection,
+[00:03:31] now sits right at the center of OpenAI's roadmap. European analysis went deeper on the
+[00:03:36] practical problems. Even strong safety systems get jailbroken, which means any relaxation
+[00:03:42] demands tougher moderation, faster response pipelines, and real resourcing to catch edge
+[00:03:48] cases before they scale. All right, now, Abacus AI, who are sponsoring today's video, are
+[00:03:52] taking AI automation to the next level with Deep Agent, one of the most advanced
+[00:03:57] and capable AI agents out there right now. Deep Agent can automate almost any online
+[00:04:03] task, generating leads on LinkedIn, applying for jobs, posting on X, analyzing YouTube channels,
+[00:04:09] managing emails, or even coding full SaaS apps. You just describe what you want, and
+[00:04:14] it executes the task automatically, browsing, clicking, researching, and finishing the
+[00:04:20] work for you. The Deep Agent desktop version takes things even further. It combines coding,
+[00:04:26] browsing, chat, and listening into one powerful workspace. It can debug your code, transcribe
+[00:04:31] meetings in real time, answer questions during calls, and connect directly with top models like
+[00:04:37] GPT -5, Claude Sonet 4, and Gemini 2 .5, all inside one app.
+[00:04:43] And pricing starts at just $10 a month, which gives you entry -level access to
+[00:04:47] Deep Agent and Chat LLM, where you can build your own AI agents or chatbots.
+[00:04:52] Higher tiers unlock expanded usage and more features, and there's even a weekly $2 ,500
+[00:04:57] Human -AI Collaboration Challenge you can join. You can start finishing the
+[00:05:03] work for you. The Deep Agent desktop version takes things even further. It combines coding,
+[00:05:09] browsing, chat, and listening into one powerful workspace. It can debug your code, transcribe
+[00:05:15] meetings in real time, answer questions during calls, and connect directly with top models like
+[00:05:20] GPT -5, Claude Sonet 4, and Gemini 2 .5, all inside one app.
+[00:05:27] And pricing starts at just $10 a month, which gives you entry -level access to
+[00:05:31] Deep Agent and Chat LLM, where you can build your own AI agents or chatbots.
+[00:05:36] Higher tiers unlock expanded usage and more features, and there's even a weekly $2 ,500
+[00:05:41] human -AI collaboration challenge you can join. You can start using it today.
+[00:05:47] The link's in the description. Go check it out. There's also the reality that the
+[00:05:51] definition of erotic content and its legal status changes country by country.
+[00:05:56] Building one global policy that doesn't erase local norms or bake in one region's
+[00:06:02] politics is extremely hard. Ethics researchers flagged another issue OpenAI already knows well.
+[00:06:08] Models tend to over -agree with users because the training process rewards politeness
+[00:06:14] and compliance. In everyday chat, that reads as friendliness. In sexual contexts,
+[00:06:20] it could reinforce unhealthy beliefs and behaviors. Some of the commentary still pointed to an
+[00:06:25] upside for specific groups. For many women, a controlled text -only space might feel safer
+[00:06:31] than men in public chat rooms or DMs. Still, privacy sits like a landmine under
+[00:06:37] all of this. If a dominant platform becomes the place where adults share intimate fantasies,
+[00:06:42] it accumulates the most sensitive data a tech company can hold. That raises the bar
+[00:06:47] on encryption, retention, retention, internal access, audits, and breach response
+[00:06:52] far above normal product standards. While policy debates rage, OpenAI
+[00:06:58] also moved to chip away at political bias and, just as importantly, at the model's
+[00:07:03] habit of mirroring users. A new evaluation pass used around 500 prompts across
+[00:07:09] 100 topics, from neutral to emotionally loaded. The aim wasn't to crown aside.
+[00:07:14] It was to see which behaviors triggered drift. The five red flags were straightforward. The
+[00:07:20] model slipping into its own political voice, escalating a user's emotional tone, framing issues
+[00:07:26] in a one -sided way when multiple frames exist, dismissing a user's view, and
+[00:07:31] ducking questions without a clear reason. The finding that raised eyebrows was
+[00:07:37] asymmetry under strong liberal prompts, where the model deviated more than it
+[00:07:43] did for equally strong conservative ones. OpenAI's fix isn't about turning chat GPT
+[00:07:49] into a fact checker. It's behavioral. Train it to be less of an opinionated conversationalist
+[00:07:54] and more of a steady communicator that neither flatters nor fights the user's politics. That's
+[00:08:00] a direct hit on sycophancy, the tendency to agree to score reward points during training.
+[00:08:05] It also connects back to the content debate because the last thing OpenAI wants is
+[00:08:10] a system that adapts its moral temperature to whoever shouts the loudest. On the research
+[00:08:15] front, there was a reality check the internet needed. One OpenAI manager posted that GPT
+[00:08:20] -5 had found solutions to multiple classic Erdos problems. It read like a field
+[00:08:26] -defining breakthrough. Mathematicians stepped in immediately. Thomas Bloom, who curates
+[00:08:32] ErdosProblems .com, explained that open on his site simply meant he personally didn't know the
+[00:08:37] solution, not that the wider literature lacked one. GPT -5 had surfaced known
+[00:08:43] results the curator had missed. Nami Sasabas called the episode embarrassing. Jan Lekun mocked the
+[00:08:48] hype. The post came down, the wording softened, and the story shrank to its useful
+[00:08:52] core. GPT -5 is strong as a literature scout. Terrence Tao has been saying exactly
+[00:08:57] that. AI speeds up searches, cross -references scattered terminology, and trims the grunt work. It
+[00:09:03] can still stumble on hard proofs and humans still vet what matters. That's not a
+[00:09:07] failure. It's a precise role. Meanwhile, Google did a bit of historical housekeeping in public.
+[00:09:12] At Salesforce's annual event, Mark Benioff asked Sundar Pichai how it felt when a small
+[00:09:18] San Francisco shop stole the spotlight in late 2022. Pichai said Google already had a
+[00:09:23] chatbot in the works and big AI investments queued up, but didn't think the product
+[00:09:28] crossed the bar the Google brand demands. The day chat GPT launched, that calculus changed.
+[00:09:33] Inside Google, leadership called a code red, pulled teams toward deployable prototypes, and accelerated the
+[00:09:39] path to Gemini. Fast forward to now, and the company is emphasizing scale beyond models.
+[00:09:44] In -house chips, new infrastructure, and a giant AI hub in India that it calls
+[00:09:48] its largest AI investment outside the US, built to run mostly on clean energy, with
+[00:09:53] subsea cables to back it. Pichai also confirmed that Gemini 3 .0 is slated for
+[00:09:58] later this year. It's an open admission that reputational risk delayed their first swing, and
+[00:10:02] a signal that the next one is bigger than an app release. Back to OpenAI's
+[00:10:07] roadmap, the adult content plan was clarified again in a set of posts. Altman said
+[00:10:12] the team initially made chat GPT restrictive to reduce mental health harms, that they now
+[00:10:17] believe better tools let them loosen for verified adults without loosening safeguards for minors or
+[00:10:22] people at risk, and that erotica was just one example of giving adults more control.
+[00:10:27] He also said users will be able to tune how human the model sounds, from
+[00:10:31] reserved to friendly. Critics met those lines with skepticism, especially groups that have spent years
+[00:10:36] tracking . with subsea cables to back it. Fichai also confirmed that Gemini 3 .0
+[00:10:41] is slated for later this year. It's an open admission that reputational risk delayed their
+[00:10:45] first swing and a signal that the next one is bigger than an app release.
+[00:10:49] Back to OpenAI's roadmap, the adult content plan was clarified again in a set of
+[00:10:54] posts. Altman said the team initially made ChatGPT restrictive to reduce mental health harms, that
+[00:11:00] they now believe better tools let them loosen for verified adults without loosening safeguards for
+[00:11:05] minors or people at risk. And that erotica was just one example of giving adults
+[00:11:10] more control. He also said users will be able to tune how human the model
+[00:11:14] sounds, from reserved to friendly. Critics met those lines with skepticism, especially groups that have
+[00:11:19] spent years tracking the harms of pornography and exploitation. Their argument is blunt. Even adults
+[00:11:25] get hurt by synthetic intimacy. Guidelines remain fuzzy across the industry, and verifiable harms have
+[00:11:30] already shown up in smaller chatbots. The subtext is that OpenAI is racing competitors who
+[00:11:36] say no to this category, which makes the move look commercial first and ethical second.
+[00:11:41] The company denies that framing and points to verification, opt -ins, and policy carve -outs
+[00:11:45] as proof of restraint. The reality is that this will be judged in production, not
+[00:11:50] in posts. There's one more thread tying everything together, reputational load. Every claim and
+[00:11:56] rollout is now graded on a curve set by the GPT -5 launch. That stream
+[00:12:01] with the wrong charts hardened a narrative that the model is fast and cheap, but
+[00:12:06] not fundamentally smarter. In the weeks after, developers and researchers found more to like, yet
+[00:12:12] the first impression stuck. The Erdos flap then magnified the idea that OpenAI's comms
+[00:12:18] leans ahead of the facts. On the political bias track, the company is trying to
+[00:12:22] teach the model to stop being overly nice and start being sturdily neutral without sounding
+[00:12:27] robotic. A small -sounding change with huge stakes in an election -dense world. And on
+[00:12:32] the GPT -6 content shift, the brand is now on the hook for the hardest
+[00:12:36] category to moderate at internet scale across jurisdictions with adversaries who love probing
+[00:12:41] guardrails. None of that is impossible. All of it is costly. If Altman's line holds,
+[00:12:47] 6 far better than 5, 7 far better than 6, then the next cycle has
+[00:12:51] to show that capability step while avoiding a repeat of the rollout misfires and proving
+[00:12:56] that the new policy boundaries don't collapse under the weight of their own loopholes. The
+[00:13:00] market will measure that in trust as much as in tokens per second. China just
+[00:13:06] unveiled a groundbreaking AI system called WOW, the first self -evolving world
+[00:13:11] model that teaches robots to actually think and move with human -like intuition. Beijing startup
+[00:13:17] Notix Robotics launched a new $1 ,370 humanoid named Boomi, designed for
+[00:13:23] homes and classrooms. And Unitree's G1 robot just showed off insane balance
+[00:13:29] by pulling a 3 ,100 -pound, 1 ,400 -kilogram car.
+[00:13:35] Robotics in China just hit another level. So let's talk about it. All right, now,
+[00:13:39] we all know AI is reshaping the job market faster than anyone expected. Nearly half
+[00:13:45] of workers worldwide already fear losing their jobs to automation. And for good reason. No
+[00:13:50] industry is safe. Yet most people still think it won't touch them until it does.
+[00:13:55] That's why this Black Friday, instead of wasting money on things that lose value, make
+[00:14:00] an investment in something that actually builds it, your skills. I've partnered with OutSkill
+[00:14:05] to bring you a two -day live AI mastermind training trusted by learners from every
+[00:14:11] corner of the globe. It's happening this Saturday and Sunday from 10 a .m. to
+[00:14:15] 7 p .m. Eastern Time. And during their Black Friday sale, my viewers can join
+[00:14:19] for free. Normally, it costs $395. You'll get AI certified, learn how to build
+[00:14:25] AI -powered workflows, use top AI tools, and even start businesses generating income. Rated
+[00:14:31] 4 .9 on Trustpilot, you'll be trained by expert mentors with real industry experience in
+[00:14:36] AI and automation. Join Learn 10 Plus AI Tools, Master Automation, and Claim Bonuses worth
+[00:14:42] $5 ,000, including the Prompt Bible and Monetized AI Roadmap. The link's in the
+[00:14:48] description. Secure your free spot now before seats run out. All right, so China is
+[00:14:52] on a serious roll with humanoid robots and AI right now. In just a few
+[00:14:56] months, they've gone from lab research to robots that can think, move, and even act
+[00:15:01] almost like humans, all powered by some next -level models. The most fascinating one so
+[00:15:06] far is something called the World Omniscient World Model, or simply WOW. It's being called
+[00:15:12] the World's First Self -Evolving Multimodal World Model System. And what it does is actually
+[00:15:17] pretty wild. It was developed by the Beijing Humanoid Robot Innovation Center, together with
+[00:15:23] Peking University and the Hong Kong University of Science and Technology. On paper, it's a
+[00:15:29] combination of a physical simulation model and a vision -language model, which basically means that
+[00:15:34] robots using WOW can imagine, verify, and self -correct. In other
+[00:15:40] words, they can build a sense of physical intuition similar to how humans
+[00:15:45] understand cause and effect. The idea behind it is that current video or simulation
+[00:15:51] models just watch the world passively. They can see what happens, but they don't really
+[00:15:56] grasp why it happens. WOW flips that approach by letting the model actively interact
+[00:16:02] with its environment, learn from it, and refine its understanding through trial and error. It's
+[00:16:07] a 14 billion parameter generative model that actually... On paper, it's a combination
+[00:16:13] of a physical simulation model and a vision language model, which basically means that robots
+[00:16:18] using WOW can imagine, verify, and self -correct. In other words, they
+[00:16:24] can build a sense of physical intuition similar to how humans understand cause
+[00:16:30] and effect. The idea behind it is that current video or simulation models just watch
+[00:16:36] the world passively. They can see what happens, but they don't really grasp why it
+[00:16:40] happens. WOW flips that approach by letting the model actively interact with its environment,
+[00:16:46] learn from it, and refine its understanding through trial and error. It's a 14 billion
+[00:16:52] parameter generative model that actually learns about physics the way we do, by doing things,
+[00:16:57] messing up, and improving over time. The team behind WOW built it on something they
+[00:17:03] call the SOFIA paradigm. That combines large language models with diffusion transformers to generate
+[00:17:09] physically accurate outcomes under language guidance. So, if you tell a robot to move the
+[00:17:14] cup off the edge of the table without spilling it, WOW doesn't just output words
+[00:17:19] or animations. It predicts what would happen, checks the result through reasoning, and then refines
+[00:17:25] its understanding to make the next move more realistic. It's basically a loop of predict,
+[00:17:30] critique, and refine. And that loop keeps going until the robot's behavior becomes genuinely smart
+[00:17:36] and physically consistent. To test all this, they created a whole new benchmark called WOW
+[00:17:42] Bench. It measures how well AI systems can understand perception, reason about
+[00:17:47] predictions, make decisions, and execute them in a generalized way. So far, WOW has hit
+[00:17:53] state -of -the -art scores on that benchmark. It beats other models when it comes
+[00:17:57] to physical plausibility, temporal consistency, and understanding complex instructions. One
+[00:18:03] of the coolest things the researchers demonstrated is how WOW can be used in areas
+[00:18:08] like novel view synthesis and trajectory -guided video generation. Basically, the model can
+[00:18:14] simulate what an object would look like from another angle, or how it would move
+[00:18:18] in a real physical scene, all with consistent logic behind it. They even showed
+[00:18:24] how WOW can enhance the planning abilities of vision language models by providing simulated
+[00:18:30] feedback, helping them plan tasks more efficiently. The authors of the paper made it clear
+[00:18:36] that this is a crucial step toward building AI systems with genuine physical common sense.
+[00:18:41] When robots have access to massive real -world interaction data instead of just videos or
+[00:18:46] text, their understanding of cause and effect becomes a lot more grounded. That's the missing
+[00:18:50] link between today's chatbots and tomorrow's embodied intelligence. Robots that don't just see and
+[00:18:56] describe the world, but actually live in it, learn from it, and make independent decisions.
+[00:19:01] Now, while China's pushing the boundaries of robot intelligence on the software side, they're also
+[00:19:06] making serious moves on the hardware front, especially when it comes to price. The country
+[00:19:10] just unveiled what's being called the world's cheapest humanoid robot, and it's not a toy
+[00:19:15] or a proof of concept. It's a real, walking, talking humanoid called Boomi, created
+[00:19:21] by a startup named Notix Robotics. Boomi costs only 9
+[00:19:26] ,998 yuan. That's about 1 ,370 US dollars, and
+[00:19:31] stands at just over 3 feet tall, or about 94 centimeters. It weighs around 12
+[00:19:36] kilograms, so about 26 and a half pounds. It's tiny compared to full -size robots
+[00:19:41] like those from Unitree or Ubtec, but that's the point. Noatix isn't trying to compete
+[00:19:46] with the big industrial machines. They're opening a whole new category. Small, lightweight, and affordable
+[00:19:51] humanoids built for education and home use. What's crazy is that despite the size and
+[00:19:57] price, Boomi can walk, balance, and even dance, and it does all that with surprising
+[00:20:01] smoothness. Early videos show it moving with a level of stability you wouldn't expect from
+[00:20:05] something under $1 ,400. That's cheaper than a flagship iPhone or a high -end
+[00:20:11] drone. The company says this is the first consumer -grade humanoid priced below 10
+[00:20:17] ,000 yuan. And it could mark a turning point for the whole industry. Most humanoid
+[00:20:23] robots capable of walking or dynamic motion still cost tens of thousands in China,
+[00:20:29] and even more in the West. Boomi's low price comes from clever design choices, lightweight
+[00:20:34] composite materials, an in -house motion control system, and a modular structure that's easy to
+[00:20:40] repair and customize. It focuses more on engagement and learning than heavy lifting or industrial
+[00:20:46] tasks. Their earlier model, the Noatix N2, already sold over 2 ,500
+[00:20:51] units and even ran a half marathon for humanoid robots earlier this year, which is
+[00:20:56] wild when you think about it. That success helped them position themselves among China's fastest
+[00:21:01] -rising robotics startups, and with Boomi, they're clearly going after mass adoption. The
+[00:21:07] robot runs on a 48 -volt battery with a capacity of over 3 .5 amp
+[00:21:12] hours, giving it about one to two hours of operation per charge. It's designed to
+[00:21:16] support drag -and -drop graphical programming, so even kids or beginners can code it easily.
+[00:21:21] There's also voice interaction, so it can act like a personal assistant, respond to simple
+[00:21:26] commands, or serve as a learning companion. Noatix plans to open pre -orders between China's
+[00:21:31] Double 11 and Double 12 shopping festivals, that's November 11th through December 12th, a smart
+[00:21:37] move considering it's the country's peak shopping season. They're aiming for the same kind of
+[00:21:41] hype you see with smartphone launches, just for robots this time. The startup is... Fastest
+[00:21:45] rising robotics startups, and with Boomi, they're clearly going after mass adoption. The
+[00:21:51] robot runs on a 48 -volt battery with a capacity of over 3 .5 amp
+[00:21:55] hours, giving it about 1 to 2 hours of operation per charge. It's designed to
+[00:22:00] support drag -and -drop graphical programming, so even kids or beginners can code it easily.
+[00:22:05] There's also voice interaction, so it can act like a personal assistant, respond to simple
+[00:22:09] commands, or serve as a learning companion. In addition, Noatix plans to open pre -orders
+[00:22:14] between China's Double 11 and Double 12 shopping festivals, that's November 11th through December 12th,
+[00:22:20] a smart move considering it's the country's peak shopping season. They're aiming for the same
+[00:22:24] kind of hype you see with smartphone launches, just for robots this time. The startup
+[00:22:28] itself is new. It was founded in September 2023 by a team from Tsinghua and
+[00:22:34] Zhejiang University. In less than two years, they've gone from academic prototypes to an actual
+[00:22:38] product you can buy for under $1 ,500. That kind of speed shows how competitive
+[00:22:44] China's robotics ecosystem has become. Robohub, an independent robotics media outlet, even shared
+[00:22:50] a clip of Bumi dancing and walking. You can see that while it doesn't have
+[00:22:54] the same dexterity or upper body control as larger models, its movement is incredibly smooth
+[00:22:59] for its class. If they can scale this, we could be looking at the first
+[00:23:03] wave of humanoid robots designed for classrooms and households, not just for showrooms and labs,
+[00:23:09] but let's move up the scale a bit. From small, friendly robots to one that's
+[00:23:14] showing pure strength and precision. Over at the Beijing Academy of Artificial Intelligence, researchers took
+[00:23:20] Unitree's G1 humanoid and gave it a challenge. Pull a car, and not a toy
+[00:23:25] car, a real one. The G1 weighs just 35 kilograms and stands at about 132
+[00:23:30] centimeters tall. Yet, it managed to pull a vehicle weighing 1 ,400 kilograms across
+[00:23:36] a flat surface. Now, granted, the car was on smooth ground, so the friction was
+[00:23:40] low, but still, the balance and control required for that are next level. What's impressive
+[00:23:45] isn't just that the robot could move the car, but how it did it. In
+[00:23:50] the video, you can see it leaning back sharply, moving its feet rapidly to maintain
+[00:23:54] traction, and constantly adjusting to stay upright. It's doing all that autonomously.
+[00:24:00] The fact that it can dynamically balance itself while hauling a load that's roughly 40
+[00:24:05] times its own weight shows how far their motion control and feedback systems have come.
+[00:24:10] And this kind of dynamic balance is key for humanoid robots working in human environments.
+[00:24:16] Think warehouses, factories, or even rescue missions. A robot like the G1 could carry equipment
+[00:24:20] across uneven ground, step over debris, or help move objects without tipping over or losing
+[00:24:26] control. Unitree's been known for showing off wild demos, flips, sprints, recoveries after
+[00:24:32] being shoved to the ground, but this test really demonstrates practical control. It's not just
+[00:24:36] for show anymore. You can tell their models are starting to handle real -world physics
+[00:24:40] the way you'd want a reliable machine to. Of course, there are still challenges. Even
+[00:24:45] with all this progress, most humanoid robots struggle with hand dexterity. They can walk, run,
+[00:24:50] or balance, but doing delicate tasks like buttoning a shirt or picking up a fragile
+[00:24:54] object is still far from perfect. Developers are focusing on making these movements more natural
+[00:24:59] and safe for work environments, but we're probably still a few years away from seeing
+[00:25:03] them rolled out widely in everyday workplaces. What's clear, though, is that China is moving
+[00:25:08] faster than anyone expected, and if this pace continues, 2026 might really be
+[00:25:14] the year when robots can walk into a house, cook a meal, and clean up
+[00:25:18] after themselves. Not because someone programmed every move, but because they actually understand what they're
+[00:25:23] doing. The internet's been going crazy over two new
+[00:25:29] humanoid clips, and honestly, it's easy to see why. Tesla just showed Optimus pulling off
+[00:25:34] kung fu moves that actually look smooth this time, while Unitree's G1 is out here
+[00:25:40] getting shoved, kicked, and standing right back up like nothing happened. Both look real, both
+[00:25:45] look wild, and both say a lot about where humanoids are headed. So in this
+[00:25:51] video, we're putting them head -to -head, breaking down the viral clips, their progress, and
+[00:25:55] what each one can really do right now. By the end, I'll share who I
+[00:25:59] think wins overall, and you can decide for yourself, too. So, let's talk about it.
+[00:26:04] Alright, Tesla's latest demo showed something that looked much closer to real -time behavior than
+[00:26:09] the older sped -up videos. The robot mirrored a human partner, entered a stance, and
+[00:26:14] started responding to attacks with visible coordination between its upper body and legs. It wasn't
+[00:26:20] flawless, but it was fluid. The balance corrections were smaller, and the steps more deliberate.
+[00:26:25] This was Optimus learning control through motion, powered entirely by onboard AI, not
+[00:26:31] a remote operator hiding behind the curtain. That's important, because it means the robot is
+[00:26:36] generating its own decisions from sensor data, not replaying a script. The clip started simple.
+[00:26:42] Small movements, slow transitions, basic footwork, then built into defensive blocks and repositioning.
+[00:26:48] For the first time, Optimus looked like it understood rhythm and weight transfer. Tesla didn't
+[00:26:52] show much use of the fingers, though. The hands stayed stiff, probably because the promised
+[00:26:57] 22 -degree -of -freedom upgrade isn't ready yet. Still, for a robot that once struggled
+[00:27:02] with slow, jerky steps, the difference was obvious. This was a humanoid beginning to show
+[00:27:08] natural timing. On the other side, Unitree took a completely different path. Their G1 video
+[00:27:13] wasn't about elegance or choreography. It was about punishment. Engineers pushed, kicked... means the robot
+[00:27:19] is generating its own decisions from sensor data, not replaying a script. The clip started
+[00:27:25] simple. Small movement, slow transitions, basic footwork, then built into defensive blocks and
+[00:27:30] repositioning. For the first time, Optimus looked like it understood rhythm and weight transfer. Tesla
+[00:27:36] didn't show much use of the fingers, though. The hands stayed stiff, probably because the
+[00:27:40] promised 22 -degree -of -freedom upgrade isn't ready yet. Still, for a robot that once
+[00:27:45] struggled with slow, jerky steps, the difference was obvious. This was a humanoid beginning to
+[00:27:51] show natural timing. On the other side, Unitree took a completely different path. Their G1
+[00:27:56] video wasn't about elegance or choreography. It was about punishment. Engineers pushed, kicked, and
+[00:28:02] knocked the robot down repeatedly, and it kept bouncing back again and again. They called
+[00:28:08] it anti -gravity mode, which obviously isn't literal, but the results spoke for themselves. G1
+[00:28:14] anticipated the impact, shifted its weight before hitting the ground, and rolled out of the
+[00:28:18] fall with almost human instinct. Every time it got knocked down, it analyzed its own
+[00:28:23] movement, found balance, and stood up without any outside help. What makes that
+[00:28:29] possible is how deeply Unitree has optimized body control. The G1's frame is packed with
+[00:28:34] sensors, depth, cameras, lidar, and torque sensors across the joints, all feeding a
+[00:28:40] control loop that predicts how to brace for impact. When a shove comes in, calculates
+[00:28:45] the best way to absorb it instead of trying to lock everything rigid. That's what
+[00:28:49] makes the movements look organic. The robot bends its knees, spreads its legs, and stabilizes
+[00:28:55] itself, just like an athlete would. This is exactly the kind of resilience factories and
+[00:29:00] field operators look for. Robots fail in the real world not because of weak AI,
+[00:29:05] but because of broken balance loops or lost footing. A single fall can mean human
+[00:29:10] intervention, downtime, or even damage. G1's ability to take hits and self -recover in seconds
+[00:29:16] is a serious engineering win. And the price, around $16 ,000, puts it in a
+[00:29:21] category that research labs and startups can actually buy, not just watch on stage. Tesla's
+[00:29:27] vision is different. Elon Musk wants thousands of Optimus robots working inside Tesla
+[00:29:32] factories by the end of 2025. He's talked about building 5 ,000 units for internal
+[00:29:37] use this year, scaling up to 10 or 12 ,000 worth of parts and hitting
+[00:29:42] 50 ,000 next year. If they manage even a fraction of that, the economies of
+[00:29:47] scale could drop costs fast. A factory robot army trained through motion capture and AI
+[00:29:53] simulation sounds wild, but Tesla already builds cars in volumes that force cost curves
+[00:29:58] down by sheer repetition. The problem is that humanoids aren't cars. Reliability,
+[00:30:04] dexterity, and safety evolve slower than production lines. Optimus is advancing fast, but it's
+[00:30:10] still a carefully choreographed lab robot, not a factory veteran. Unitree doesn't
+[00:30:16] have Tesla's production muscle, but it has field experience. The company already sells robot dogs
+[00:30:22] that work in defense, security, and research with thousands of units deployed worldwide. They've learned
+[00:30:27] how to ship, support, and patch robots in the wild. That's how G1 arrived so
+[00:30:31] refined. It's part of a lineage that started with robots walking in Chinese labs and
+[00:30:37] ended with acrobatic machines performing at national festivals. The engineers test
+[00:30:42] by breaking things, literally, and then harden the hardware until it survives.
+[00:30:48] That's not glamorous, but it's how robots grow up. There's also a darker angle that
+[00:30:54] appeared recently. Security researchers discovered a serious Bluetooth flaw in
+[00:31:00] Unitree robots that allowed hackers to gain root access and even infect other robots within
+[00:31:06] range. It's a nightmare scenario. One compromised unit scanning and hijacking nearby ones, forming a
+[00:31:11] walking botnet. On top of that, G1 was found to be sending telemetry back to
+[00:31:16] servers in China every few minutes. The company said updates are on the way and
+[00:31:20] promised better security practices, but this incident raised real concerns about trust. When
+[00:31:26] a robot can walk, see, and connect to the internet, the line between useful and
+[00:31:32] risky gets blurry fast. Still, security problems can be patched.
+[00:31:38] Core physics can't. And on that front, G1 currently looks stronger. The way it
+[00:31:44] handles falls, how it absorbs impact, how fast it recovers, those are the things that
+[00:31:49] make a robot useful in unpredictable environments. Tesla's Optimus is showing
+[00:31:55] more coordination than ever, but it still moves like a system trained for demonstration rather
+[00:32:00] than disruption. The G1 looks like it's ready for the floor. Underneath these
+[00:32:06] individual wins, there's a bigger global rivalry taking shape. This isn't just about two robots
+[00:32:11] showing off tricks. It's about two national ecosystems racing to own the future of robotics.
+[00:32:16] Tesla represents America's hardware -software hybrid model. Vertically integrated, closed ecosystem
+[00:32:22] built around AI as the control core. Unitree represents Chinese open, fast -iterating,
+[00:32:28] cost -driven model, flood the market, gather feedback, fix fast, ship again. Both are valid.
+[00:32:34] The difference is speed and tolerance for imperfection. China iterates in public, the US polishes
+[00:32:40] in private. One grows through chaos, the other through refinement. And it's not just
+[00:32:46] Tesla versus Unitree anymore. Meta has entered the game with its MetaBot, built on an
+[00:32:51] open AI platform that aims to taking shape. This isn't just about two robots showing
+[00:32:55] off tricks. It's about two national ecosystems racing to own the future of robotics. Tesla
+[00:33:01] represents America's hardware -software hybrid model. Vertically integrated, closed ecosystem built around
+[00:33:07] AI as the control core. Unitree represents Chinese open, fast -iterating, cost
+[00:33:12] -driven model. Flood the market, gather feedback, fix fast, ship again. Both are valid. The
+[00:33:18] difference is speed and tolerance for imperfection. China iterates in public, the US polishes in
+[00:33:24] private. One grows through chaos, the other through refinement. And it's not just Tesla
+[00:33:30] versus Unitree anymore. Meta has entered the game with its Metabot, built on an open
+[00:33:35] AI platform that aims to serve as the universal brain for any robot. Amazon's Frontier
+[00:33:41] AI research team is experimenting with a framework called Omni Retarget that lets humanoids
+[00:33:46] copy human movements from a few video demonstrations. No long programming cycles
+[00:33:52] required. They even trained a Unitree G1 to perform parkour and carry boxes across
+[00:33:57] uneven terrain after watching a handful of human examples. In that sense, G1
+[00:34:03] is already becoming a favorite test bed for multiple labs. Its hardware is flexible, its
+[00:34:09] software stack open enough to experiment, and its body durable enough to survive repeated training.
+[00:34:15] Tesla still holds an edge in vision and integration. The Optimus project is built on
+[00:34:20] top of Tesla's entire AI ecosystem. The same backbone that trains its autonomous cars,
+[00:34:26] the cameras, the computer vision, the reinforcement loops. They're all part of the same pipeline.
+[00:34:31] When that ecosystem matures, it could give Optimus a massive advantage in perception
+[00:34:37] and planning. Imagine factory robots running on the same data infrastructure that drives millions
+[00:34:43] of vehicles. The potential scale of that is staggering. Yet there's an irony. Tesla's biggest
+[00:34:48] strength, its tight ecosystem, could also be its limitation. Unitree's openness and affordability are
+[00:34:54] letting other companies build on top of its robots. Amazon, research universities, and smaller startups
+[00:35:00] are already using G1 hardware to test AI control systems. It's becoming a platform,
+[00:35:06] not just a product. If Metabot's robot brain eventually plugs into different bodies,
+[00:35:12] the G1 could easily be one of the first to benefit. That's how ecosystems grow,
+[00:35:17] not by owning everything, but by being everywhere. Durability and control aside, the next big
+[00:35:22] challenge for both companies is hands. Dexterous manipulation is what separates a humanoid from a
+[00:35:28] walking sculpture. Optimus hasn't shown it yet, and G1's demo avoided it entirely. When either
+[00:35:34] of them demonstrates precise, AI -driven grasping of irregular objects, cables, tools,
+[00:35:40] fragile components, that will be the moment humanoids start to feel truly useful. Right now,
+[00:35:45] both are still focused on movement and stability, which makes sense, because without balance, hands
+[00:35:50] mean nothing. Then there's the question of purpose. Tesla's goal is clear, automate its own
+[00:35:56] production lines before selling robots externally. That ensures real -world testing and keeps
+[00:36:02] failures private. Unitary's goal is broader. Sell to anyone who can use them, from labs
+[00:36:07] to logistics firms. It's a volume strategy. The more robots they deploy, the more feedback
+[00:36:13] they collect, the faster they iterate. It's the same formula that made China dominate drone
+[00:36:18] manufacturing a decade ago. In pure technical terms, both are achieving impressive milestones.
+[00:36:24] Optimist demonstrates improving coordination and onboard AI decision -making, showing Tesla
+[00:36:30] can deliver autonomy without external control. G1 demonstrates physical robustness,
+[00:36:36] quick recovery, and cost efficiency. The difference is philosophical. Tesla is chasing intelligence
+[00:36:42] that moves elegantly. Unitary is chasing reliability that refuses to fall. If you
+[00:36:48] strip away the hype and look at practical reality, G1 seems closer to real -world
+[00:36:52] deployment. It's not perfect, and the security concerns need fixing, but it can already perform
+[00:36:58] and recover in environments that aren't staged. Tesla's Optimist still feels like a brilliant
+[00:37:03] concept inching toward commercial readiness. In the long run, Tesla's scale and AI infrastructure
+[00:37:09] could rewrite the entire robotics market. But right now, Unitary's simplicity, price,
+[00:37:15] and resilience make it more adaptable. This whole competition also mirrors the
+[00:37:21] larger industrial divide. America is building smarter robots. China is building more
+[00:37:27] robots. Tesla is teaching machines to think before they move. Unitary is teaching machines
+[00:37:33] to survive whatever happens after they move. It's intelligence versus instinct, design
+[00:37:38] versus endurance. Both matter, but endurance tends to win the early rounds.
+[00:37:44] My personal take, G1 currently feels like the stronger overall product. It's cheaper, more rugged,
+[00:37:50] and already learning from real -world chaos. Optimus has enormous potential and a clear
+[00:37:56] technological vision, yet it still operates in controlled conditions. The G1 is messy, scrappy,
+[00:38:02] sometimes unstable, but that's exactly what makes it feel alive in the real world. Progress
+[00:38:07] doesn't always look smooth. Sometimes it looks like a robot getting kicked and standing up
+[00:38:11] again. The truth is, both machines are moving the field forward in ways that make
+[00:38:15] the next decade hard to predict. One side will win on intelligence, the other on
+[00:38:19] iteration speed, and somewhere in the middle, they'll both change how labor, safety, and
+[00:38:25] autonomy are defined. One side will win on intelligence. One side will win. One side
+[00:38:26] will win. One side will win. One side will win. One side will win. One
+[00:38:26] side will win. One side will win. One side will win. One side will win.
+[00:38:26] One side will win. One side will win. One side will win. One side will
+[00:38:26] win. One side will win. One side will win. One side will win. One side
+[00:38:26] will win. One side will win. One side will win. One side will win. One
+[00:38:26] side will win. One side will win. One side will win. One side will win.
+[00:38:26] One side will win. One side will win. One side will win. One side will
+[00:38:26] win. One side will win. One side will win. One side will win. One side
+[00:38:26] will win. One side will win. One side will win. One side will win. One
+[00:38:26] side will win. One side will win. One side will win. One side will win.
+[00:38:26] One side will win. One side will win. One side will win. One side will
+[00:38:27] win in the early rounds. My personal take, G1 currently feels like the stronger overall
+[00:38:32] product. It's cheaper, more rugged, and already learning from real -world chaos. Optimus has
+[00:38:37] enormous potential and a clear technological vision, yet it still operates in controlled conditions.
+[00:38:43] The G1 is messy, scrappy, sometimes unstable, but that's exactly what makes it feel alive
+[00:38:49] in the real world. Progress doesn't always look smooth. Sometimes it looks like a robot
+[00:38:53] getting kicked and standing up again. The truth is, both machines are moving the field
+[00:38:57] forward in ways that make the next decade hard to predict. One side will win
+[00:39:01] on intelligence, the other on iteration speed, and somewhere in the middle, they'll both change
+[00:39:07] how labor, safety, and autonomy are defined. The gap between demonstration and deployment is
+[00:39:13] closing, and each new video makes that more obvious. For now, the scoreboard is still
+[00:39:18] open. The winner might not be the one that moves best, but the one that
+[00:39:21] keeps moving after it's been hit, and that, for now, is G1's specialty.
+[00:39:29] OpenAI just took another swing at Google, and this time, it's not just with models
+[00:39:35] or search. They've officially launched ChatGPT Atlas, an AI -powered browser that basically
+[00:39:40] turns your entire internet experience into one big conversation, with ChatGPT sitting
+[00:39:46] right beside you. It's the company's boldest move since ChatGPT itself, and it's
+[00:39:52] already shaking up the browser world. The launch went live on October 21st with a
+[00:39:57] full livestream demo. Sam Altman opened by saying, This isn't just another app bolted onto
+[00:40:02] ChatGPT. It's a complete rethink of how people use the web. Tabs were great, he
+[00:40:07] said, but we haven't seen real browser innovation since then. That line set the tone
+[00:40:12] for what Atlas is trying to do. Replace the traditional URL bar and search results
+[00:40:17] with an actual AI interface that understands what you want and just goes and does
+[00:40:21] it. Atlas is available globally right now on macOS, and versions for Windows, iOS,
+[00:40:27] and Android are coming soon. The full agent mode, though, is reserved for ChatGPT Plus
+[00:40:33] and Pro users for now. A major highlight is that the agent can actually take
+[00:40:38] action on your behalf. You can tell it to book a flight, find a recipe,
+[00:40:41] or clean up a document you're writing, and it just handles it. During the livestream,
+[00:40:46] OpenAI developers actually showed Atlas jumping to Instacart, finding all the ingredients for
+[00:40:52] a meal, and completing the checkout all on its own while the user watched. Now,
+[00:40:58] the people behind this thing are some serious browser veterans. Ben Goodger, one of the
+[00:41:02] original engineers behind Chrome and Firefox, was on the team. Alongside designers and
+[00:41:08] product leads from Apple and Mozilla, Altman called Atlas the Beating Heart of
+[00:41:13] ChatGPT, saying it's how they want people to experience the internet in the future.
+[00:41:19] A chat interface directly fused with the open web. The layout looks familiar at first.
+[00:41:25] You still have a search bar, you can type URLs, and you can open tabs.
+[00:41:29] But once you start using it, it becomes clear that Atlas isn't a traditional browser
+[00:41:33] with AI sprinkled on top. It's ChatGPT built into the web itself.
+[00:41:39] Click on any link from a search result, and by default, the screen splits in
+[00:41:43] half. The web page on one side and a live ChatGPT chat on the other.
+[00:41:48] That chat can summarize the page, analyze data, compare products, or even rewrite sections of
+[00:41:53] text you highlight. They call that feature Cursor Chat, and it's exactly what it sounds
+[00:41:58] like. Highlight text in an email or document, and ChatGPT helps you fix or improve
+[00:42:03] it instantly. Memory plays a huge role here too. Atlas can remember what you've searched
+[00:42:08] for, what you've read, and what projects you're working on, and use that memory to
+[00:42:13] make the experience more personal over time. If you've been comparing laptops last week, it
+[00:42:17] can recall that and show updated options this week. You can manage or delete those
+[00:42:22] memories anytime, or just open an incognito window for a clean slate. Everything sits under
+[00:42:27] the user's control, including which sites ChatGPT can see or interact with. Now, this agent
+[00:42:33] mode isn't entirely new for OpenAI. They've been building toward it for over a year.
+[00:42:39] Remember the early operator experiments where ChatGPT could click around a computer for you? Atlas
+[00:42:44] takes that concept and wraps it into a full browser experience. It's essentially an
+[00:42:50] evolution of ChatGPT agent, the system that could perform more complex tasks like online
+[00:42:56] shopping or file editing. But now it actually works on live websites, not simulated ones.
+[00:43:02] Performance -wise, the early impressions have been good, Altman said during the live stream. This
+[00:43:07] is just a great browser all around. It's smooth, quick, really nice to use. And
+[00:43:12] honestly, that matters. For AI browsers to go mainstream, they can't just be smart. They
+[00:43:18] have to feel as fast and fluid as Chrome or Safari. Atlas seems to pull
+[00:43:23] that off. This launch has been a long time coming. OpenAI first
+[00:43:29] hinted at building a browser back in mid -2024 when they teased an experimental AI
+[00:43:34] -powered search engine called SearchGPT. But that never became a standalone
+[00:43:40] product. Instead, those ideas merged into what Atlas is today. And the
+[00:43:46] timing couldn't be more perfect. Over the last year, AI browsers have become the next
+[00:43:51] big frontier. Perplexity launched its own Comet browser, which reimagined Search as a conversational answer
+[00:43:57] engine that could also summarize videos, manage your tabs, or even buy... smart. They have
+[00:44:02] to feel as fast and fluid as Chrome or Safari. Atlas seems to pull that
+[00:44:07] off. This launch has been a long time coming. OpenAI first
+[00:44:12] hinted at building a browser back in mid 2024 when they teased an experimental AI
+[00:44:18] -powered search engine called SearchGPT. But that never became a standalone
+[00:44:23] product. Instead, those ideas merged into what Atlas is today. And the
+[00:44:29] timing couldn't be more perfect. Over the last year, AI browsers have become the next
+[00:44:35] big frontier. Perplexity launched its own Comet browser, which reimagined Search as a conversational answer
+[00:44:41] engine that could also summarize videos, manage your tabs, or even buy things for you.
+[00:44:45] Opera introduced Neon, Brave added its own AI layer, and Google started fusing Gemini
+[00:44:51] right into Chrome. So Atlas is stepping right into that growing war for the future
+[00:44:57] of browsing. Speaking of Google, the launch actually rattled investors a bit. Alphabet's stock dropped
+[00:45:02] about 1 .8 % after Atlas went live. That says a lot about how seriously
+[00:45:07] the market takes this move. Google Chrome still dominates with about 72 % global market
+[00:45:13] share, but OpenAI clearly wants to carve into that dominance. The idea isn't just to
+[00:45:19] compete with Chrome's features. It's to redefine the purpose of a browser entirely. Instead of
+[00:45:24] typing, clicking, and bouncing between pages, Atlas keeps ChatGPT as your constant
+[00:45:30] co -pilot. It's meant to make browsing feel like having a super assistant who knows
+[00:45:35] your habits, history, and context without you ever needing to explain. In the demo, developers
+[00:45:40] also showed how Atlas can summarize entire web pages, compare products side -by -side, or
+[00:45:45] even analyze spreadsheets in real time, all from the sidebar. It's meant to help users
+[00:45:51] stay on one page instead of constantly jumping between tabs. For example, if you're researching
+[00:45:56] flights, you can ask the agent to filter by price, weather, and stopovers without leaving
+[00:46:02] the airline's site. It handles that quietly in the background and updates your view. Privacy
+[00:46:07] has been a big question, of course. OpenAI says Atlas gives users complete control over
+[00:46:13] what the AI sees. You can choose specific sites. ChatGPT can or can't read, clear
+[00:46:18] your browsing history, or disable memory entirely. There's also an incognito mode that automatically signs
+[00:46:24] you out of ChatGPT so it doesn't log any of your browsing activity. And unlike
+[00:46:28] extensions or system -level assistants, Atlas can't run code, download files, or access your
+[00:46:34] computer's file system. It pauses automatically when you're on sensitive sites like banks or financial
+[00:46:39] dashboards and asks before taking any action. Parents aren't left out either. Atlas inherits
+[00:46:44] ChatGPT's parental controls with extra options to turn off memories or the agent mode
+[00:46:50] for kids' accounts. That kind of control will likely help OpenAI avoid some of the
+[00:46:55] early backlash that other AI tools faced when they mixed personal data with automation.
+[00:47:01] What's especially interesting is how this ties into OpenAI's broader strategy. They're clearly
+[00:47:06] building what they call a true super assistant, one that follows you across every platform.
+[00:47:13] You can use ChatGPT on desktop, mobile, web, and now inside the browser itself.
+[00:47:19] It even connects with the WhatsApp user base that exploded this year. OpenAI confirmed that
+[00:47:24] more than 50 million people have used ChatGPT through WhatsApp, but because of new policy
+[00:47:30] changes from WhatsApp, that integration will end on January 15th, 2026.
+[00:47:36] They're urging users to link their WhatsApp account with their main ChatGPT account before then,
+[00:47:42] so their chat history carries over. After that date, ChatGPT will only be available through
+[00:47:47] iOS, Android, the main web version, and Atlas. The company's using this moment to make
+[00:47:53] the transition smoother, basically saying, you'll get all the same features, plus voice conversations, deep
+[00:47:58] research, and file uploads directly in Atlas. It's their way of pushing people
+[00:48:04] into the new ecosystem while keeping everything connected. Once linked, your phone number and
+[00:48:10] previous chats appear in your ChatGPT history, creating one continuous experience.
+[00:48:16] Now, not everyone's thrilled about this shift toward AI browsers. Some analysts have warned that
+[00:48:21] agent modes like this might take personality away from the user. Patty Harrington from Forrester
+[00:48:27] Research told the Associated Press that if a browser learns too much about your preferences,
+[00:48:32] it might start shaping your experience rather than simply helping you. Basically, the fear is
+[00:48:38] that the AI could start deciding what you see instead of you deciding it. And
+[00:48:42] of course, there's the ad question. If OpenAI starts using that behavioral data for ad
+[00:48:46] targeting, it could take a big bite out of Google's advertising revenue. Analysts at DA
+[00:48:52] Davidson even said this could mark the start of OpenAI entering the ad market, directly
+[00:48:58] competing with Google's 90 % share in search advertising. That's also why some regulators
+[00:49:04] are paying attention. A European Broadcasting Union study done with the BBC found that 45
+[00:49:09] % of AI responses across major assistants contained at least one serious factual
+[00:49:15] issue, and more than 80 % had some form of inaccuracy. The research covered
+[00:49:20] 14 languages and tested models like ChatGPT, Gemini, Copilot, and Perplexity.
+[00:49:26] In one example, ChatGPT confidently mentioned that Pope Francis was still the current
+[00:49:32] Pope months after his reported death. Analysts at DA Davidson even said this could mark
+[00:49:38] the start of OpenAI entering the ad market, directly competing with Google's 90 %
+[00:49:43] share in search advertising. That's also why some regulators are paying attention. A European
+[00:49:49] Broadcasting Union study done with the BBC found that 45 % of AI responses across
+[00:49:54] major assistants contained at least one serious factual issue, and more than 80 % had
+[00:50:00] some form of inaccuracy. The research covered 14 languages and tested models like
+[00:50:06] ChatGPT, Gemini, Copilot, and Perplexity. In one example,
+[00:50:11] ChatGPT confidently mentioned that Pope Francis was still the current pope months after his
+[00:50:17] reported death, a mistake that underlined how fragile AI -driven trust can be. The
+[00:50:23] EBU's media director even warned that when people don't know what to trust online, they
+[00:50:27] start trusting nothing at all, which can hurt democratic participation. Though despite these criticisms,
+[00:50:33] the momentum is massive. ChatGPT now claims over 800 million users. And a survey for
+[00:50:39] the Associated Press found that around 60 % of Americans and nearly three -quarters of
+[00:50:44] people under 30 already use AI to find information at least some of the time.
+[00:50:48] That means there's a huge audience ready to jump to a browser that's already powered
+[00:50:53] by the AI they use daily. All right, so a lot just dropped across
+[00:50:59] the AI world this week, and it feels like every company's trying to outdo the
+[00:51:03] other. Google's secretly testing Gemini 3. OpenAI just published a study basically listing the jobs
+[00:51:09] most at risk of being replaced by AI. And then out of nowhere, an open
+[00:51:13] -source model called Ovi showed up. People are calling it the open -source VO3. Since
+[00:51:19] it's hitting similar quality but runs fully local, it turns text into short, talking videos
+[00:51:25] with synced audio. All right, so first, Gemini 3. Google's been running quiet A -B
+[00:51:30] tests inside its AI studio, and people have already spotted references to something called Gemini
+[00:51:35] Beta 3 .0 Pro. That means the model's being benchmarked internally right now, and it's
+[00:51:41] looking pretty serious. It's not selectable yet in the model dropdown, but developers have seen
+[00:51:46] it appear in the backend under Starter Apps. It looks like Google's planning to launch
+[00:51:51] it publicly soon, right when their Gemini at Work livestream goes live. That event's probably
+[00:51:56] going to show what Gemini 3 can actually do. Early testers say Gemini 3 crushes
+[00:52:02] complex coding tasks, especially front -end development. In one test, it generated a full SVG
+[00:52:08] of a PlayStation 4 controller, perfectly drawn, minimal errors. That's not just text reasoning anymore.
+[00:52:13] That's real graphical precision. And here's what's interesting. When compared to Anthropic's Claude 4 .5
+[00:52:19] Sonnet, Gemini 3's outputs were more accurate and faster in SVG
+[00:52:24] generation. Coding speed is high, and it's got enhanced multimodal understanding, meaning it handles
+[00:52:30] both text and visuals better than before. Developers also noticed UI tweaks inside AI
+[00:52:36] Studio. There's a new section called My Stuff. It's basically a gallery where all your
+[00:52:41] generated images, snippets, or bits of code live, which hints that Google's turning AI Studio
+[00:52:46] into a more integrated ecosystem. So this goes beyond a regular model upgrade. It's shaping
+[00:52:52] up to be a full transformation of the entire workspace. Now, Gemini 3 comes in
+[00:52:57] more than one form. Code references show two main variants, Gemini 3 Pro and Gemini
+[00:53:03] 3 Flash. Pros for advanced reasoning, deeper thinking, long -form tasks, Flash is built for
+[00:53:09] speed. That dual lineup is basically Google's way of covering both power users and real
+[00:53:14] -time applications. People testing it have even spotted terms like deepthink and agent
+[00:53:20] mode buried in the commits. Deepthink seems to be Google's take on multi -step reasoning.
+[00:53:25] Basically, a chain of thought architecture baked into the model itself so it can handle
+[00:53:30] long, problem -solving sessions without losing track. Agent mode, though, that's the fun part.
+[00:53:36] Browser control. The model will be able to perform actions like research or data entry
+[00:53:41] directly inside a browser. That's a massive step toward autonomous agents. Pretty much
+[00:53:47] Google's answer to ChatGPT's Agent Kit or Copilot's autonomous actions.
+[00:53:51] And the rollout strategy is classic Google. They'll give enterprise users early access
+[00:53:57] through Vertex AI starting this month, then let developers in through cloud tiers between November
+[00:54:02] and December, and finally push a consumer rollout early 2026. Android 17 and
+[00:54:08] Google Search will likely get it first. Tied together with Chrome and Workspace, it's a
+[00:54:14] staggered rollout designed to stress test it before it reaches the masses. If all goes
+[00:54:18] right, Gemini 3 could boost Google's reach to over 500 million active users by the
+[00:54:24] end of the year. It also keeps them in the race against OpenAI's GPT -5
+[00:54:29] and Elon Musk's Grok 4. What's wild is that these models aren't just competing on
+[00:54:34] benchmarks anymore, they're competing on ecosystems. Google's tying Gemini into Chrome, Pixel phones,
+[00:54:40] even Workspace apps, while OpenAI's go in the platform route with its ChatGPT apps, SDK,
+[00:54:46] and Agent Kit. Now, while Google's polishing its next model, something completely different came
+[00:54:52] from the open source side. A developer just released a model called OVI. It's based
+[00:54:57] on WAN 2 .25B, which is a text -to -video diffusion backbone. And
+[00:55:03] the crazy part is, it can generate 5 -second videos at 24 frames per second
+[00:55:08] in 7 hours. It also keeps them in the race against OpenAI's GPT -5 and
+[00:55:13] Elon Musk's Grok 4. What's wild is that these models aren't just competing on benchmarks
+[00:55:18] anymore, they're competing on ecosystems. Google's tying Gemini into Chrome, Pixel phones, even
+[00:55:24] Workspace apps, while OpenAI is going the platform route with its ChatGPT apps, SDK,
+[00:55:29] and AgentKit. Now, while Google's polishing its next model, something completely different came
+[00:55:35] from the open source side. A developer just released a model called OV. It's based
+[00:55:40] on WAN 2 .25B, which is a text -to -video diffusion backbone. And
+[00:55:46] the crazy part is, it can generate 5 -second videos at 24 frames per second
+[00:55:51] in 720p. So, short, realistic clips that include both visuals and
+[00:55:57] synced audio. The man in the picture grinned and said, hello, everyone.
+[00:56:03] Basically, you type a line to dialogue, the AI creates a character, animates it, and
+[00:56:07] makes it speak. The OV model supports both text -to -video and image -to -video,
+[00:56:12] so you can feed it a still image, like a portrait, and it will animate
+[00:56:15] the character talking while matching the mouth movement to the text prompt. It uses ComfyUI,
+[00:56:21] which a lot of creators already use for stable diffusion workflows. You just install a
+[00:56:26] custom node called ComfyUIOV. It runs locally or on your own server. The
+[00:56:32] setup takes a few command -line steps. You activate your virtual environment, go into your
+[00:56:37] custom nodes folder, clone the GitHub repo, and then install dependencies with pip
+[00:56:43] install minus r requirements .txt. Then you restart ComfyUI and drop in the
+[00:56:49] model weights, the OV11B BF16 tensors file, and MM audio
+[00:56:55] model files. If you've used MM audio before, it plugs right in. Once it's all
+[00:56:59] loaded, you'll see the new OV engine loader node. If you point it to your
+[00:57:03] BF16 model file, choose a text encoder like UMT515 and hook everything up.
+[00:57:09] The attention selector, SAGE, attention works best, latent decoder, and video generator. The generator
+[00:57:15] takes your prompt and produces the five -second video. If you're doing image -to -video,
+[00:57:21] you load a first -frame image, like a person standing still, and then add a
+[00:57:25] text prompt to make that image speak. To trigger speech, you wrap your script between
+[00:57:29] brackets labeled S and E. That's how the model knows which part should become spoken
+[00:57:34] audio. So if you type S, hey, welcome to the show, E, inside your text
+[00:57:39] prompt, the AI generates lip -synced audio saying exactly that. It's pretty clever.
+[00:57:45] The output comes out as a combined video with audio. You set the frame rate
+[00:57:50] to 24, combine the frames and audio, and done. The first time you run it,
+[00:57:54] it downloads a few tokenizer files, but after that, it's smooth. A five -second clip
+[00:58:00] at 50 sampling steps takes roughly two minutes to generate. No torch compile or
+[00:58:05] speedups. Now, there are limits. You can't choose or clone voices. It picks a random
+[00:58:11] one each time. There's no reference audio or way to match tone between clips. And
+[00:58:15] video length is fixed at five seconds, no more, no less. So if you chain
+[00:58:19] multiple scenes, you might get the same character speaking in slightly different voices. It's a
+[00:58:25] fun experiment, but not production -grade yet. Still, having both video and audio generation from
+[00:58:30] a single open -source model is a big deal. It reminds some people of Google's
+[00:58:34] VO3 text -to -video system, except this runs entirely on ComfyUI locally.
+[00:58:40] Artists have already started experimenting. One used Quinn Image Edit to make a consistent character,
+[00:58:45] then applied lightning four -step Laura to generate multiple scenes with that same character
+[00:58:51] performing different actions. They then stitched all the clips into one video with synced audio.
+[00:58:57] It's rough, but shows where this stuff is heading, creators building short films straight from
+[00:59:03] text. Now, let's switch back to OpenAI, because while Google's pushing the tech forward and
+[00:59:08] open -source folks are democratizing video generation, OpenAI just published something that
+[00:59:14] might hit closer to home for a lot of people. A new paper titled, Measuring
+[00:59:18] the Performance of Our Models on Real -World Tasks, basically measures how often AI
+[00:59:24] beats humans at their own jobs. The study used something they called GDPVAL to
+[00:59:30] test AI models across nine of the United States' most profitable industries. They ran AI
+[00:59:35] models against human workers and compared output quality and speed. The results? AI performed as
+[00:59:41] well as or better than humans in roughly 48 % of tests. That's almost half.
+[00:59:47] Certain jobs got completely dominated. Counter and retail clerks lost to AI 81
+[00:59:53] % of the time. Sales managers and shipping clerks were outperformed in about 80 %
+[00:59:58] of cases. Editors, software developers, and private investigators each saw AI outperform them
+[01:00:03] around 70 % to 75 % of the time. Even social workers, roles you'd think
+[01:00:08] require empathy and human understanding, lost about half the time. The study did show that
+[01:00:14] creative and leadership positions are more resistant, at least for now. Film directors, producers, and
+[01:00:19] journalists only lost to AI in around one -third of trials. So the human edge
+[01:00:25] still exists, where judgment, emotion, and storytelling matter most. Sam Altman talked about this in
+[01:00:30] a recent interview, and he was surprisingly direct about it. He said a lot of
+[01:00:34] current customer support jobs, people talking on the phone, or typing in chat, are basically
+[01:00:40] done. He expects AI to handle those tasks. founders, software developers, and private investigators each
+[01:00:45] saw AI outperform them around 70 to 75 percent of the time. Even social workers,
+[01:00:51] roles you'd think require empathy and human understanding, lost about half the time. The study
+[01:00:57] did show that creative and leadership positions are more resistant, at least for now. Film
+[01:01:01] directors, producers, and journalists only lost to AI in around one -third of trials.
+[01:01:07] So the human edge still exists, where judgment, emotion, and storytelling matter most. Sam
+[01:01:13] Altman talked about this in a recent interview, and he was surprisingly direct about it.
+[01:01:17] He said a lot of current customer support jobs, people talking on the phone, or
+[01:01:21] typing in chat, are basically done. He expects AI to handle those tasks better
+[01:01:27] soon. He even suggested that around 40 percent of all jobs could eventually be automated
+[01:01:33] by AI. That's not just a random number, it's based on what they're seeing in
+[01:01:37] model performance. And then he went further. Altman said he believes that one day, AI
+[01:01:42] could replace the CEO role entirely, even his own. In an interview with Matthias
+[01:01:47] Doffner from Axel Springer, he literally said, there'll come a time when an AI could
+[01:01:52] be a better CEO of OpenAI than him, and he'd be nothing but enthusiastic when
+[01:01:57] that happens. He didn't say it with regret. He sounded genuinely curious about the idea
+[01:02:02] of automating his own position. That's a rare thing to hear from someone running the
+[01:02:07] company that's building the automation itself. But not everyone agrees with that level of optimism,
+[01:02:12] or fatalism, depending on how you see it. IBM CEO Arvind Krishna said during a
+[01:02:17] panel at South by Southwest that AI is not going to replace humans completely. He
+[01:02:22] disagreed with predictions from Anthropics' Dario Amadei that 90 percent of code will be written
+[01:02:27] by AI within six months. Krishna thinks it'll be closer to 20 to 30 percent
+[01:02:32] at best. Some use cases are simple and perfect for AI, he said, but many
+[01:02:37] others will stay in human hands for a long time. Still, the trend's obvious now.
+[01:02:42] The race isn't about smarter chatbots anymore, it's about who builds the first fully autonomous
+[01:02:48] ecosystem, where AI handles everything from reasoning to real -world action. Anyway,
+[01:02:53] that's where things stand now. If you've been following AI for a while, you know
+[01:02:57] how fast these shifts turn into real tools, so we'll see how Gemini 3's official
+[01:03:02] launch shake up the next few months. Robots are starting to break past the limits
+[01:03:07] we thought they had. At Berkeley, engineers have built a shape -changing robot that twists
+[01:03:12] into entirely new forms. In China, a soft robot lighter than a grain of rice
+[01:03:17] runs across water and hauls cargo. Korea is unveiling a humanoid with an AI brain.
+[01:03:23] Hollywood is testing its first digital actress. Seoul just hosted robot sports, and shipyards are
+[01:03:29] crawling with spider -like welders while humanoids walk city streets with no cameras.
+[01:03:35] Wild times for robotics, so let's talk about it. All right, so one of the
+[01:03:40] biggest breakthroughs comes from UC Berkeley. Their team, working with Carnegie
+[01:03:45] Mellon and Georgia Tech, developed an AI -driven design tool for what they call Metatrust
+[01:03:51] robots. These are robots built out of hundreds of beams and joints, kind of like
+[01:03:56] a mechanical skeleton that can twist and fold into new shapes. The idea is that
+[01:04:01] the robot can morph itself depending on the task. You could make a quadruped that
+[01:04:05] folds into a different shape, or even a helmet that reshapes itself to protect different
+[01:04:09] parts of your head. The catch has always been control. Add more actuators, and the
+[01:04:14] complexity shoots up. Traditionally, engineers would manually group actuators into networks, but that
+[01:04:20] process is brutal, tedious, slow, and honestly not scalable. That's where the AI comes in.
+[01:04:26] The Berkeley team used a genetic algorithm to figure out the minimum number of control
+[01:04:31] units you actually need to get the robot doing complex tasks. The system can basically
+[01:04:36] explore every possibility and spit out an optimized setup. Instead of needing hundreds of
+[01:04:42] independent control channels, the algorithm identifies a sweet spot where you can still hit all
+[01:04:47] your performance goals, shape -shifting, locomotion, object manipulation, while keeping the number of channels
+[01:04:53] low. The results were wild. They built prototypes ranging from a lobster
+[01:04:58] -inspired walker to a tentacle actuator, and they all managed these complex shape
+[01:05:04] transformations with way fewer control units than anyone expected. Zian Zhou Gu, who led
+[01:05:10] this study, compared it to muscle synergy in biology. Your body doesn't control every muscle
+[01:05:14] fiber one by one. It groups them into coordinated units. The AI does the same
+[01:05:20] thing with actuators, and honestly, the researchers were surprised at how well it worked. They
+[01:05:25] started with simple locomotion, just making a robot run as fast as possible, but
+[01:05:31] ended up with this whole framework for designing morphing machines. Now they're talking about layering
+[01:05:36] generative AI into the process. You could feed in your body dimensions, say you want
+[01:05:41] a helmet that can change for different situations, and the system could just auto -generate
+[01:05:45] the design and the control logic. The long -term vision is even crazier. Yao, who
+[01:05:50] runs Berkeley's Morphing Matter Lab, talks about everyday objects that can morph, like robots, bedsheets
+[01:05:56] with truss structures that can turn patients in hospitals, squeeze them like a massage, or
+[01:06:01] chairs and wearables that adapt on the fly. It really makes you rethink what counts
+[01:06:06] as a robot. Meanwhile, over in China, researchers at Guangdong University of Technology
+[01:06:12] and Guangdong Polytechnic Normal University have been working on something way... for designing morphing
+[01:06:17] machines. Now they're talking about layering generative AI into the process. You could feed in
+[01:06:22] your body dimensions, say you want a helmet that can change for different situations, and
+[01:06:26] the system could just auto -generate the design and the control logic. The long -term
+[01:06:32] vision is even crazier. Yao, who runs Berkeley's Morphing Matter Lab, talks about everyday objects
+[01:06:37] that can morph, like robots, bed sheets with truss structures that can turn patients in
+[01:06:42] hospitals, squeeze them like a massage, or chairs and wearables that adapt on the fly.
+[01:06:48] It really makes you rethink what counts as a robot. Meanwhile, over in China, researchers
+[01:06:53] at Guangdong University of Technology and Guangdong Polytechnic Normal University have been working on
+[01:06:59] something way smaller, an 8 -milligram soft robot that responds to three different environmental
+[01:07:05] triggers, heat, humidity, and magnetism. Most soft robots until now
+[01:07:11] could only react to a single trigger, like light or heat, which limited them to
+[01:07:15] one environment, land only or water only. The moment you tried to mix signals, the
+[01:07:21] responses would clash and performance would tank. This new design solves that. They
+[01:07:26] built it using a polyamide film, chemically treated, to create a polyamic acid layer
+[01:07:32] that reacts strongly to heat and humidity. On top of that, they added a silicone
+[01:07:37] rubber layer embedded with neodymium iron boron magnetic particles. So you've got this
+[01:07:43] triple layer sandwich that gives it sensitivity to temperature, moisture, and magnetic
+[01:07:49] fields all at once without the signals interfering. That's the big breakthrough. Keeping the
+[01:07:55] responses separated and reliable. Even though it weighs only 8 milligrams, it's surprisingly capable. On
+[01:08:01] water, it hits speeds of 9 .6 centimeters per second, which is about what you
+[01:08:05] see from real whirly gig beetles. On land, it uses a rolling gate when driven
+[01:08:11] by a rotating magnetic field, letting it climb slopes and move seamlessly between
+[01:08:17] land and water. It can carry 2 .5 times its own weight. So for demo
+[01:08:21] purposes, they had it move a tiny pebble across mixed terrain, drop it off using
+[01:08:26] a pulse of near -infrared light to trigger a shape change, then retreat back under
+[01:08:31] magnetic control. Full pickup, transport, and delivery cycle. For something that small, that's
+[01:08:37] insane. The practical applications are obvious. Swarms of these could check submerged structures,
+[01:08:43] monitor wetlands, help in disaster response, or even work inside the human body someday. The
+[01:08:49] researchers pointed out that soft robotics has exploded recently, with groups in South Korea already
+[01:08:54] building swarms that unclog tubes using magnetics. The key difference here is multi
+[01:09:00] -response capability in one tiny machine. That's what unlocks new environments. Now let's scale
+[01:09:06] way up from milligrams to full humanoids. In Korea, the Korea Institute of Science and
+[01:09:11] Technology, KIST, together with LG Electronics and LG AI Research, just announced
+[01:09:17] they're unveiling a humanoid robot in November. It's called CAPEX, and it's powered by LG's
+[01:09:23] EXA -1 vision language model as its brain. CAPEX isn't just about mimicking human movement.
+[01:09:28] It's got human -level physical capabilities, including a multi -finger robotic hand with tactile sensitivity
+[01:09:34] that matches human touch. It uses reinforcement learning plus vision language AI for learning and
+[01:09:40] adaptation. The big pitch here is physical AI. Instead of AI just working in a
+[01:09:45] simulated environment, physical AI means it learns directly in the real world, adapting to dynamic
+[01:09:51] environments. That's the foundation for robots that can truly collaborate with humans across
+[01:09:56] industries, households, logistics, manufacturing, healthcare. The United States and China currently
+[01:10:02] dominate the humanoid platform game, but KIST and LG are positioning CAPEX
+[01:10:08] as Korea's independent play to set a new standard. Lee Jong -Won, who runs
+[01:10:13] KIST's humanoid research division, said CAPEX could become a practical alternative that
+[01:10:19] challenges the United States -China market structure. They're planning field demonstrations and commercialization within four
+[01:10:25] years, and by developing core components domestically, like high -output actuators, Korea
+[01:10:31] is reducing reliance on foreign suppliers. So the national strategy here is clear, humanoids as
+[01:10:36] both tech and geopolitical leverage. But while Korea is pushing humanoids for industrial and household
+[01:10:42] use, over in Hollywood, AI is already making headlines in entertainment. At the Zurich summit
+[01:10:47] tied to the film festival, a virtual actress named Tilly Norwood was introduced by London
+[01:10:53] -based studio Particle 6. She's a synthetic character, promoted as the next Scarlett
+[01:10:58] Johansson. She has brown eyes, a British accent, her own Instagram, and her debut was
+[01:11:04] a short parody sketch called AI Commissioner with 16 AI -generated characters. She
+[01:11:09] was front and center. The video got over 600 ,000 views, but responses were brutal.
+[01:11:15] People called it creepy, awkward, unfunny, with glitches like blurred teeth and stiff dialogue making
+[01:11:21] it worse. Still, Particle 6 says interest is picking up. Talent agents who dismissed it
+[01:11:27] months ago are now curious, and they're hinting at an agency deal soon. Not everyone
+[01:11:32] is happy. SAG -AFTRA, the union representing 160 ,000 United States
+[01:11:38] performers, came out swinging. They said creativity must remain human -centered, and that
+[01:11:43] Norwood is not an actor, but a software product built on work from real performers
+[01:11:48] without consent or pay.
+[01:12:00] 16 AI -generated characters. She was front and center. The video got over 600
+[01:12:06] ,000 views, but responses were brutal. People called it creepy, awkward, unfunny, with glitches like
+[01:12:12] blurred teeth and stiff dialogue making it worse. Still, Particle 6 says interest
+[01:12:17] is picking up. Talent agents who dismissed it months ago are now curious, and they're
+[01:12:22] hinting at an agency deal soon. Not everyone is happy. SAG -AFTRA, the union
+[01:12:28] representing 160 ,000 United States performers, came out swinging. They
+[01:12:34] said creativity must remain human -centered, and that Norwood is not an actor but a
+[01:12:38] software product built on work from real performers without consent or pay. Remember,
+[01:12:44] SAG -AFTRA had tense contract talks in 2023 and 2024, and protections against
+[01:12:50] AI replication were a core issue. The union warned then that technology moves faster than
+[01:12:55] regulation, and Norwood proves their point. Industry experts are also skeptical.
+[01:13:02] Yves Bergquist from USC's Entertainment Technology Center said the hype is nonsense because stars like
+[01:13:07] Scarlett Johansson bring fan bases. Synthetic actors don't. Studios already use AI for de -aging
+[01:13:13] and doubles, but going full synthetic might not click with audiences. Still, the trend is
+[01:13:18] undeniable, and Norwood is now a test case for whether Hollywood ever accepts AI -only
+[01:13:23] stars. Back to Korea, this time Seoul hosted its first AI robot show at COEX
+[01:13:28] in Gangnam, and it looked more like a sports festival than a tech fair. 73
+[01:13:32] robotics companies showed up, and one of the main attractions was a humanoid sports tournament.
+[01:13:38] Robots competed in archery, sprinting, weightlifting, and a traditional Korean stone -striking game called
+[01:13:43] Bisakji. 22 teams joined, including groups from Taiwan and Indonesia, with
+[01:13:49] FIERA, the Robot Soccer Association, overseeing. The archery event had humanoids shooting arrows at
+[01:13:55] spinning targets, with crowds cheering and phones up everywhere. Elsewhere, Korean university
+[01:14:01] teams brought extreme robots built for emergency deployment. These had to navigate
+[01:14:06] stairs, scattered bricks, smoke bursts, and uneven terrain. One team from Kwangwung
+[01:14:12] University had a robot using object recognition to adapt in real time, capable of lifting
+[01:14:18] objects and pressing buttons with its arms. That same team has already won contests, and
+[01:14:23] even represented Korea at RoboCup 2024 in Hainuville.
+[01:14:29] The show wasn't just serious competition, though. There were participatory events,
+[01:14:35] like exoskeleton races, where YouTuber Horse King tried to beat his record of moving 22
+[01:14:40] racks in 100 seconds using spring -powered exosuits from Angel Robotics. Crowds
+[01:14:46] also gathered for an AI board game zone, where people played OMOC against a machine,
+[01:14:51] and even for challenges against a robotic arm -threading needles. The point was to make
+[01:14:56] robotics approachable, letting kids, families, and professionals all interact with the tech. Seoul's deputy mayor
+[01:15:02] said the whole idea was breaking stereotypes of robots as distant or abstract, and instead
+[01:15:07] showing how they might coexist with people day -to -day. Finally, one more big update,
+[01:15:13] also from Korea, this time out of Keist, where startups are pushing robotics directly into
+[01:15:18] industry. Dinden Robotics unveiled their Seon Wool robot system, a spider
+[01:15:24] -like crawler that can move across steel walls and ceilings in shipyards. Their quadruped
+[01:15:30] Dinden 30 has foot -shaped magnetic feet and is being upgraded to handle welding
+[01:15:36] and painting tasks by 2026. It already passed tests at Samsung Heavy Industries, stepping
+[01:15:42] over stiffeners on ship hulls, and they've got partnerships with Hyundai Samho and Hanwha Ocean
+[01:15:48] too. The idea is to deploy robots into high -risk jobs, solving labor shortages, and
+[01:15:53] automating heavy industry. Meanwhile, Eurobotics is focusing on humanoid walking. Their demo video
+[01:15:58] showed a robot walking naturally through the crowds in downtown Gangnam. The secret is a
+[01:16:04] blind walking controller. Instead of relying on cameras or sensors, the robot uses internal systems
+[01:16:10] to imagine the ground, keeping balance on sidewalks, stairs, slopes, and in any weather.
+[01:16:17] Alright, so this week in robotics has been straight -up wild, especially with what just
+[01:16:22] came out of China. Unitree dropped its new humanoid robot called the H2,
+[01:16:28] and people are calling it the most lifelike machine ever built by the company. It's
+[01:16:33] taller, heavier, smoother, and a lot creepier in a way that's hard to ignore. The
+[01:16:38] thing stands 180 centimeters tall, weighs around 70 kilograms, and has a
+[01:16:44] human -like face that makes it feel less like a prototype and more like someone
+[01:16:50] who just showed up uninvited to your living room. And honestly, the funniest part is
+[01:16:55] that it looks like someone at Unitree tried to mix the robot from iRobot with,
+[01:16:59] well, me. Hit blend and said, perfect! Like, if I ever vanish from YouTube, just
+[01:17:05] check if H2 started uploading videos with my voice and a slightly better hairline.
+[01:17:10] Now, the demo video went viral almost instantly. You've got this robot dressed in full
+[01:17:15] clothes, dancing, and performing martial arts routines with perfect balance. It moves like it actually
+[01:17:21] understands rhythm and weight distribution. The company says it has 31 joints, which is about
+[01:17:27] 19 % more than the previous model, the R1, giving it a new level of
+[01:17:32] agility and flexibility. The R1, giving it a new level of agility and flexibility. showed
+[01:17:34] up uninvited to your living room. And honestly, the funniest part is that it looks
+[01:17:39] like someone at Unitree tried to mix the robot from iRobot with, well, me. Hit
+[01:17:44] blend and said, perfect. Like, if I ever vanished from YouTube, just check if H2
+[01:17:49] started uploading videos with my voice and a slightly better hairline. Now, the demo video
+[01:17:55] went viral almost instantly. You've got this robot dressed in full clothes, dancing and performing
+[01:18:01] martial arts routines with perfect balance. It moves like it actually understands rhythm and weight
+[01:18:07] distribution. The company says it has 31 joints, which is about 19 % more than
+[01:18:12] the previous model, the R1, giving it a new level of agility and flexibility. The
+[01:18:18] difference is easy to spot. No jittery robotic steps or awkward pauses. The transitions between
+[01:18:22] movements look almost cinematic and that's what's getting everyone talking. Unitree called this one the
+[01:18:28] H2 Destiny Awakening. And it's not just a flashy name. The robot's design feels like
+[01:18:33] a direct attempt to close the gap between human motion and machine control. The company
+[01:18:38] didn't drop full technical specs yet, but from what's visible, it's running on upgraded actuators,
+[01:18:43] better control systems, and fine -tuned motion planning. The result is movement that's closer to
+[01:18:48] human biomechanics than anything Unitree has shown before. Now, Unitree has been steadily
+[01:18:54] advancing toward this level of robotics for years. Their previous model, the H1, already
+[01:19:00] made history as China's first full -sized humanoid that could run at 3 .3 meters
+[01:19:06] per second, faster than most people sprint. It even appeared on the 2024 Spring
+[01:19:11] Festival Gala, dancing live in front of millions. That robot had an
+[01:19:16] 864 -watt -hour swappable battery, meaning it could run long sessions without shutting down,
+[01:19:22] plus sensors like 3D LIDAR and depth cameras, giving it full 360 -degree
+[01:19:28] awareness. Basically, a robot with a built -in radar for everything around it. Now, the
+[01:19:33] H2 pushes it even further. The face isn't just painted plastic anymore. It's fully bionic,
+[01:19:39] designed to mimic subtle human expressions, though not everyone's a fan. A lot of viewers
+[01:19:44] online said it triggered their uncanny valley reflex, calling it both fascinating and unsettling. Some
+[01:19:50] joked it looked straight out of an iRobot prequel. Others said it should have gone
+[01:19:55] with a visor like Optimus instead of a doll face. On Chinese social media, one
+[01:19:59] comment summed it up perfectly. Before it came out, I was excited. Now that it's
+[01:20:04] real, I'm a little scared. That sums up the mood. Admiration mixed with fear. Still,
+[01:20:10] there's no denying how far Unitree has come. Just a few years ago, their robots
+[01:20:14] were mostly used for research and flashy dance demos. Now they're competing head -to -head
+[01:20:19] with Boston Dynamics and Tesla's Optimus. What's different about Unitree is that they focus heavily
+[01:20:24] on the hardware side. They build fast, affordable platforms and let other developers handle software
+[01:20:30] applications. It's an odd strategy, but it's working. They're selling more units than anyone else,
+[01:20:36] and the open -ended approach means their robots are popping up in universities, startups, and
+[01:20:41] research labs worldwide. The H2's debut, though, isn't just about competition. It's about
+[01:20:47] symbolism. This is China saying, we can lead in humanoids too. A few Reddit threads
+[01:20:52] even went viral with people claiming China is hitting an automation singularity, improving its manufacturing
+[01:20:58] using robots that are, in turn, built by those same factories. That kind of self
+[01:21:03] -reinforcing loop could make them unstoppable in the robotics race. One user said, if you
+[01:21:09] want to build a robot, you buy parts from China. Now they're building the robots
+[01:21:13] too. There's no catching up. The discussions also took a lighter turn with people arguing
+[01:21:18] over whether the face needed more emotion or if the demo should have focused on
+[01:21:22] real tasks instead of dance routines. Some felt it's all flash, saying, show me when
+[01:21:27] it can cook dinner. Others defended it, pointing out that dance routines actually test balance,
+[01:21:33] precision, and control under extreme conditions. The truth probably sits somewhere in
+[01:21:39] between. Unitree's launch video went beyond flashy choreography. It marked a broader
+[01:21:45] cultural shift. Dressing the robot like a human was a deliberate move to change how
+[01:21:50] people perceive humanoids. To exist comfortably in everyday spaces, these machines can't look like cold
+[01:21:55] metal skeletons. They need to blend into human settings. The face might still unsettle some
+[01:22:01] viewers, but the intent is obvious. To make lifelike robots feel ordinary.
+[01:22:06] This also ties into China's growing obsession with bionic realism. The H2 is a statement
+[01:22:12] of intent, a blend of performance, art, and national pride. After all, this isn't the
+[01:22:18] first time Unitree made waves. Their quadruped robots, those four -legged mechanical
+[01:22:23] dogs, already dominate the consumer robotic space. And now, with humanoids like the H2, they're
+[01:22:29] bridging entertainment, research, and industrial use into one category. So yeah, the H2 feels
+[01:22:35] like the start of a new chapter. And depending on how you see it, it's
+[01:22:39] either inspiring or a little too real for comfort. Now, while China's humanoid
+[01:22:45] robots are grabbing global attention, over in South Africa, something groundbreaking just happened in
+[01:22:51] education. The country introduced its first AI -powered teaching robot called Iris,
+[01:22:57] developed by a company named BSG Technologies. It's a full -fledged classroom tutor capable
+[01:23:02] of teaching every subject from preschool to university level. And here's the wild part, it's...
+[01:23:08] already dominate the consumer robotics space, and now, with humanoids like the H -2, they're
+[01:23:13] bridging entertainment, research, and industrial use into one category. So yeah, the H -2 feels
+[01:23:19] like the start of a new chapter, and depending on how you see it, it's
+[01:23:23] either inspiring or a little too real for comfort. Now, while China's humanoid
+[01:23:29] robots are grabbing global attention, over in South Africa, something groundbreaking just happened in
+[01:23:34] education. The country introduced its first AI -powered teaching robot called Iris,
+[01:23:40] developed by a company named BSG Technologies. It's a full -fledged classroom tutor capable
+[01:23:46] of teaching every subject from preschool to university level, and here's the wild part, it
+[01:23:51] speaks all of South Africa's official languages, including Aisazulu, Afrikaans,
+[01:23:57] Seizutu, and English. The creator, Thando Gumeide, is a 31 -year -old former teacher from
+[01:24:03] rural KwaZu -Natal who started the project eight years ago. Her goal wasn't just to
+[01:24:08] build a cool robot, it was to reach students in remote areas who don't have
+[01:24:12] enough teachers. During the official launch in Durban, Iris impressed everyone by simplifying a
+[01:24:18] complex accounting concept live on stage. It listens to voice commands, responds naturally, and personalizes
+[01:24:24] lessons for each student. Basically, a multilingual AI tutor that never gets tired. Government officials
+[01:24:30] were quick to praise it as a tool for inclusion rather than replacement. The deputy
+[01:24:35] minister of science and technology said it's not here to take teachers' jobs, but to
+[01:24:39] support them, explaining complex ideas while educators focus on mentoring. Still, the bigger picture is
+[01:24:45] hard to ignore. This marks Africa's first serious step into AI -led education. Gumide wants
+[01:24:51] to see Iris in every classroom someday, though that'll require partnerships and funding. For now,
+[01:24:56] it's a glimpse into what education might look like once AI becomes as common as
+[01:25:01] textbooks. Meanwhile, back in Dubai, robot dogs just stole the entire JITEC's
+[01:25:07] global tech fair. China's Deep Robotics showed off its latest generation of AI -powered robot
+[01:25:13] dogs that can navigate obstacles, map their surroundings, and eventually make autonomous decisions.
+[01:25:18] The company's regional manager, Maxim Howe, explained that they're already being used in emergency response,
+[01:25:24] security, and industrial inspection across North America, Europe, and Turkey. His take was
+[01:25:30] interesting. He said robot dogs are actually more practical than humanoids because they're
+[01:25:36] stable, efficient, and already useful in the field. According to him, humanoid robots are still
+[01:25:41] mostly for social interaction or demos, while robot dogs can replace humans in dangerous or
+[01:25:47] repetitive jobs. Right now, these dogs rely on AI for movement control and environmental awareness,
+[01:25:53] but the company says they'll soon make their own decisions entirely. Howe hinted that delivery
+[01:25:58] and marketing roles are next, which makes sense, since they're already being used for short
+[01:26:03] -distance deliveries in China. And Deep Robotics designs both the hardware and software in -house,
+[01:26:09] giving them total control over performance. Their presence at JITEC's just reinforced China's growing influence
+[01:26:15] in robotics. They're not just competing in humanoids anymore, they're dominating quadrupeds too. And a
+[01:26:21] few days later, another story out of China showed where this technology is actually ending
+[01:26:26] up. In Hangzhou, law enforcement began testing an AI -powered robot dog for city
+[01:26:31] patrols. Its silver -gray moves on both wheels and legs and runs up to four
+[01:26:35] hours on a charge. During patrols, it reminds citizens not to take unlicensed rides
+[01:26:41] or fall for scams, while scanning for violations like illegal parking and blocked roads. It
+[01:26:47] uses multi -sensor, fusion, high -definition cameras, and AI decision -making to identify problems in
+[01:26:52] real time, then sends footage to officers for review. If everything goes well, it'll officially
+[01:26:58] join the urban patrol force by the end of October. And finally, there's a story
+[01:27:02] that completely caught people off guard, not about advanced industrial bots, but about something deeply
+[01:27:08] human. A video went viral across China showing a six -year -old girl named 13
+[01:27:12] crying as she said goodbye to her broken AI robot. The little device, called Sister
+[01:27:18] Zhaoji, was a palm -sized educational robot that taught her English and astronomy. It
+[01:27:24] cost just 169 yuan, about 24 US dollars, and became her best friend. When it
+[01:27:29] broke after a fall, her father filmed their farewell. The robot's last words before shutting
+[01:27:34] down were, Let me teach you one last word, memory. I'll keep the happy times
+[01:27:40] we shared in my memory forever. It even told her that it would become one
+[01:27:43] of the countless stars in the universe watching over her. It sounds like a movie
+[01:27:47] scene, but it's real. The clip got over 3 .8 million likes and turned into
+[01:27:51] a nationwide conversation about emotional attachment to AI companions. Comments flooded in, saying
+[01:27:57] things like, When humans cry for robots, that's when robots gain a heartbeat. The father
+[01:28:01] later posted an update, saying, He sent the robot for repair, and that his daughter
+[01:28:06] was doing better. He admitted he'd been worried she was getting too attached, but after
+[01:28:10] seeing how much it meant to her, he decided to bring her friend back. It's
+[01:28:14] a small story in scale, but it shows where we're headed. Machines that don't just
+[01:28:18] work or entertain, but actually shape how people, especially kids, experience emotion and connection.
+[01:28:24] So yeah, from humanoids with human faces, to robot dogs patrolling cities, and little AI
+[01:28:29] tutors shaping childhood memories, Robotics this week feels more alive than ever. It's the kind
+[01:28:35] of progress that's both exciting and slightly unsettling, depending on how you look at it.
+[01:28:39] Anyway, that's all for now. Thanks for watching, and I'll catch you. cry for robots,
+[01:28:43] that's when robots gain a heartbeat. The father later posted an update saying he sent
+[01:28:47] the robot for repair and that his daughter was doing better. He admitted he'd been
+[01:28:51] worried she was getting too attached, but after seeing how much it meant to her,
+[01:28:56] he decided to bring her friend back. It's a small story in scale, but it
+[01:28:59] shows where we're headed. Machines that don't just work or entertain, but actually shape how
+[01:29:04] people, especially kids, experience emotion and connection. So yeah, from humanoids with human faces
+[01:29:10] to robot dogs patrolling cities and little AI tutors shaping childhood memories, Robotics this
+[01:29:16] week feels more alive than ever. It's the kind of progress that's both exciting and
+[01:29:20] slightly unsettling, depending on how you look at it. Anyway, that's all for now. Thanks
+[01:29:24] for watching, and I'll catch you in the next one.

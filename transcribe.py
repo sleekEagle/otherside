@@ -16,6 +16,12 @@ from helper import read_yaml
 #     tr = ytt_api.fetch(video_id)
 #     return tr
 
+def ms_to_timestamp(ms):
+    seconds = ms // 1000
+    h = seconds // 3600
+    m = (seconds % 3600) // 60
+    s = seconds % 60
+    return f"{h:02d}:{m:02d}:{s:02d}"
 
 class YouTubeTranscriber:
     def __init__(self):
@@ -39,10 +45,20 @@ class YouTubeTranscriber:
                 text=False,  # Optional: return plain text instead of timestamped chunks
                 mode="auto"  # Optional: "native", "auto", or "generate"
             )
-            return transcript
+            return self.convert_supadata_chunks(transcript.content)
         except SupadataError as e:
             print(f"Error fetching transcript: {e}")
             return None
+        
+    def convert_supadata_chunks(self, chunks):
+        lines = []
+        for entry in chunks:
+            offset = entry.offset
+            ts = ms_to_timestamp(offset)
+            text = entry.text
+            line = f"[{ts}] {text}"
+            lines.append(line)
+        return "\n".join(lines)
 
 
 
