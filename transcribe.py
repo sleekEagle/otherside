@@ -36,7 +36,7 @@ class YouTubeTranscriber:
             transcript = self.supadata.transcript(
                 url=video_url,
                 lang="en",  # Optional: preferred language
-                text=True,  # Optional: return plain text instead of timestamped chunks
+                text=False,  # Optional: return plain text instead of timestamped chunks
                 mode="auto"  # Optional: "native", "auto", or "generate"
             )
             return transcript
