@@ -53,15 +53,15 @@ with open("transcript.txt", "w") as file:
 # with open('transcript.txt', 'r') as file:
 #     transcript = file.read()
 
-summerizer = SummerizeGeminiAPI()
+# summerizer = SummerizeGeminiAPI()
 # sum = summerizer.summerize(transcript)
 
 # with open("summary.txt", "w") as file:
 #     file.write(sum)
 
-with open('summary.txt', 'r') as file:
-    sum = file.read()
+# with open('summary.txt', 'r') as file:
+#     sum = file.read()
 
-parsed_summary = summerizer.parse_summary(sum)
+# parsed_summary = summerizer.parse_summary(sum)
 
 
