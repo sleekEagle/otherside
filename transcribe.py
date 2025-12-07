@@ -1,7 +1,6 @@
 '''
 https://github.com/jdepoix/youtube-transcript-api
 '''
-from youtube_transcript_api import YouTubeTranscriptApi
 from supadata import Supadata, SupadataError
 from helper import read_yaml
 
@@ -17,6 +16,7 @@ from helper import read_yaml
 #     return tr
 
 def ms_to_timestamp(ms):
+    ms = int(ms)
     seconds = ms // 1000
     h = seconds // 3600
     m = (seconds % 3600) // 60
@@ -39,6 +39,8 @@ class YouTubeTranscriber:
     '''
     def get_transcript(self, video_url: str):
         try:
+            if not video_url.startswith("https://www.youtube.com/watch?v="):
+                video_url = f"https://www.youtube.com/watch?v={video_url}"
             transcript = self.supadata.transcript(
                 url=video_url,
                 lang="en",  # Optional: preferred language

@@ -1,0 +1,54 @@
+[00:00:12] Markets are cautious ahead of next week's Fed decision and delayed US inflation numbers.
+[00:00:19] The yuan fix indicates Beijing's reluctance to allow rapid currency appreciation.
+[00:00:27] China's AI push accelerates with chip developer Moore Threads set to debut, while Cambricon plans to triple semiconductor production to fill the NVIDIA void.
+[00:00:38] French President Macron urges China to increase investment in Europe.
+[00:01:07] Global stocks are ending the week on a sour note, with Japan's Nikkei down 1.4%.
+[00:01:19] US market attention is on inflation data, including backdated September figures, ahead of the Fed's preferred inflation gauge reading.
+[00:01:49] Moore Threads, a key chip designer and AI circuit maker founded by an ex-NVIDIA employee, is making its debut today.
+[00:03:31] Moore Threads develops GPUs following the NVIDIA model, while Cambricon creates specialized A6 chips for AI, with both facing competition but relying on foundries like SMIC, which lags at 7nm technology.
+[00:04:38] China's regulators are tightening oversight of the food delivery sector due to price wars, leading companies like Meituan to comply.
+[00:05:09] Moore Threads' IPO was over 2700 times oversubscribed by retail investors despite the company's unprofitability, with its growth fitting China's domestic substitution theme.
+[00:06:12] Moore Threads' IPO could enable other chip industry IPOs, as Cambricon and Huawei aim to significantly increase chip output, though domestic technology still lags global leaders.
+[00:07:17] UBS Global Research is positive on China's semiconductor equipment companies due to rapid localization efforts aiming for 50% domestic content and improving product quality.
+[00:07:38] Domestically produced Chinese chips are becoming comparable to some NVIDIA H-20 chips, reinforcing the government's focus on local ecosystem development.
+[00:09:17] China's immediate economic priorities include combating deflation, stopping price wars, and boosting consumer spending.
+[01:00:03] Investors are seeking more government measures to boost consumption, with proposals for a stated goal to increase consumption as a percentage of GDP to 50%.
+[01:02:07] Alibaba expects lower losses in food delivery, with some recovery noted in other sectors due to anti-involution efforts, while MSCI China forecasts 10% upside next year.
+[01:03:00] The government is slowing capacity expansions and manufacturing CapEx in various industries to combat price wars, with solar identified as a sector ripe for profit recovery.
+[01:04:16] AI investment strategies favor large platform companies and semiconductor localization, alongside global AI plays expected to see increased CapEx.
+[01:06:26] The PBOC intervened against strong yuan appreciation pressures that reached a four-year high, guiding for two-way movements and gradual appreciation.
+[01:07:38] Near-term yuan appreciation is expected due to macro narratives and seasonal factors, with a potential Fed interest rate cut further contributing to pressures.
+[01:08:08] Moore Threads' debut saw a 500% jump at open, making it the second-biggest onshore IPO this year, raising ¥1.1 billion.
+[01:10:59] US senators propose bipartisan legislation (SAFE Act) to ban NVIDIA from shipping advanced AI chips to China, though NVIDIA's CEO questions China's demand given its self-sufficiency push.
+[01:12:02] Investors are broadening their focus beyond established chip names to smaller and mid-cap Asian suppliers of chip-making equipment.
+[01:13:52] Meta's shares rose after news of significant budget cuts (up to 30%) for metaverse projects like Horizon Worlds and Quest VR.
+[01:14:18] Alphabet's Google Tensor Processing Units (TPUs) could become a major revenue driver, contributing to the stock's 30% rally.
+[01:15:23] Warren Buffett is retiring at the end of 2025, with Greg Abel set to become CEO of Berkshire Hathaway, marking the end of an era.
+[01:17:23] Dimensional Fund Advisors founder David Booth highlights that technology has dramatically reduced investment costs, benefiting investors.
+[01:18:49] DFA accommodates client preferences on China investment, and its ETF business is booming after receiving FCC approval to combine ETFs with mutual funds, a trend gaining traction in Asia.
+[01:20:44] Despite the rise of AI in finance, trusted human advice remains crucial due to concerns over algorithmic reliability.
+[01:21:20] The AI market is expected to have significant winners and losers amid massive investments, with the broader market rally expanding beyond mega-cap tech stocks.
+[01:21:58] Dimensional Fund Advisors maintains a constant risk appetite, viewing periods of market drops as potential opportunities for highest expected returns.
+[01:23:02] Property stocks are a major drag on mainland equities, with China's semiconductor company Canisenmi also down over 20% on its debut despite high oversubscription.
+[01:24:28] Asian equities are broadly under pressure due to a lackluster Wall Street session and anticipation of key inflation data, with thin trading volumes.
+[01:25:01] Moore Threads' Starboard listing was the most oversubscribed since 2022, securing ¥1.1 billion to develop NVIDIA-like GPUs.
+[01:25:50] Moore Threads, an NVIDIA-like GPU designer, faces bottlenecks from relying on domestic foundries limited to 7nm technology, while Chinese chips are mainly used for inference.
+[01:26:01] Cambricon is an emerging rival to NVIDIA in China, taking advantage of export restrictions to expand capacity and client base, though domestic tech still trails global leaders.
+[01:28:34] Country Garden gained court approval for offshore debt overhaul, and New World's bond swap reduced its debt, yet both face ongoing liquidity issues.
+[01:28:50] China Vanke is seeking a one-year repayment delay on a $2 billion note, with offshore creditors facing only 10-20% recovery due to weak bond protection and pledged assets.
+[01:30:17] Shenzhen Metro, Vanke's largest shareholder, has withdrawn informal bailout support as Vanke's sales are projected to fall over 40% this year.
+[01:31:01] Private property enterprises are "on their own" as banks prioritize asset protection, with China's property sales down 70% from recent averages, though nationwide management is deemed possible.
+[01:32:02] Vanke is likely headed for a messy restructuring rather than a hard default, with offshore vs. onshore and secured vs. unsecured treatment to be determined.
+[01:32:56] China's government avoids a "big bazooka" approach to property, instead focusing on boosting general demand and strategic sectors to combat deflation and the increasing savings rate.
+[01:33:38] The market expects a Fed rate cut with high probability, but the committee is divided, and economic data presents arguments against it, with inflation pressures still a factor.
+[01:35:36] Declining property prices negatively impact consumer sentiment and spending, as real estate is the largest household asset and the broader economy slows.
+[01:36:37] The PBOC maintains an accommodative but less dovish tone, viewing small rate cuts as insufficient to address core housing problems, which historically take about six years to bottom out.
+[01:37:50] Future macro policy will focus on monetary, fiscal, credit, and housing measures to drive broader economic and income growth, aiming to resolve property and local government debt issues.
+[01:38:37] Investors are concerned about a potential AI bubble in the US and its implications for Chinese equity markets and global jobs, as well as bottlenecks in China's AI push.
+[01:39:27] China's exports are projected to remain strong, but external risks like global recession in trading partners could undermine this export-driven growth model.
+[01:40:17] Taiwan has banned the Chinese social media app Xiaohongshu (Red Note) for one year due to fraud concerns and lack of recourse for scams.
+[01:41:56] The Reserve Bank of India (RBI) is expected to restart rate cuts today due to low inflation and rupee pressure, after intervening with dollar sales.
+[01:42:25] The RBI governor must balance expectations of a rate cut with managing rupee depreciation, given low inflation but resilient GDP and the rupee's recent drop.
+[01:44:17] Singapore-based Fullerton Fund Management is winding down its China hedge fund and private fund business, cutting staff, but plans to maintain a presence.
+[01:44:45] US senators introduced bipartisan legislation to ban NVIDIA from shipping advanced AI chips (H200, Blackwell) to China.
+[01:46:19] Copper prices are surging above $11,000, but Goldman Sachs predicts this rally will be short-lived due to ample global supply, despite growing bullish sentiment.

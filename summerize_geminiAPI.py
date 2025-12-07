@@ -11,13 +11,32 @@ class SummerizeGeminiAPI:
 
     def summerize(self, transcript: str) -> str:
         prompt = f"""
-            Create a concise bullet point summary from this timestamped transcript by following these rules:
+            Create a concise bullet point summary from this timestamped transcript following EXACTLY these rules:
 
-            1. **Group related content**: Combine consecutive sections that discuss the same topic or theme
-            2. **Use earliest timestamp**: For each grouped section, use the first timestamp as the reference
-            3. **Be concise**: Each bullet should be a single sentence summarizing the main point
-            4. **Maintain flow**: Keep the chronological progression of ideas
-            5. **Output format**: Strictly use `[HH:MM:SS] summary text`
+            **CONTENT FILTERING RULES:**
+            1. **SKIP INTRODUCTIONS**: Ignore opening sections like "Welcome to...", "In this video...", "Today we'll cover..."
+            2. **SKIP OUTROS**: Ignore closing sections like "Thanks for watching", "Please subscribe", "Check the description"
+            3. **SKIP PROMOTIONS**: Ignore promotional content, channel plugs, sponsor messages
+            4. **SKIP AUDIENCE ENGAGEMENT**: Ignore "like/share/subscribe", calls to action, engagement requests
+            5. **FOCUS ON SUBSTANCE**: Only include substantive educational/informative content
+
+            **SUMMARIZATION RULES:**
+            1. **GROUP RELATED CONTENT**: Combine consecutive sections discussing the same topic
+            2. **USE EARLIEST TIMESTAMP**: For each grouped section, use the first timestamp as reference
+            3. **BE CONCISE**: Each bullet must be a single sentence with ONLY the main point
+            4. **MAINTAIN FLOW**: Keep chronological progression of core content only
+            5. **STRICT FORMAT**: Output ONLY in this format: `[HH:MM:SS] summary text`
+            6. **NO NARRATION**: Do NOT use phrases like "the speaker", "the video", "he/she says" - state the content directly
+            7. **CLEAN OUTPUT**: Output ONLY the bullet points, nothing before or after
+
+            **EXAMPLES OF CONTENT TO SKIP:**
+            - "Welcome back to my channel"
+            - "Before we begin, please subscribe"
+            - "Today I'll teach you about..."
+            - "Don't forget to hit the like button"
+            - "Thanks for watching, see you next time"
+            - "Check out my other videos"
+            - "This video is sponsored by..."
 
             **Transcript:**
             {transcript}
@@ -60,5 +79,27 @@ with open("transcript.txt", "w") as file:
 #     sum = file.read()
 
 # parsed_summary = summerizer.parse_summary(sum)
+import json
+import os
+
+with open("search.json", "r") as f:
+    search_data = json.load(f)
+
+import transcribe
+import os
+TR = transcribe.YouTubeTranscriber()
+summerizer = SummerizeGeminiAPI()
+os.makedirs("summary", exist_ok=True)
+
+for i,search in enumerate(search_data):
+    print(f"Processing video {i+1} of {len(search_data)}", end='\r')
+    video_id = search['video_id']
+    ytt = TR.get_transcript(video_id)
+    sum = summerizer.summerize(ytt)
+    with open(f"summary/{video_id}.txt", "w") as file:
+        file.write(sum)
+
+
+
 
 
