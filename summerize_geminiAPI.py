@@ -91,12 +91,18 @@ TR = transcribe.YouTubeTranscriber()
 summerizer = SummerizeGeminiAPI()
 os.makedirs("summary", exist_ok=True)
 
+files = os.listdir("summary")
+files = [f.split('.')[0] for f in files]
+
 for i,search in enumerate(search_data):
+    vid_id = search['video_id']
+    if vid_id in files:
+        continue
     print(f"Processing video {i+1} of {len(search_data)}", end='\r')
     video_id = search['video_id']
     ytt = TR.get_transcript(video_id)
     sum = summerizer.summerize(ytt)
-    with open(f"summary/{video_id}.txt", "w") as file:
+    with open(f"summary/{video_id}.txt", "w", encoding="utf-8") as file:
         file.write(sum)
 
 
