@@ -79,31 +79,54 @@ with open("transcript.txt", "w") as file:
 #     sum = file.read()
 
 # parsed_summary = summerizer.parse_summary(sum)
-import json
-import os
 
-with open("search.json", "r") as f:
-    search_data = json.load(f)
+def generate_summaries():
+    import json 
+    import os
 
-import transcribe
-import os
-TR = transcribe.YouTubeTranscriber()
-summerizer = SummerizeGeminiAPI()
-os.makedirs("summary", exist_ok=True)
+    with open("search.json", "r") as f:
+        search_data = json.load(f)
 
-files = os.listdir("summary")
-files = [f.split('.')[0] for f in files]
+    import transcribe
+    import os
+    TR = transcribe.YouTubeTranscriber()
+    summerizer = SummerizeGeminiAPI()
+    os.makedirs("summary", exist_ok=True)
 
-for i,search in enumerate(search_data):
-    vid_id = search['video_id']
-    if vid_id in files:
-        continue
-    print(f"Processing video {i+1} of {len(search_data)}", end='\r')
-    video_id = search['video_id']
-    ytt = TR.get_transcript(video_id)
-    sum = summerizer.summerize(ytt)
-    with open(f"summary/{video_id}.txt", "w", encoding="utf-8") as file:
-        file.write(sum)
+    files = os.listdir("summary")
+    files = [f.split('.')[0] for f in files]
+
+    for i,search in enumerate(search_data):
+        vid_id = search['video_id']
+        if vid_id in files:
+            continue
+        print(f"Processing video {i+1} of {len(search_data)}", end='\r')
+        video_id = search['video_id']
+        ytt = TR.get_transcript(video_id)
+        sum = summerizer.summerize(ytt)
+        with open(f"summary/{video_id}.txt", "w", encoding="utf-8") as file:
+            file.write(sum)
+
+
+def generate_final_summary():
+    #create the prrompt
+    with open("prompts/final_summary.txt", 'r', encoding="utf-8") as f:
+            prompt = f.read()
+
+    with open("summary/all_summaries.txt", 'r', encoding="utf-8") as f:
+            concat_summary = f.read()
+
+    search_text = 'INPUT DATA START'
+    index = prompt.find(search_text)
+    insert_pos = index + len(search_text)
+    final_prompt = prompt[:insert_pos] + concat_summary + prompt[insert_pos:]
+
+    
+
+    pass
+
+
+generate_final_summary()
 
 
 
