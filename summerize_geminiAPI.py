@@ -12,7 +12,7 @@ class Gemini:
     def call_gemini(self, prompt: str) -> str:
         # prompt = "are you there?"
         response = self.client.models.generate_content(
-            model="gemini-2.5-pro", contents=prompt
+            model="gemini-2.5-flash", contents=prompt
         )
         return response.text
 
