@@ -2,12 +2,19 @@ from google import genai
 from helper import read_yaml
 import re
 
-class SummerizeGeminiAPI:
+class Gemini:
     def __init__(self):
         CRED_PATH = './credentials.yaml'   
         cred = read_yaml(CRED_PATH)
         API_KEY = cred.get("gemini")
         self.client = genai.Client(api_key=API_KEY)
+
+    def call_gemini(self, prompt: str) -> str:
+        # prompt = "are you there?"
+        response = self.client.models.generate_content(
+            model="gemini-2.5-pro", contents=prompt
+        )
+        return response.text
 
     def summerize(self, transcript: str) -> str:
         prompt = f"""
@@ -41,9 +48,7 @@ class SummerizeGeminiAPI:
             **Transcript:**
             {transcript}
             """
-        response = self.client.models.generate_content(
-            model="gemini-2.5-flash", contents=prompt
-        )
+        response = self.call_gemini(prompt)
         return response.text
     
     def parse_summary(self, summary: str) -> list:
@@ -109,6 +114,7 @@ def generate_summaries():
 
 
 def generate_final_summary():
+    gemini = Gemini()
     #create the prrompt
     with open("prompts/final_summary.txt", 'r', encoding="utf-8") as f:
             prompt = f.read()
@@ -121,7 +127,10 @@ def generate_final_summary():
     insert_pos = index + len(search_text)
     final_prompt = prompt[:insert_pos] + concat_summary + prompt[insert_pos:]
 
-    
+    response = gemini.call_gemini(prompt)
+    pass
+
+
 
     pass
 
