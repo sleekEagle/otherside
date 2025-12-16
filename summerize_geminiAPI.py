@@ -18,7 +18,8 @@ class Gemini:
 
     def summerize(self, transcript: str) -> str:
         prompt = f"""
-            Create a concise bullet point summary from this timestamped transcript following EXACTLY these rules:
+            Create a concise bullet point summary from this timestamped transcript. Divide the summary into different topics that are discussed in the video, grouping content by logical topic sections.
+            following EXACTLY these rules:
 
             **CONTENT FILTERING RULES:**
             1. **SKIP INTRODUCTIONS**: Ignore opening sections like "Welcome to...", "In this video...", "Today we'll cover..."
@@ -95,10 +96,10 @@ def generate_summaries():
     import transcribe
     import os
     TR = transcribe.YouTubeTranscriber()
-    summerizer = SummerizeGeminiAPI()
-    os.makedirs("summary", exist_ok=True)
+    summerizer = Gemini()
+    os.makedirs("topic_summary", exist_ok=True)
 
-    files = os.listdir("summary")
+    files = os.listdir("topic_summary")
     files = [f.split('.')[0] for f in files]
 
     for i,search in enumerate(search_data):
@@ -109,7 +110,7 @@ def generate_summaries():
         video_id = search['video_id']
         ytt = TR.get_transcript(video_id)
         sum = summerizer.summerize(ytt)
-        with open(f"summary/{video_id}.txt", "w", encoding="utf-8") as file:
+        with open(f"topic_summary/{video_id}.txt", "w", encoding="utf-8") as file:
             file.write(sum)
 
 
@@ -135,7 +136,7 @@ def generate_final_summary():
     pass
 
 
-generate_final_summary()
+generate_summaries()
 
 
 

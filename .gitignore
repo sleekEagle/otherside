@@ -1,3 +1,4 @@
 *.pyc
 credentials.yaml
 summary/*.txt
+topic_summary/*
