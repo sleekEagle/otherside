@@ -72,61 +72,92 @@ class UseLlama:
         return resp.choices[0].message.content
     
     def summarize_chunk(self, chunk_text, chunk_num):
-        prompt = f"""Analyze this YouTube transcript segment (Chunk {chunk_num}):
+        prompt = f"""Divide this chunk {chunk_num} transcript into logical sections. For each section:
 
-        TRANSCRIPT:
-        {chunk_text}
+            1. Start with ## followed by a one-line summary of the section
+            2. Add bullet points with key ideas
+            3. End each bullet with (starts at [timestamp]) using exact timestamps from transcript
 
-        TASK: Extract key points with timestamps AND organize them into logical topics.
+            Transcript:
+            {chunk_text}
 
-        PART 1: Extract Key Points
-        - Identify distinct key points discussed in this segment
-        - Ignore promotional contents and advertisements
-        - Ignore greetings, summaries and conclusions
-        - For EACH point, find the EXACT timestamp when that point STARTS
-        - Each point must be a complete sentence
-        - Use format: • [Point sentence] (starts at 12:34)
+            IMPORTANT FORMATTING RULES:
+            1. Section headers should NOT include "Section summary:", "Summary:", or similar prefixes
+            2. Section headers should be standalone phrases (e.g., "Chinese robots display advancements")
+            3. Do NOT add colons after the section header
+            4. Section headers should be self-explanatory and descriptive
+            5. Use only timestamps from the transcript
+            6. Make sections where topics change
 
-        PART 2: Categorize into Topics
-        - Group related points under meaningful topic headings
-        - Create specific, descriptive topic names
-        - Topics should reflect actual content themes
-        - You can have multiple topics per segment
+            Examples of GOOD section headers:
+            ## AI emotional attachment goes viral
+            ## Chinese robotics advancements
+            ## OpenAI's controversial GPT-6 move
+            ## Robotics competition intensifies
 
-        OUTPUT FORMAT:
-        ## Descriptive Topic Name
-        • Point 1 sentence (starts at 12:34)
-        • Point 2 sentence (starts at 15:20)
-        • Point 3 sentence (starts at 18:45)
-        ## Another Topic Name
-        • Point sentence (starts at 15:20)
-        • Another point (starts at 16:45)
+            Examples of BAD section headers (DO NOT USE):
+            ## Section summary: Impact of AI (contains prefix)
+            ## Summary: AI developments (contains prefix)
+            ## AI: (ends with colon)
+            ## (too vague)
+
+            Now analyze the transcript and create the structured summary."""
+
+        # prompt = f"""Analyze this YouTube transcript segment (Chunk {chunk_num}):
+
+        # TRANSCRIPT:
+        # {chunk_text}
+
+        # TASK: Extract key points with timestamps AND organize them into logical topics.
+
+        # PART 1: Extract Key Points
+        # - Identify distinct key points discussed in this segment
+        # - Ignore promotional contents and advertisements
+        # - Ignore greetings, summaries and conclusions
+        # - For EACH point, find the EXACT timestamp when that point STARTS
+        # - Each point must be a complete sentence
+        # - Use format: • [Point sentence] (starts at 12:34)
+
+        # PART 2: Categorize into Topics
+        # - Group related points under distinct meaningful topics
+        # - create a single sentense summary for all the points in a given topic
+        # - Topics summary should reflect actual content themes
+        # - You can have multiple topics per segment
+
+        # OUTPUT FORMAT:
+        # ## Descriptive Topic summary
+        # • Point 1 sentence (starts at 12:34)
+        # • Point 2 sentence (starts at 15:20)
+        # • Point 3 sentence (starts at 18:45)
+        # ## Another Topic summary
+        # • Point sentence (starts at 15:20)
+        # • Another point (starts at 16:45)
 
 
-        IMPORTANT:
-        - Create as many topics as naturally emerge from the content
-        - Topics should be specific enough to be useful for navigation
-        - Make topics distinct and non-overlapping
-        - Points within a topic should share a clear thematic connection
-        - Each timestamp should mark when THAT SPECIFIC POINT begins
-        - Use "starts at [timestamp]" format for clarity
-        - Points should be distinct, not overlapping in content
-        - Include as many relevant points as possible from this segment
+        # IMPORTANT:
+        # - Create as many topics as naturally emerge from the content
+        # - Topic summaries should be specific enough to be useful for navigation
+        # - Make topics distinct and non-overlapping
+        # - Points within a topic should share a clear thematic connection
+        # - Each timestamp should mark when THAT SPECIFIC POINT begins
+        # - Use "starts at [timestamp]" format for clarity
+        # - Points should be distinct, not overlapping in content
+        # - Include as many relevant points as possible from this segment
 
-        Now analyze the transcript segment above and extract points with their individual starting timestamps."""
+        # Now analyze the transcript segment above and extract points with their individual starting timestamps."""
 
         payload = {
             "messages": [
                 {
                     "role": "system",
-                    "content": "You are a helpful assistant that creates clear, concise summaries."
+                    "content": "You analyze chunks of YouTube transcripts and create summaries with sections and timestamps"
                 },
                 {
                     "role": "user",
                     "content": prompt
                 }
             ],
-            "temperature": 0.7,
+            "temperature": 0.4,
             "max_tokens": 1000,
             "top_p": 0.9,
             "stream": False
@@ -145,31 +176,31 @@ class UseLlama:
             raise Exception(f"Error {response.status_code}: {response.text}")
         
     def non_overlapping_topics(self, topics):
-        prompt = f"""You are given many overlapping topic titles.
-        Merge them into a final set of canonical topic titles.
+        prompt = f"""You are given many sentenses with possibly overlapping meaning.
+        Merge them into a final set of canonical sentenses.
         Do not invent new concepts.
-        Return only the original topics and their corresponding final canonical topic.
-        Topic titles:
+        Return only the original sentenses and their corresponding final canonical sentense.
+        sentenses:
         {topics}
 
         Output format:
-        <Original topic 1> : <New topic 4>
-        <Original topic 2> : <New topic 6>
-        <Original topic 3> : <New topic 1>
+        <Original sentense 1> : <New sentense 4>
+        <Original sentense 2> : <New sentense 6>
+        <Original sentense 3> : <New sentense 1>
         """
 
         payload = {
             "messages": [
                 {
                     "role": "system",
-                    "content": "You are a helpful assistant that creates non overlapping list of topics from possibly overlapping list of topics"
+                    "content": "You create sentenses with non overlapping meaning from possibly overlapping list of sentenses"
                 },
                 {
                     "role": "user",
                     "content": prompt
                 }
             ],
-            "temperature": 0.7,
+            "temperature": 0.4,
             "max_tokens": 1000,
             "top_p": 0.9,
             "stream": False
@@ -330,12 +361,15 @@ class UseLlama:
             mapped_topics.append(new_topics[idx])
 
         unique_t = list(set(mapped_topics))
-        match_idx = []
+        summary = []
         for i,t in enumerate(unique_t):
-            match_idx.append([j for j, init_t in enumerate(mapped_topics) if init_t == t])
-
-
-
+            idxs = [j for j, init_t in enumerate(mapped_topics) if init_t == t]
+            #concat points
+            p = [x for i in idxs for x in point_list[i] if len(x)>10]
+            tmp = {}
+            tmp['topic'] = t
+            tmp['points'] = p
+            summary.append(tmp)
 
         pass
 
