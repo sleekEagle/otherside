@@ -5,6 +5,7 @@ import re
 import platform
 from openai import OpenAI
 import requests
+import difflib
 
 def count_tokens(text):
     resp = requests.post(
@@ -12,6 +13,10 @@ def count_tokens(text):
         json={"content": text}
     )
     return len(resp.json()["tokens"])
+
+def string_similarity(str1, str2):
+    """Returns similarity ratio between 0 and 1"""
+    return difflib.SequenceMatcher(None, str1, str2).ratio()
 
 def split_transcript_by_time(transcript_text, chunk_minutes=10):
     """
@@ -76,6 +81,8 @@ class UseLlama:
 
         PART 1: Extract Key Points
         - Identify distinct key points discussed in this segment
+        - Ignore promotional contents and advertisements
+        - Ignore greetings, summaries and conclusions
         - For EACH point, find the EXACT timestamp when that point STARTS
         - Each point must be a complete sentence
         - Use format: • [Point sentence] (starts at 12:34)
@@ -87,13 +94,13 @@ class UseLlama:
         - You can have multiple topics per segment
 
         OUTPUT FORMAT:
-        ## [TOPIC 1: Descriptive Topic Name]
-        • [Point 1 sentence] (starts at 12:34)
-        • [Point 2 sentence] (starts at 15:20)
-        • [Point 3 sentence] (starts at 18:45)
-        ## [TOPIC 2: Another Topic Name]
-        • [Point sentence] (starts at 15:20)
-        • [Another point] (starts at 16:45)
+        ## Descriptive Topic Name
+        • Point 1 sentence (starts at 12:34)
+        • Point 2 sentence (starts at 15:20)
+        • Point 3 sentence (starts at 18:45)
+        ## Another Topic Name
+        • Point sentence (starts at 15:20)
+        • Another point (starts at 16:45)
 
 
         IMPORTANT:
@@ -120,7 +127,7 @@ class UseLlama:
                 }
             ],
             "temperature": 0.7,
-            "max_tokens": 512,
+            "max_tokens": 1000,
             "top_p": 0.9,
             "stream": False
         }
@@ -137,13 +144,18 @@ class UseLlama:
         else:
             raise Exception(f"Error {response.status_code}: {response.text}")
         
-    def non_overlapping_title(self, topics):
+    def non_overlapping_topics(self, topics):
         prompt = f"""You are given many overlapping topic titles.
         Merge them into a final set of canonical topic titles.
         Do not invent new concepts.
-        Return only the final list.
+        Return only the original topics and their corresponding final canonical topic.
         Topic titles:
         {topics}
+
+        Output format:
+        <Original topic 1> : <New topic 4>
+        <Original topic 2> : <New topic 6>
+        <Original topic 3> : <New topic 1>
         """
 
         payload = {
@@ -158,7 +170,7 @@ class UseLlama:
                 }
             ],
             "temperature": 0.7,
-            "max_tokens": 512,
+            "max_tokens": 1000,
             "top_p": 0.9,
             "stream": False
         }
@@ -174,6 +186,54 @@ class UseLlama:
             return result['choices'][0]['message']['content']
         else:
             raise Exception(f"Error {response.status_code}: {response.text}")
+        
+    def assign_topics(self, points, topics):
+        prompt = f"""Assign each bullet point to exactly ONE of the following topics.
+            Use ONLY the provided topics.
+            Do NOT modify bullet point text and its timestamp.
+            Do NOT omit any bullet.
+
+            Topics:
+            {topics}
+
+            Bullet points:
+            {points}
+
+            Output format:
+            - <bullet point 1> <topic 4>
+            - <bullet point 2> <topic 6>
+            - <bullet point 3> <topic 1>
+            """
+
+        payload = {
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": "You are a precise classifier."
+                    },
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ],
+                "temperature": 0.7,
+                "max_tokens": 512,
+                "top_p": 0.9,
+                "stream": False
+            }
+        response = requests.post(
+            f"{self.server_url}/v1/chat/completions",
+            headers={"Content-Type": "application/json"},
+            json=payload,
+            timeout=120
+        )
+
+        if response.status_code == 200:
+            result = response.json()
+            return result['choices'][0]['message']['content']
+        else:
+            raise Exception(f"Error {response.status_code}: {response.text}")
+
         
                 
     def create_final_summary(self, chunk_summaries):
@@ -236,13 +296,75 @@ class UseLlama:
             chunk_summary = self.summarize_chunk(chunk, chunk_num=i+1)
             summaries.append(chunk_summary)
 
-        final_summary = self.create_final_summary(summaries)
-
         combined = "\n\n".join(summaries)
         comb_list = combined.split('\n')
+
+        #extract bullet points
+
+        point_list = []
+        topic_list = []
+        tmp_list = []
+        tmp_topic = ""
+        for i,l in enumerate(comb_list):
+            if l.startswith('#'):
+                if len(tmp_list)>0:
+                    point_list.append(tmp_list)
+                    tmp_list = []
+                    topic_list.append(tmp_topic)
+                tmp_topic = l.partition("#")[2].partition("#")[2].strip()
+            else:
+                tmp_list.append(l)
+        topic_list.append(tmp_topic)
+        point_list.append(tmp_list)
+
+
+        topics = self.non_overlapping_topics('\n'.join(topic_list))
+        original_topics = [t.split(':')[0].strip() for t in topics.split('\n')]
+        new_topics = [t.split(':')[1].strip() for t in topics.split('\n')]
+
+        #replace old topics with new topics
+        mapped_topics = []
+        for t in topic_list:
+            l = [string_similarity(t, ot) for ot in original_topics]
+            idx = l.index(max(l))
+            mapped_topics.append(new_topics[idx])
+
+        unique_t = list(set(mapped_topics))
+        match_idx = []
+        for i,t in enumerate(unique_t):
+            match_idx.append([j for j, init_t in enumerate(mapped_topics) if init_t == t])
+
+
+
+
+        pass
+
+
+
+
+        string_similarity
+            
+        points = [line for line in comb_list if not line.startswith('#') and len(line)>10]
         topics = [line.partition('[')[2].partition(']')[0].partition(':')[2] for line in comb_list if line.startswith('#')]
-        topics = "\n".join(topics)
-        topics = self.non_overlapping_title(topics)
+        len(points)
+
+        topic_idx = [i for i, l in enumerate(comb_list) if l.startswith('#')]
+        seg = {}
+        for i in range(len(topic_idx)-1):
+            p = comb_list[i+1 : topic_idx[i+1]]
+            t = comb_list[i]
+            seg[t] = p
+        
+
+
+        #extract topics
+        
+        # topics = "\n".join(topics)
+        
+
+        # point_chunks = ['\n'.join(points[i:i+10]) for i in range(0, len(points), 10)]
+        # for pc in point_chunks:
+        #     at = self.assign_topics(pc, topics)
         
         # Combine chunk summaries into a final summary
         # final_summary = ''
@@ -253,10 +375,11 @@ class UseLlama:
 
         # estimate_tokens_simple(summaries[8:])
 
-        with open("final_summary.txt", "w") as file:
-            file.write(final_summary)
+        # with open("final_summary.txt", "w") as file:
+        #     file.write(final_summary)
         
-        return final_summary
+        # return final_summary
+        return 1
 
 ul = UseLlama()
 TR = transcribe.YouTubeTranscriber()
