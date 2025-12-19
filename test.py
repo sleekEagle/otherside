@@ -4,24 +4,14 @@ import os
 import re
 import platform
 from openai import OpenAI
+import requests
 
-def estimate_tokens_simple(text: str) -> int:
-    """
-    Rough estimation: 1 token ≈ 4 characters for English text
-    For more accuracy: 1 token ≈ 0.75 words
-    """
-    # Method 1: Character-based
-    char_count = len(text)
-    token_estimate_chars = char_count / 4
-    
-    # Method 2: Word-based
-    word_count = len(text.split())
-    token_estimate_words = word_count / 0.75
-    
-    # Return average
-    return int((token_estimate_chars + token_estimate_words) / 2)
-
-
+def count_tokens(text):
+    resp = requests.post(
+        "http://localhost:8080/tokenize",
+        json={"content": text}
+    )
+    return len(resp.json()["tokens"])
 
 def split_transcript_by_time(transcript_text, chunk_minutes=10):
     """
@@ -62,10 +52,7 @@ def split_transcript_by_time(transcript_text, chunk_minutes=10):
 
 class UseLlama:
     def __init__(self):
-        self.client = OpenAI(
-            base_url="http://localhost:8080/v1",
-            api_key="local-llama"   # ignored, but required
-        )
+        self.server_url="http://localhost:8080"
     
     def request(self, sys_rols, prompt, max_tokens):
         resp = self.client.chat.completions.create(
@@ -85,41 +72,110 @@ class UseLlama:
         TRANSCRIPT:
         {chunk_text}
 
-        TASK: Extract key points with their INDIVIDUAL starting timestamps.
+        TASK: Extract key points with timestamps AND organize them into logical topics.
 
-        INSTRUCTIONS:
-        1. Identify distinct key points discussed in this segment
-        2. For EACH point, find the EXACT timestamp when that point STARTS being discussed
-        3. Each point must be a complete sentence
+        PART 1: Extract Key Points
+        - Identify distinct key points discussed in this segment
+        - For EACH point, find the EXACT timestamp when that point STARTS
+        - Each point must be a complete sentence
+        - Use format: • [Point sentence] (starts at 12:34)
+
+        PART 2: Categorize into Topics
+        - Group related points under meaningful topic headings
+        - Create specific, descriptive topic names
+        - Topics should reflect actual content themes
+        - You can have multiple topics per segment
 
         OUTPUT FORMAT:
+        ## [TOPIC 1: Descriptive Topic Name]
         • [Point 1 sentence] (starts at 12:34)
         • [Point 2 sentence] (starts at 15:20)
         • [Point 3 sentence] (starts at 18:45)
+        ## [TOPIC 2: Another Topic Name]
+        • [Point sentence] (starts at 15:20)
+        • [Another point] (starts at 16:45)
+
 
         IMPORTANT:
+        - Create as many topics as naturally emerge from the content
+        - Topics should be specific enough to be useful for navigation
+        - Make topics distinct and non-overlapping
+        - Points within a topic should share a clear thematic connection
         - Each timestamp should mark when THAT SPECIFIC POINT begins
         - Use "starts at [timestamp]" format for clarity
         - Points should be distinct, not overlapping in content
         - Include as many relevant points as possible from this segment
 
         Now analyze the transcript segment above and extract points with their individual starting timestamps."""
-            
-        # messages = [
-        #         {"role": "system", "content": "You summarize transcript segments with their starting timestamps."},
-        #         {"role": "user", "content": prompt}
-        #     ]
-            
-        # response = self.llm.create_chat_completion(
-        #         messages=messages,
-        #         temperature=0.2,
-        #         max_tokens=800
-        #     )
-        ret = self.request("You summarize transcript segments with their starting timestamps.", prompt, 800)
+
+        payload = {
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are a helpful assistant that creates clear, concise summaries."
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            "temperature": 0.7,
+            "max_tokens": 512,
+            "top_p": 0.9,
+            "stream": False
+        }
+        response = requests.post(
+            f"{self.server_url}/v1/chat/completions",
+            headers={"Content-Type": "application/json"},
+            json=payload,
+            timeout=120
+        )
+
+        if response.status_code == 200:
+            result = response.json()
+            return result['choices'][0]['message']['content']
+        else:
+            raise Exception(f"Error {response.status_code}: {response.text}")
         
-            
-        return ret
-    
+    def non_overlapping_title(self, topics):
+        prompt = f"""You are given many overlapping topic titles.
+        Merge them into a final set of canonical topic titles.
+        Do not invent new concepts.
+        Return only the final list.
+        Topic titles:
+        {topics}
+        """
+
+        payload = {
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are a helpful assistant that creates non overlapping list of topics from possibly overlapping list of topics"
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            "temperature": 0.7,
+            "max_tokens": 512,
+            "top_p": 0.9,
+            "stream": False
+        }
+        response = requests.post(
+            f"{self.server_url}/v1/chat/completions",
+            headers={"Content-Type": "application/json"},
+            json=payload,
+            timeout=120
+        )
+
+        if response.status_code == 200:
+            result = response.json()
+            return result['choices'][0]['message']['content']
+        else:
+            raise Exception(f"Error {response.status_code}: {response.text}")
+        
+                
     def create_final_summary(self, chunk_summaries):
         # Combine all chunk summaries
         combined = "\n\n".join(chunk_summaries)
@@ -183,7 +239,10 @@ class UseLlama:
         final_summary = self.create_final_summary(summaries)
 
         combined = "\n\n".join(summaries)
-        len(combined.split('\n'))
+        comb_list = combined.split('\n')
+        topics = [line.partition('[')[2].partition(']')[0].partition(':')[2] for line in comb_list if line.startswith('#')]
+        topics = "\n".join(topics)
+        topics = self.non_overlapping_title(topics)
         
         # Combine chunk summaries into a final summary
         # final_summary = ''
