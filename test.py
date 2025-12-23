@@ -14,6 +14,24 @@ def count_tokens(text):
     )
     return len(resp.json()["tokens"])
 
+def clean_sentence(sentence):
+    # Remove bullet points (•, -, *, etc.)
+    sentence = re.sub(r'^[•\-*\d+\.\)]\s*', '', sentence)
+    
+    # Remove (starts at [timestamp]) patterns
+    sentence = re.sub(r'\s*\(starts at\s*\[.*?\]\)\s*$', '', sentence)
+    
+    # Alternative if timestamps vary:
+    # sentence = re.sub(r'\s*\(.*?starts? at.*?\[.*?\].*?\)\s*$', '', sentence)
+    
+    # Remove any remaining parentheses with timestamps
+    sentence = re.sub(r'\s*\(\s*[\d:]+.*?\s*\)\s*$', '', sentence)
+    
+    # Clean up extra whitespace
+    sentence = ' '.join(sentence.split())
+    
+    return sentence
+
 def string_similarity(str1, str2):
     """Returns similarity ratio between 0 and 1"""
     return difflib.SequenceMatcher(None, str1, str2).ratio()
@@ -72,79 +90,46 @@ class UseLlama:
         return resp.choices[0].message.content
     
     def summarize_chunk(self, chunk_text, chunk_num):
-        prompt = f"""Divide this chunk {chunk_num} transcript into logical sections. For each section:
+        prompt = f"""Summarize this YouTube transcript chunk {chunk_num} into clear, concise bullet points.
 
-            1. Start with ## followed by a one-line summary of the section
-            2. Add bullet points with key ideas
-            3. End each bullet with (starts at [timestamp]) using exact timestamps from transcript
+        Transcript:
+        {chunk_text}
 
-            Transcript:
-            {chunk_text}
+        INSTRUCTIONS:
+        1. **EXCLUDE**: Promotional content, ads, sponsor messages, calls to action ("like and subscribe"), and channel promotions
+        2. **EXCLUDE**: Self-referential content about the video itself ("in this video", "today we'll be talking about")
+        3. **EXCLUDE**: Repetitive filler phrases and conversational fluff
+        4. **INCLUDE**: Only substantive information, key ideas, important facts, examples, data, and meaningful content
+        5. Format each point as a bullet with timestamp
+        6. Focus on educational/informative content that has value to a viewer
 
-            IMPORTANT FORMATTING RULES:
-            1. Section headers should NOT include "Section summary:", "Summary:", or similar prefixes
-            2. Section headers should be standalone phrases (e.g., "Chinese robots display advancements")
-            3. Do NOT add colons after the section header
-            4. Section headers should be self-explanatory and descriptive
-            5. Use only timestamps from the transcript
-            6. Make sections where topics change
+        CONTENT FILTERING RULES:
+        - SKIP if it contains: "like and subscribe", "hit the bell icon", "sponsor", "patreon", "merch", "check out my"
+        - SKIP if it contains: "in this video", "today we're going to", "welcome back to the channel"
+        - SKIP if it's purely promotional or calls to action
+        - INCLUDE only if it provides actual information, analysis, or educational content
 
-            Examples of GOOD section headers:
-            ## AI emotional attachment goes viral
-            ## Chinese robotics advancements
-            ## OpenAI's controversial GPT-6 move
-            ## Robotics competition intensifies
+        EXAMPLE FILTERING:
+        ❌ EXCLUDE: "Before we begin, don't forget to like and subscribe!" (promotional)
+        ❌ EXCLUDE: "This video is brought to you by NordVPN..." (advertisement)
+        ❌ EXCLUDE: "So today in this video I want to talk about..." (self-referential)
+        ✅ INCLUDE: "The study showed a 45% increase in efficiency with the new method." (substantive)
+        ✅ INCLUDE: "Quantum computing uses qubits that can exist in multiple states simultaneously." (educational)
 
-            Examples of BAD section headers (DO NOT USE):
-            ## Section summary: Impact of AI (contains prefix)
-            ## Summary: AI developments (contains prefix)
-            ## AI: (ends with colon)
-            ## (too vague)
-
-            Now analyze the transcript and create the structured summary."""
-
-        # prompt = f"""Analyze this YouTube transcript segment (Chunk {chunk_num}):
-
-        # TRANSCRIPT:
-        # {chunk_text}
-
-        # TASK: Extract key points with timestamps AND organize them into logical topics.
-
-        # PART 1: Extract Key Points
-        # - Identify distinct key points discussed in this segment
-        # - Ignore promotional contents and advertisements
-        # - Ignore greetings, summaries and conclusions
-        # - For EACH point, find the EXACT timestamp when that point STARTS
-        # - Each point must be a complete sentence
-        # - Use format: • [Point sentence] (starts at 12:34)
-
-        # PART 2: Categorize into Topics
-        # - Group related points under distinct meaningful topics
-        # - create a single sentense summary for all the points in a given topic
-        # - Topics summary should reflect actual content themes
-        # - You can have multiple topics per segment
-
-        # OUTPUT FORMAT:
-        # ## Descriptive Topic summary
-        # • Point 1 sentence (starts at 12:34)
-        # • Point 2 sentence (starts at 15:20)
-        # • Point 3 sentence (starts at 18:45)
-        # ## Another Topic summary
-        # • Point sentence (starts at 15:20)
-        # • Another point (starts at 16:45)
-
+        EXAMPLE FORMAT:
+        • Main point or key idea from the transcript (starts at [timestamp])
+        • Another important point discussed in this section (starts at [timestamp])
+        • Significant example or case mentioned by the speaker (starts at [timestamp])
 
         # IMPORTANT:
         # - Create as many topics as naturally emerge from the content
         # - Topic summaries should be specific enough to be useful for navigation
-        # - Make topics distinct and non-overlapping
-        # - Points within a topic should share a clear thematic connection
         # - Each timestamp should mark when THAT SPECIFIC POINT begins
         # - Use "starts at [timestamp]" format for clarity
         # - Points should be distinct, not overlapping in content
         # - Include as many relevant points as possible from this segment
 
-        # Now analyze the transcript segment above and extract points with their individual starting timestamps."""
+        Now create a bullet-point summary of the transcript:"""
 
         payload = {
             "messages": [
@@ -328,66 +313,72 @@ class UseLlama:
             summaries.append(chunk_summary)
 
         combined = "\n\n".join(summaries)
-        comb_list = combined.split('\n')
+        comb_list = [clean_sentence(line) for line in combined.split('\n')]
 
-        #extract bullet points
+        from bertopic import BERTopic
+        from sklearn.datasets import fetch_20newsgroups
 
-        point_list = []
-        topic_list = []
-        tmp_list = []
-        tmp_topic = ""
-        for i,l in enumerate(comb_list):
-            if l.startswith('#'):
-                if len(tmp_list)>0:
-                    point_list.append(tmp_list)
-                    tmp_list = []
-                    topic_list.append(tmp_topic)
-                tmp_topic = l.partition("#")[2].partition("#")[2].strip()
-            else:
-                tmp_list.append(l)
-        topic_list.append(tmp_topic)
-        point_list.append(tmp_list)
+        topic_model = BERTopic(embedding_model="all-mpnet-base-v2")
+        topics, probs = topic_model.fit_transform(comb_list)
 
+        # #extract bullet points
 
-        topics = self.non_overlapping_topics('\n'.join(topic_list))
-        original_topics = [t.split(':')[0].strip() for t in topics.split('\n')]
-        new_topics = [t.split(':')[1].strip() for t in topics.split('\n')]
-
-        #replace old topics with new topics
-        mapped_topics = []
-        for t in topic_list:
-            l = [string_similarity(t, ot) for ot in original_topics]
-            idx = l.index(max(l))
-            mapped_topics.append(new_topics[idx])
-
-        unique_t = list(set(mapped_topics))
-        summary = []
-        for i,t in enumerate(unique_t):
-            idxs = [j for j, init_t in enumerate(mapped_topics) if init_t == t]
-            #concat points
-            p = [x for i in idxs for x in point_list[i] if len(x)>10]
-            tmp = {}
-            tmp['topic'] = t
-            tmp['points'] = p
-            summary.append(tmp)
-
-        pass
+        # point_list = []
+        # topic_list = []
+        # tmp_list = []
+        # tmp_topic = ""
+        # for i,l in enumerate(comb_list):
+        #     if l.startswith('#'):
+        #         if len(tmp_list)>0:
+        #             point_list.append(tmp_list)
+        #             tmp_list = []
+        #             topic_list.append(tmp_topic)
+        #         tmp_topic = l.partition("#")[2].partition("#")[2].strip()
+        #     else:
+        #         tmp_list.append(l)
+        # topic_list.append(tmp_topic)
+        # point_list.append(tmp_list)
 
 
+        # topics = self.non_overlapping_topics('\n'.join(topic_list))
+        # original_topics = [t.split(':')[0].strip() for t in topics.split('\n')]
+        # new_topics = [t.split(':')[1].strip() for t in topics.split('\n')]
+
+        # #replace old topics with new topics
+        # mapped_topics = []
+        # for t in topic_list:
+        #     l = [string_similarity(t, ot) for ot in original_topics]
+        #     idx = l.index(max(l))
+        #     mapped_topics.append(new_topics[idx])
+
+        # unique_t = list(set(mapped_topics))
+        # summary = []
+        # for i,t in enumerate(unique_t):
+        #     idxs = [j for j, init_t in enumerate(mapped_topics) if init_t == t]
+        #     #concat points
+        #     p = [x for i in idxs for x in point_list[i] if len(x)>10]
+        #     tmp = {}
+        #     tmp['topic'] = t
+        #     tmp['points'] = p
+        #     summary.append(tmp)
+
+        # pass
 
 
-        string_similarity
+
+
+        # string_similarity
             
-        points = [line for line in comb_list if not line.startswith('#') and len(line)>10]
-        topics = [line.partition('[')[2].partition(']')[0].partition(':')[2] for line in comb_list if line.startswith('#')]
-        len(points)
+        # points = [line for line in comb_list if not line.startswith('#') and len(line)>10]
+        # topics = [line.partition('[')[2].partition(']')[0].partition(':')[2] for line in comb_list if line.startswith('#')]
+        # len(points)
 
-        topic_idx = [i for i, l in enumerate(comb_list) if l.startswith('#')]
-        seg = {}
-        for i in range(len(topic_idx)-1):
-            p = comb_list[i+1 : topic_idx[i+1]]
-            t = comb_list[i]
-            seg[t] = p
+        # topic_idx = [i for i, l in enumerate(comb_list) if l.startswith('#')]
+        # seg = {}
+        # for i in range(len(topic_idx)-1):
+        #     p = comb_list[i+1 : topic_idx[i+1]]
+        #     t = comb_list[i]
+        #     seg[t] = p
         
 
 
